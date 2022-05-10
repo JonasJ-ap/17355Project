@@ -1,0 +1,7 @@
+./config/settings/local.py:1:1 'from .base import *' used; unable to detect undefined names
+./config/settings/local.py:21:5 'INSTALLED_APPS' may be undefined, or defined from star imports: .base
+./config/settings/local.py:22:72 'MIDDLEWARE' may be undefined, or defined from star imports: .base
+./config/settings/production.py:1:1 'os' imported but unused
+./config/settings/production.py:2:1 'from .base import *' used; unable to detect undefined names
+./config/settings/production.py:2:1 '.base.*' imported but unused
+./boards/api.py:7:1 'rest_framework.filters' imported but unused

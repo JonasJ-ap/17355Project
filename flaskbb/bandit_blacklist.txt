@@ -1,0 +1,3 @@
+flaskbb/flaskbb/cli/main.py:381:12: blacklist, severity: MEDIUM, confidence: HIGH, Use of possibly insecure function - consider using safer ast.literal_eval.
+flaskbb/flaskbb/utils/fields.py:85:24: blacklist, severity: MEDIUM, confidence: HIGH, Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+flaskbb/flaskbb/utils/translations.py:13:0: blacklist, severity: LOW, confidence: HIGH, Consider possible security implications associated with the subprocess module.

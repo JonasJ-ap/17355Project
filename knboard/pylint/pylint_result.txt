@@ -1,0 +1,735 @@
+************* Module conftest
+backend/conftest.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/conftest.py:1: [E0401(import-error), ] Unable to import 'pytest'
+backend/conftest.py:3: [E0401(import-error), ] Unable to import 'pytest_factoryboy'
+backend/conftest.py:23: [C0103(invalid-name), enable_db_access] Argument name "db" doesn't conform to snake_case naming style
+backend/conftest.py:23: [C0116(missing-function-docstring), enable_db_access] Missing function or method docstring
+backend/conftest.py:23: [W0613(unused-argument), enable_db_access] Unused argument 'db'
+backend/conftest.py:28: [C0116(missing-function-docstring), api_client] Missing function or method docstring
+backend/conftest.py:29: [C0415(import-outside-toplevel), api_client] Import outside toplevel (rest_framework.test.APIClient)
+backend/conftest.py:35: [C0116(missing-function-docstring), test_password] Missing function or method docstring
+backend/conftest.py:40: [W0621(redefined-outer-name), create_user] Redefining name 'test_password' from outer scope (line 35)
+backend/conftest.py:40: [C0116(missing-function-docstring), create_user] Missing function or method docstring
+backend/conftest.py:51: [W0621(redefined-outer-name), api_client_with_credentials] Redefining name 'create_user' from outer scope (line 40)
+backend/conftest.py:51: [W0621(redefined-outer-name), api_client_with_credentials] Redefining name 'api_client' from outer scope (line 28)
+backend/conftest.py:51: [C0116(missing-function-docstring), api_client_with_credentials] Missing function or method docstring
+backend/conftest.py:59: [C0116(missing-function-docstring), steve] Missing function or method docstring
+backend/conftest.py:64: [C0116(missing-function-docstring), amy] Missing function or method docstring
+backend/conftest.py:69: [C0116(missing-function-docstring), leo] Missing function or method docstring
+backend/conftest.py:74: [C0116(missing-function-docstring), mike] Missing function or method docstring
+backend/conftest.py:2: [C0411(wrong-import-order), ] standard import "import uuid" should be placed before "import pytest"
+************* Module manage
+backend/manage.py:7: [C0116(missing-function-docstring), main] Missing function or method docstring
+backend/manage.py:10: [C0415(import-outside-toplevel), main] Import outside toplevel (django.core.management.execute_from_command_line)
+************* Module config.env_utils
+backend/config/env_utils.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/config/env_utils.py:6: [C0116(missing-function-docstring), get_env] Missing function or method docstring
+backend/config/env_utils.py:11: [W0707(raise-missing-from), get_env] Consider explicitly re-raising using the 'from' keyword
+************* Module config.settings.local
+backend/config/settings/local.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/config/settings/local.py:1: [W0401(wildcard-import), ] Wildcard import base
+backend/config/settings/local.py:1: [W0614(unused-wildcard-import), ] Unused import(s) DATABASES, os, BACKEND_DIR, DEBUG, ALLOWED_HOSTS, ROOT_URLCONF, TEMPLATES, WSGI_APPLICATION, AUTH_PASSWORD_VALIDATORS, LANGUAGE_CODE, TIME_ZONE, USE_I18N, USE_L10N, USE_TZ, STATIC_URL, STATIC_ROOT, MEDIA_ROOT, MEDIA_URL, FIXTURE_DIRS, AUTH_USER_MODEL, REST_FRAMEWORK, REST_AUTH_SERIALIZERS, SITE_ID, ACCOUNT_EMAIL_REQUIRED, ACCOUNT_EMAIL_VERIFICATION, ACCOUNT_UNIQUE_EMAIL and ALLOW_GUEST_ACCESS from wildcard import of base
+************* Module config.settings.production
+backend/config/settings/production.py:30: [W0511(fixme), ] TODO: Add proper handlers
+backend/config/settings/production.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/config/settings/production.py:2: [W0401(wildcard-import), ] Wildcard import base
+backend/config/settings/production.py:1: [W0611(unused-import), ] Unused import os
+backend/config/settings/production.py:2: [W0614(unused-wildcard-import), ] Unused import(s) DEBUG, STATIC_URL, STATIC_ROOT, ALLOWED_HOSTS, DATABASES, BACKEND_DIR, INSTALLED_APPS, MIDDLEWARE, ROOT_URLCONF, TEMPLATES, WSGI_APPLICATION, AUTH_PASSWORD_VALIDATORS, LANGUAGE_CODE, TIME_ZONE, USE_I18N, USE_L10N, USE_TZ, MEDIA_ROOT, MEDIA_URL, FIXTURE_DIRS, AUTH_USER_MODEL, REST_FRAMEWORK, REST_AUTH_SERIALIZERS, SITE_ID, ACCOUNT_EMAIL_REQUIRED, ACCOUNT_EMAIL_VERIFICATION, ACCOUNT_UNIQUE_EMAIL and ALLOW_GUEST_ACCESS from wildcard import of base
+************* Module accounts.models
+backend/accounts/models.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/models.py:10: [C0115(missing-class-docstring), Avatar] Missing class docstring
+backend/accounts/models.py:17: [C0115(missing-class-docstring), User] Missing class docstring
+backend/accounts/models.py:33: [C0115(missing-class-docstring), User.Meta] Missing class docstring
+backend/accounts/models.py:33: [R0903(too-few-public-methods), User.Meta] Too few public methods (0/2)
+************* Module accounts.serializers
+backend/accounts/serializers.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/serializers.py:3: [E0401(import-error), ] Unable to import 'dj_rest_auth.models'
+backend/accounts/serializers.py:13: [C0115(missing-class-docstring), AvatarSerializer] Missing class docstring
+backend/accounts/serializers.py:16: [C0115(missing-class-docstring), AvatarSerializer.Meta] Missing class docstring
+backend/accounts/serializers.py:16: [R0903(too-few-public-methods), AvatarSerializer.Meta] Too few public methods (0/2)
+backend/accounts/serializers.py:20: [C0116(missing-function-docstring), AvatarSerializer.get_name] Missing function or method docstring
+backend/accounts/serializers.py:20: [R0201(no-self-use), AvatarSerializer.get_name] Method could be a function
+backend/accounts/serializers.py:24: [C0115(missing-class-docstring), UserSerializer] Missing class docstring
+backend/accounts/serializers.py:25: [C0115(missing-class-docstring), UserSerializer.Meta] Missing class docstring
+backend/accounts/serializers.py:25: [R0903(too-few-public-methods), UserSerializer.Meta] Too few public methods (0/2)
+backend/accounts/serializers.py:30: [C0115(missing-class-docstring), UserSearchSerializer] Missing class docstring
+backend/accounts/serializers.py:33: [C0115(missing-class-docstring), UserSearchSerializer.Meta] Missing class docstring
+backend/accounts/serializers.py:33: [R0903(too-few-public-methods), UserSearchSerializer.Meta] Too few public methods (0/2)
+backend/accounts/serializers.py:38: [C0115(missing-class-docstring), UserDetailSerializer] Missing class docstring
+backend/accounts/serializers.py:44: [C0115(missing-class-docstring), UserDetailSerializer.Meta] Missing class docstring
+backend/accounts/serializers.py:44: [R0903(too-few-public-methods), UserDetailSerializer.Meta] Too few public methods (0/2)
+backend/accounts/serializers.py:63: [C0115(missing-class-docstring), BoardOwnerSerializer] Missing class docstring
+backend/accounts/serializers.py:64: [C0115(missing-class-docstring), BoardOwnerSerializer.Meta] Missing class docstring
+backend/accounts/serializers.py:64: [R0903(too-few-public-methods), BoardOwnerSerializer.Meta] Too few public methods (0/2)
+backend/accounts/serializers.py:69: [C0115(missing-class-docstring), BoardMemberSerializer] Missing class docstring
+backend/accounts/serializers.py:72: [C0115(missing-class-docstring), BoardMemberSerializer.Meta] Missing class docstring
+backend/accounts/serializers.py:72: [R0903(too-few-public-methods), BoardMemberSerializer.Meta] Too few public methods (0/2)
+backend/accounts/serializers.py:77: [C0115(missing-class-docstring), TokenSerializer] Missing class docstring
+backend/accounts/serializers.py:82: [C0115(missing-class-docstring), TokenSerializer.Meta] Missing class docstring
+backend/accounts/serializers.py:82: [R0903(too-few-public-methods), TokenSerializer.Meta] Too few public methods (0/2)
+backend/accounts/serializers.py:88: [C0116(missing-function-docstring), TokenSerializer.get_photo_url] Missing function or method docstring
+backend/accounts/serializers.py:88: [R0201(no-self-use), TokenSerializer.get_photo_url] Method could be a function
+************* Module accounts
+backend/accounts/__init__.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/__init__.py:1: [C0103(invalid-name), ] Constant name "default_app_config" doesn't conform to UPPER_CASE naming style
+************* Module accounts.apps
+backend/accounts/apps.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/apps.py:4: [C0115(missing-class-docstring), AccountsConfig] Missing class docstring
+************* Module accounts.api
+backend/accounts/api.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/api.py:3: [E0401(import-error), ] Unable to import 'shortuuid'
+backend/accounts/api.py:4: [E0401(import-error), ] Unable to import 'dj_rest_auth.registration.views'
+backend/accounts/api.py:44: [E1101(no-member), ExcludeBoardMembersFilter.filter_queryset] Class 'Board' has no 'objects' member
+backend/accounts/api.py:45: [E1101(no-member), ExcludeBoardMembersFilter.filter_queryset] Class 'Board' has no 'DoesNotExist' member
+backend/accounts/api.py:51: [C0115(missing-class-docstring), UserViewSet] Missing class docstring
+backend/accounts/api.py:59: [R1714(consider-using-in), UserViewSet.get_serializer_class] Consider merging these comparisons with "in" to "self.action in ('retrieve', 'update')"
+backend/accounts/api.py:64: [C0103(invalid-name), UserViewSet.update_avatar] Argument name "pk" doesn't conform to snake_case naming style
+backend/accounts/api.py:64: [C0116(missing-function-docstring), UserViewSet.update_avatar] Missing function or method docstring
+backend/accounts/api.py:66: [E1101(no-member), UserViewSet.update_avatar] Class 'Avatar' has no 'objects' member
+backend/accounts/api.py:64: [W0613(unused-argument), UserViewSet.update_avatar] Unused argument 'pk'
+backend/accounts/api.py:73: [C0115(missing-class-docstring), UserSearchView] Missing class docstring
+backend/accounts/api.py:90: [E1101(no-member), UserSearchView.get] Class 'Board' has no 'objects' member
+backend/accounts/api.py:98: [C0115(missing-class-docstring), AvatarViewSet] Missing class docstring
+backend/accounts/api.py:98: [R0901(too-many-ancestors), AvatarViewSet] Too many ancestors (8/7)
+backend/accounts/api.py:100: [E1101(no-member), AvatarViewSet] Class 'Avatar' has no 'objects' member
+backend/accounts/api.py:104: [C0115(missing-class-docstring), AuthSetup] Missing class docstring
+backend/accounts/api.py:105: [C0116(missing-function-docstring), AuthSetup.get] Missing function or method docstring
+backend/accounts/api.py:105: [W0613(unused-argument), AuthSetup.get] Unused argument 'request'
+backend/accounts/api.py:105: [W0613(unused-argument), AuthSetup.get] Unused argument 'args'
+backend/accounts/api.py:105: [W0613(unused-argument), AuthSetup.get] Unused argument 'kwargs'
+backend/accounts/api.py:105: [R0201(no-self-use), AuthSetup.get] Method could be a function
+backend/accounts/api.py:109: [C0115(missing-class-docstring), GuestRegistration] Missing class docstring
+backend/accounts/api.py:110: [C0116(missing-function-docstring), GuestRegistration.create] Missing function or method docstring
+backend/accounts/api.py:126: [C0116(missing-function-docstring), GuestRegistration.perform_create] Missing function or method docstring
+************* Module accounts.admin
+backend/accounts/admin.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/admin.py:7: [C0115(missing-class-docstring), CustomUserAdmin] Missing class docstring
+************* Module accounts.permissions
+backend/accounts/permissions.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/permissions.py:4: [C0115(missing-class-docstring), IsSelf] Missing class docstring
+************* Module accounts.migrations.0002_auto_20200327_1817
+backend/accounts/migrations/0002_auto_20200327_1817.py:1: [C0103(invalid-name), ] Module name "0002_auto_20200327_1817" doesn't conform to snake_case naming style
+backend/accounts/migrations/0002_auto_20200327_1817.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/migrations/0002_auto_20200327_1817.py:7: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module accounts.migrations.0005_auto_20201006_1436
+backend/accounts/migrations/0005_auto_20201006_1436.py:1: [C0103(invalid-name), ] Module name "0005_auto_20201006_1436" doesn't conform to snake_case naming style
+backend/accounts/migrations/0005_auto_20201006_1436.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/migrations/0005_auto_20201006_1436.py:6: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module accounts.migrations.0004_user_is_guest
+backend/accounts/migrations/0004_user_is_guest.py:1: [C0103(invalid-name), ] Module name "0004_user_is_guest" doesn't conform to snake_case naming style
+backend/accounts/migrations/0004_user_is_guest.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/migrations/0004_user_is_guest.py:6: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module accounts.migrations.0003_auto_20200505_1756
+backend/accounts/migrations/0003_auto_20200505_1756.py:1: [C0103(invalid-name), ] Module name "0003_auto_20200505_1756" doesn't conform to snake_case naming style
+backend/accounts/migrations/0003_auto_20200505_1756.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/migrations/0003_auto_20200505_1756.py:8: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module accounts.migrations.0001_initial
+backend/accounts/migrations/0001_initial.py:41: [C0301(line-too-long), ] Line too long (117/100)
+backend/accounts/migrations/0001_initial.py:51: [C0301(line-too-long), ] Line too long (107/100)
+backend/accounts/migrations/0001_initial.py:90: [C0301(line-too-long), ] Line too long (138/100)
+backend/accounts/migrations/0001_initial.py:104: [C0301(line-too-long), ] Line too long (134/100)
+backend/accounts/migrations/0001_initial.py:1: [C0103(invalid-name), ] Module name "0001_initial" doesn't conform to snake_case naming style
+backend/accounts/migrations/0001_initial.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/migrations/0001_initial.py:9: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module accounts.tests.test_models
+backend/accounts/tests/test_models.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/tests/test_models.py:4: [C0116(missing-function-docstring), test_custom_user_model] Missing function or method docstring
+************* Module accounts.tests.test_api
+backend/accounts/tests/test_api.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/tests/test_api.py:1: [E0401(import-error), ] Unable to import 'pytest'
+backend/accounts/tests/test_api.py:26: [C0116(missing-function-docstring), test_user_search] Missing function or method docstring
+backend/accounts/tests/test_api.py:26: [R0913(too-many-arguments), test_user_search] Too many arguments (7/5)
+backend/accounts/tests/test_api.py:50: [C0116(missing-function-docstring), test_user_search_limit] Missing function or method docstring
+backend/accounts/tests/test_api.py:66: [C0116(missing-function-docstring), test_user_update] Missing function or method docstring
+backend/accounts/tests/test_api.py:92: [C0116(missing-function-docstring), test_user_detail] Missing function or method docstring
+backend/accounts/tests/test_api.py:110: [C0116(missing-function-docstring), test_auth_setup] Missing function or method docstring
+backend/accounts/tests/test_api.py:122: [C0116(missing-function-docstring), test_guest_registration_not_allowed] Missing function or method docstring
+backend/accounts/tests/test_api.py:129: [C0116(missing-function-docstring), test_guest_registration] Missing function or method docstring
+backend/accounts/tests/test_api.py:147: [E1101(no-member), test_guest_registration] Class 'Board' has no 'objects' member
+backend/accounts/tests/test_api.py:150: [E1101(no-member), test_guest_registration] Class 'Label' has no 'objects' member
+backend/accounts/tests/test_api.py:155: [C0116(missing-function-docstring), test_user_registration_email_entered] Missing function or method docstring
+backend/accounts/tests/test_api.py:170: [C0116(missing-function-docstring), test_user_registration_no_email_entered] Missing function or method docstring
+************* Module accounts.management.commands.db
+backend/accounts/management/commands/db.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/management/commands/db.py:6: [C0115(missing-class-docstring), Command] Missing class docstring
+************* Module accounts.management.commands.load
+backend/accounts/management/commands/load.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/accounts/management/commands/load.py:6: [C0115(missing-class-docstring), Command] Missing class docstring
+************* Module boards.models
+backend/boards/models.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/models.py:1: [E0401(import-error), ] Unable to import 'adminsortable.fields'
+backend/boards/models.py:2: [E0401(import-error), ] Unable to import 'adminsortable.models'
+backend/boards/models.py:5: [E0401(import-error), ] Unable to import 'model_utils.models'
+backend/boards/models.py:10: [C0115(missing-class-docstring), Board] Missing class docstring
+backend/boards/models.py:17: [C0115(missing-class-docstring), Board.Meta] Missing class docstring
+backend/boards/models.py:17: [R0903(too-few-public-methods), Board.Meta] Too few public methods (0/2)
+backend/boards/models.py:20: [E0307(invalid-str-returned), Board.__str__] __str__ does not return str
+backend/boards/models.py:29: [E1101(no-member), Board.save] Instance of 'ManyToManyField' has no 'add' member
+backend/boards/models.py:32: [C0115(missing-class-docstring), Column] Missing class docstring
+backend/boards/models.py:37: [C0115(missing-class-docstring), Column.Meta] Missing class docstring
+backend/boards/models.py:37: [R0903(too-few-public-methods), Column.Meta] Too few public methods (0/2)
+backend/boards/models.py:32: [R0903(too-few-public-methods), Column] Too few public methods (1/2)
+backend/boards/models.py:44: [C0115(missing-class-docstring), Label] Missing class docstring
+backend/boards/models.py:49: [E0307(invalid-str-returned), Label.__str__] __str__ does not return str
+backend/boards/models.py:52: [C0115(missing-class-docstring), Label.Meta] Missing class docstring
+backend/boards/models.py:52: [R0903(too-few-public-methods), Label.Meta] Too few public methods (0/2)
+backend/boards/models.py:58: [C0115(missing-class-docstring), Priority] Missing class docstring
+backend/boards/models.py:64: [C0115(missing-class-docstring), Task] Missing class docstring
+backend/boards/models.py:78: [C0115(missing-class-docstring), Task.Meta] Missing class docstring
+backend/boards/models.py:78: [R0903(too-few-public-methods), Task.Meta] Too few public methods (0/2)
+backend/boards/models.py:64: [R0903(too-few-public-methods), Task] Too few public methods (1/2)
+backend/boards/models.py:82: [C0115(missing-class-docstring), Comment] Missing class docstring
+backend/boards/models.py:87: [C0115(missing-class-docstring), Comment.Meta] Missing class docstring
+backend/boards/models.py:87: [R0903(too-few-public-methods), Comment.Meta] Too few public methods (0/2)
+backend/boards/models.py:82: [R0903(too-few-public-methods), Comment] Too few public methods (0/2)
+************* Module boards.viewsets
+backend/boards/viewsets.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/viewsets.py:4: [R0901(too-many-ancestors), ModelDetailViewSet] Too many ancestors (9/7)
+backend/boards/viewsets.py:16: [W0107(unnecessary-pass), ModelDetailViewSet] Unnecessary pass statement
+************* Module boards.serializers
+backend/boards/serializers.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/serializers.py:12: [C0115(missing-class-docstring), BoardModelSerializer] Missing class docstring
+backend/boards/serializers.py:19: [C0115(missing-class-docstring), BoardSerializer] Missing class docstring
+backend/boards/serializers.py:22: [C0115(missing-class-docstring), BoardSerializer.Meta] Missing class docstring
+backend/boards/serializers.py:22: [R0903(too-few-public-methods), BoardSerializer.Meta] Too few public methods (0/2)
+backend/boards/serializers.py:27: [C0115(missing-class-docstring), TaskSerializer] Missing class docstring
+backend/boards/serializers.py:30: [E1101(no-member), TaskSerializer] Class 'Label' has no 'objects' member
+backend/boards/serializers.py:36: [C0116(missing-function-docstring), TaskSerializer.extra_validation] Missing function or method docstring
+backend/boards/serializers.py:36: [R0201(no-self-use), TaskSerializer.extra_validation] Method could be a function
+backend/boards/serializers.py:69: [C0115(missing-class-docstring), TaskSerializer.Meta] Missing class docstring
+backend/boards/serializers.py:69: [R0903(too-few-public-methods), TaskSerializer.Meta] Too few public methods (0/2)
+backend/boards/serializers.py:85: [C0115(missing-class-docstring), CommentSerializer] Missing class docstring
+backend/boards/serializers.py:86: [C0115(missing-class-docstring), CommentSerializer.Meta] Missing class docstring
+backend/boards/serializers.py:86: [R0903(too-few-public-methods), CommentSerializer.Meta] Too few public methods (0/2)
+backend/boards/serializers.py:91: [C0115(missing-class-docstring), ColumnSerializer] Missing class docstring
+backend/boards/serializers.py:92: [E1101(no-member), ColumnSerializer] Class 'Board' has no 'objects' member
+backend/boards/serializers.py:95: [C0115(missing-class-docstring), ColumnSerializer.Meta] Missing class docstring
+backend/boards/serializers.py:95: [R0903(too-few-public-methods), ColumnSerializer.Meta] Too few public methods (0/2)
+backend/boards/serializers.py:100: [C0115(missing-class-docstring), LabelSerializer] Missing class docstring
+backend/boards/serializers.py:101: [E1101(no-member), LabelSerializer] Class 'Board' has no 'objects' member
+backend/boards/serializers.py:107: [W0707(raise-missing-from), LabelSerializer.update] Consider explicitly re-raising using the 'from' keyword
+backend/boards/serializers.py:109: [C0115(missing-class-docstring), LabelSerializer.Meta] Missing class docstring
+backend/boards/serializers.py:109: [R0903(too-few-public-methods), LabelSerializer.Meta] Too few public methods (0/2)
+backend/boards/serializers.py:114: [C0115(missing-class-docstring), BoardDetailSerializer] Missing class docstring
+backend/boards/serializers.py:120: [C0115(missing-class-docstring), BoardDetailSerializer.Meta] Missing class docstring
+backend/boards/serializers.py:120: [R0903(too-few-public-methods), BoardDetailSerializer.Meta] Too few public methods (0/2)
+backend/boards/serializers.py:125: [C0115(missing-class-docstring), MemberSerializer] Missing class docstring
+backend/boards/serializers.py:125: [W0223(abstract-method), MemberSerializer] Method 'create' is abstract in class 'BaseSerializer' but is not overridden
+backend/boards/serializers.py:125: [W0223(abstract-method), MemberSerializer] Method 'update' is abstract in class 'BaseSerializer' but is not overridden
+************* Module boards.apps
+backend/boards/apps.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/apps.py:4: [C0115(missing-class-docstring), BoardsConfig] Missing class docstring
+************* Module boards.api
+backend/boards/api.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/api.py:34: [C0115(missing-class-docstring), BoardViewSet] Missing class docstring
+backend/boards/api.py:34: [R0901(too-many-ancestors), BoardViewSet] Too many ancestors (10/7)
+backend/boards/api.py:42: [E1101(no-member), BoardViewSet] Class 'Board' has no 'objects' member
+backend/boards/api.py:56: [C0103(invalid-name), BoardViewSet.get_queryset] Variable name "qs" doesn't conform to snake_case naming style
+backend/boards/api.py:71: [C0116(missing-function-docstring), BoardViewSet.get_member] Missing function or method docstring
+backend/boards/api.py:85: [C0103(invalid-name), BoardViewSet.invite_member] Argument name "pk" doesn't conform to snake_case naming style
+backend/boards/api.py:85: [C0116(missing-function-docstring), BoardViewSet.invite_member] Missing function or method docstring
+backend/boards/api.py:85: [W0613(unused-argument), BoardViewSet.invite_member] Unused argument 'request'
+backend/boards/api.py:85: [W0613(unused-argument), BoardViewSet.invite_member] Unused argument 'pk'
+backend/boards/api.py:100: [C0103(invalid-name), BoardViewSet.remove_member] Argument name "pk" doesn't conform to snake_case naming style
+backend/boards/api.py:100: [C0116(missing-function-docstring), BoardViewSet.remove_member] Missing function or method docstring
+backend/boards/api.py:100: [W0613(unused-argument), BoardViewSet.remove_member] Unused argument 'request'
+backend/boards/api.py:100: [W0613(unused-argument), BoardViewSet.remove_member] Unused argument 'pk'
+backend/boards/api.py:113: [C0115(missing-class-docstring), TaskViewSet] Missing class docstring
+backend/boards/api.py:113: [R0901(too-many-ancestors), TaskViewSet] Too many ancestors (10/7)
+backend/boards/api.py:123: [C0115(missing-class-docstring), CommentViewSet] Missing class docstring
+backend/boards/api.py:123: [R0901(too-many-ancestors), CommentViewSet] Too many ancestors (9/7)
+backend/boards/api.py:165: [C0115(missing-class-docstring), ColumnViewSet] Missing class docstring
+backend/boards/api.py:165: [R0901(too-many-ancestors), ColumnViewSet] Too many ancestors (10/7)
+backend/boards/api.py:175: [C0115(missing-class-docstring), LabelViewSet] Missing class docstring
+backend/boards/api.py:175: [R0901(too-many-ancestors), LabelViewSet] Too many ancestors (10/7)
+backend/boards/api.py:176: [E1101(no-member), LabelViewSet] Class 'Label' has no 'objects' member
+backend/boards/api.py:185: [C0115(missing-class-docstring), SortColumn] Missing class docstring
+backend/boards/api.py:189: [C0116(missing-function-docstring), SortColumn.post] Missing function or method docstring
+backend/boards/api.py:189: [W0613(unused-argument), SortColumn.post] Unused argument 'kwargs'
+backend/boards/api.py:189: [R0201(no-self-use), SortColumn.post] Method could be a function
+backend/boards/api.py:202: [C0115(missing-class-docstring), SortTask] Missing class docstring
+backend/boards/api.py:205: [C0116(missing-function-docstring), SortTask.move_tasks] Missing function or method docstring
+backend/boards/api.py:208: [E1101(no-member), SortTask.move_tasks] Class 'Board' has no 'objects' member
+backend/boards/api.py:205: [R0201(no-self-use), SortTask.move_tasks] Method could be a function
+backend/boards/api.py:224: [C0116(missing-function-docstring), SortTask.post] Missing function or method docstring
+backend/boards/api.py:224: [W0613(unused-argument), SortTask.post] Unused argument 'kwargs'
+backend/boards/api.py:240: [C0103(invalid-name), sort_model] Argument name "Model" doesn't conform to snake_case naming style
+backend/boards/api.py:240: [C0116(missing-function-docstring), sort_model] Missing function or method docstring
+backend/boards/api.py:247: [R1717(consider-using-dict-comprehension), sort_model] Consider using a dictionary comprehension
+backend/boards/api.py:250: [W0212(protected-access), sort_model] Access to a protected member _meta of a client class
+backend/boards/api.py:258: [C0103(invalid-name), sort_model] Variable name "pk" doesn't conform to snake_case naming style
+backend/boards/api.py:7: [W0611(unused-import), ] Unused filters imported from rest_framework
+backend/boards/api.py:14: [C0412(ungrouped-imports), ] Imports from package django are not grouped
+************* Module boards.admin
+backend/boards/admin.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/admin.py:1: [E0401(import-error), ] Unable to import 'adminsortable.admin'
+backend/boards/admin.py:7: [C0115(missing-class-docstring), LabelAdmin] Missing class docstring
+backend/boards/admin.py:12: [C0115(missing-class-docstring), LabelAdmin.Meta] Missing class docstring
+backend/boards/admin.py:12: [R0903(too-few-public-methods), LabelAdmin.Meta] Too few public methods (0/2)
+************* Module boards.utils
+backend/boards/utils.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/utils.py:5: [R0913(too-many-arguments), reverse_querystring] Too many arguments (6/5)
+************* Module boards.permissions
+backend/boards/permissions.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/permissions.py:4: [C0115(missing-class-docstring), IsOwner] Missing class docstring
+************* Module boards.demo
+backend/boards/demo.py:94: [C0301(line-too-long), ] Line too long (101/100)
+backend/boards/demo.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/demo.py:12: [C0116(missing-function-docstring), get_random_avatar] Missing function or method docstring
+backend/boards/demo.py:13: [E1101(no-member), get_random_avatar] Class 'Avatar' has no 'objects' member
+backend/boards/demo.py:16: [E1101(no-member), get_random_avatar] Class 'Avatar' has no 'objects' member
+backend/boards/demo.py:20: [C0116(missing-function-docstring), create_demo_board] Missing function or method docstring
+backend/boards/demo.py:20: [R0914(too-many-locals), create_demo_board] Too many local variables (17/15)
+backend/boards/demo.py:21: [E1101(no-member), create_demo_board] Class 'Board' has no 'objects' member
+backend/boards/demo.py:32: [E1101(no-member), create_demo_board] Class 'Label' has no 'objects' member
+backend/boards/demo.py:33: [E1101(no-member), create_demo_board] Class 'Label' has no 'objects' member
+backend/boards/demo.py:34: [E1101(no-member), create_demo_board] Class 'Label' has no 'objects' member
+backend/boards/demo.py:35: [E1101(no-member), create_demo_board] Class 'Label' has no 'objects' member
+backend/boards/demo.py:36: [E1101(no-member), create_demo_board] Class 'Label' has no 'objects' member
+backend/boards/demo.py:37: [E1101(no-member), create_demo_board] Class 'Label' has no 'objects' member
+backend/boards/demo.py:38: [E1101(no-member), create_demo_board] Class 'Label' has no 'objects' member
+backend/boards/demo.py:39: [E1101(no-member), create_demo_board] Class 'Label' has no 'objects' member
+backend/boards/demo.py:20: [R0915(too-many-statements), create_demo_board] Too many statements (51/50)
+************* Module boards.migrations.0011_auto_20200517_1011
+backend/boards/migrations/0011_auto_20200517_1011.py:1: [C0103(invalid-name), ] Module name "0011_auto_20200517_1011" doesn't conform to snake_case naming style
+backend/boards/migrations/0011_auto_20200517_1011.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/migrations/0011_auto_20200517_1011.py:6: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module boards.migrations.0005_auto_20200406_1433
+backend/boards/migrations/0005_auto_20200406_1433.py:1: [C0103(invalid-name), ] Module name "0005_auto_20200406_1433" doesn't conform to snake_case naming style
+backend/boards/migrations/0005_auto_20200406_1433.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/migrations/0005_auto_20200406_1433.py:6: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module boards.migrations.0012_comment
+backend/boards/migrations/0012_comment.py:1: [C0103(invalid-name), ] Module name "0012_comment" doesn't conform to snake_case naming style
+backend/boards/migrations/0012_comment.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/migrations/0012_comment.py:7: [E0401(import-error), ] Unable to import 'model_utils.fields'
+backend/boards/migrations/0012_comment.py:10: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module boards.migrations.0006_auto_20200410_1542
+backend/boards/migrations/0006_auto_20200410_1542.py:1: [C0103(invalid-name), ] Module name "0006_auto_20200410_1542" doesn't conform to snake_case naming style
+backend/boards/migrations/0006_auto_20200410_1542.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/migrations/0006_auto_20200410_1542.py:7: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module boards.migrations.0009_task_labels
+backend/boards/migrations/0009_task_labels.py:1: [C0103(invalid-name), ] Module name "0009_task_labels" doesn't conform to snake_case naming style
+backend/boards/migrations/0009_task_labels.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/migrations/0009_task_labels.py:6: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module boards.migrations.0007_label
+backend/boards/migrations/0007_label.py:1: [C0103(invalid-name), ] Module name "0007_label" doesn't conform to snake_case naming style
+backend/boards/migrations/0007_label.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/migrations/0007_label.py:7: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module boards.migrations.0003_auto_20200322_1633
+backend/boards/migrations/0003_auto_20200322_1633.py:1: [C0103(invalid-name), ] Module name "0003_auto_20200322_1633" doesn't conform to snake_case naming style
+backend/boards/migrations/0003_auto_20200322_1633.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/migrations/0003_auto_20200322_1633.py:6: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module boards.migrations.0010_auto_20200517_0826
+backend/boards/migrations/0010_auto_20200517_0826.py:1: [C0103(invalid-name), ] Module name "0010_auto_20200517_0826" doesn't conform to snake_case naming style
+backend/boards/migrations/0010_auto_20200517_0826.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/migrations/0010_auto_20200517_0826.py:4: [E0401(import-error), ] Unable to import 'model_utils.fields'
+backend/boards/migrations/0010_auto_20200517_0826.py:8: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module boards.migrations.0001_initial
+backend/boards/migrations/0001_initial.py:1: [C0103(invalid-name), ] Module name "0001_initial" doesn't conform to snake_case naming style
+backend/boards/migrations/0001_initial.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/migrations/0001_initial.py:3: [E0401(import-error), ] Unable to import 'adminsortable.fields'
+backend/boards/migrations/0001_initial.py:8: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module boards.migrations.0004_auto_20200329_0919
+backend/boards/migrations/0004_auto_20200329_0919.py:1: [C0103(invalid-name), ] Module name "0004_auto_20200329_0919" doesn't conform to snake_case naming style
+backend/boards/migrations/0004_auto_20200329_0919.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/migrations/0004_auto_20200329_0919.py:8: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module boards.migrations.0002_auto_20200321_0631
+backend/boards/migrations/0002_auto_20200321_0631.py:1: [C0103(invalid-name), ] Module name "0002_auto_20200321_0631" doesn't conform to snake_case naming style
+backend/boards/migrations/0002_auto_20200321_0631.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/migrations/0002_auto_20200321_0631.py:8: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module boards.migrations.0008_auto_20200510_1646
+backend/boards/migrations/0008_auto_20200510_1646.py:1: [C0103(invalid-name), ] Module name "0008_auto_20200510_1646" doesn't conform to snake_case naming style
+backend/boards/migrations/0008_auto_20200510_1646.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/migrations/0008_auto_20200510_1646.py:6: [C0115(missing-class-docstring), Migration] Missing class docstring
+************* Module boards.tests.test_utils
+backend/boards/tests/test_utils.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/tests/test_utils.py:1: [E0401(import-error), ] Unable to import 'pytest'
+backend/boards/tests/test_utils.py:6: [C0116(missing-function-docstring), test_reverse_querystring_multiple] Missing function or method docstring
+backend/boards/tests/test_utils.py:15: [C0116(missing-function-docstring), test_reverse_querystring_exception_when_no_qparams] Missing function or method docstring
+************* Module boards.tests.test_comment_viewset
+backend/boards/tests/test_comment_viewset.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/tests/test_comment_viewset.py:6: [C0116(missing-function-docstring), test_create_comment_success] Missing function or method docstring
+backend/boards/tests/test_comment_viewset.py:22: [C0116(missing-function-docstring), test_create_comment_not_authenticated] Missing function or method docstring
+backend/boards/tests/test_comment_viewset.py:33: [C0116(missing-function-docstring), test_create_comment_invalid_task] Missing function or method docstring
+backend/boards/tests/test_comment_viewset.py:45: [C0116(missing-function-docstring), test_delete_comment_success] Missing function or method docstring
+backend/boards/tests/test_comment_viewset.py:58: [C0116(missing-function-docstring), test_delete_comment_not_authenticated] Missing function or method docstring
+backend/boards/tests/test_comment_viewset.py:72: [C0116(missing-function-docstring), test_delete_comment_not_author] Missing function or method docstring
+************* Module boards.tests.test_apps
+backend/boards/tests/test_apps.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/tests/test_apps.py:6: [C0116(missing-function-docstring), test_config] Missing function or method docstring
+************* Module boards.tests.factories
+backend/boards/tests/factories.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/tests/factories.py:1: [E0401(import-error), ] Unable to import 'factory'
+backend/boards/tests/factories.py:4: [E0401(import-error), ] Unable to import 'factory.django'
+backend/boards/tests/factories.py:9: [C0115(missing-class-docstring), UserFactory] Missing class docstring
+backend/boards/tests/factories.py:10: [C0115(missing-class-docstring), UserFactory.Meta] Missing class docstring
+backend/boards/tests/factories.py:10: [R0903(too-few-public-methods), UserFactory.Meta] Too few public methods (0/2)
+backend/boards/tests/factories.py:9: [R0903(too-few-public-methods), UserFactory] Too few public methods (0/2)
+backend/boards/tests/factories.py:18: [C0115(missing-class-docstring), BoardFactory] Missing class docstring
+backend/boards/tests/factories.py:19: [C0115(missing-class-docstring), BoardFactory.Meta] Missing class docstring
+backend/boards/tests/factories.py:19: [R0903(too-few-public-methods), BoardFactory.Meta] Too few public methods (0/2)
+backend/boards/tests/factories.py:18: [R0903(too-few-public-methods), BoardFactory] Too few public methods (0/2)
+backend/boards/tests/factories.py:26: [C0115(missing-class-docstring), ColumnFactory] Missing class docstring
+backend/boards/tests/factories.py:27: [C0115(missing-class-docstring), ColumnFactory.Meta] Missing class docstring
+backend/boards/tests/factories.py:27: [R0903(too-few-public-methods), ColumnFactory.Meta] Too few public methods (0/2)
+backend/boards/tests/factories.py:26: [R0903(too-few-public-methods), ColumnFactory] Too few public methods (0/2)
+backend/boards/tests/factories.py:34: [C0115(missing-class-docstring), TaskFactory] Missing class docstring
+backend/boards/tests/factories.py:35: [C0115(missing-class-docstring), TaskFactory.Meta] Missing class docstring
+backend/boards/tests/factories.py:35: [R0903(too-few-public-methods), TaskFactory.Meta] Too few public methods (0/2)
+backend/boards/tests/factories.py:34: [R0903(too-few-public-methods), TaskFactory] Too few public methods (0/2)
+backend/boards/tests/factories.py:43: [C0115(missing-class-docstring), CommentFactory] Missing class docstring
+backend/boards/tests/factories.py:44: [C0115(missing-class-docstring), CommentFactory.Meta] Missing class docstring
+backend/boards/tests/factories.py:44: [R0903(too-few-public-methods), CommentFactory.Meta] Too few public methods (0/2)
+backend/boards/tests/factories.py:43: [R0903(too-few-public-methods), CommentFactory] Too few public methods (0/2)
+backend/boards/tests/factories.py:52: [C0115(missing-class-docstring), LabelFactory] Missing class docstring
+backend/boards/tests/factories.py:53: [C0115(missing-class-docstring), LabelFactory.Meta] Missing class docstring
+backend/boards/tests/factories.py:53: [R0903(too-few-public-methods), LabelFactory.Meta] Too few public methods (0/2)
+backend/boards/tests/factories.py:52: [R0903(too-few-public-methods), LabelFactory] Too few public methods (0/2)
+************* Module boards.tests.test_models
+backend/boards/tests/test_models.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/tests/test_models.py:1: [C0116(missing-function-docstring), test_board_owner_added_to_members] Missing function or method docstring
+backend/boards/tests/test_models.py:8: [C0116(missing-function-docstring), test_str_methods] Missing function or method docstring
+************* Module boards.tests.test_factories
+backend/boards/tests/test_factories.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/tests/test_factories.py:4: [C0116(missing-function-docstring), test_user_factory] Missing function or method docstring
+backend/boards/tests/test_factories.py:13: [C0116(missing-function-docstring), test_board_factory] Missing function or method docstring
+backend/boards/tests/test_factories.py:19: [C0116(missing-function-docstring), test_column_factory] Missing function or method docstring
+backend/boards/tests/test_factories.py:24: [C0116(missing-function-docstring), test_task_factory] Missing function or method docstring
+backend/boards/tests/test_factories.py:29: [C0116(missing-function-docstring), test_label_factory] Missing function or method docstring
+backend/boards/tests/test_factories.py:35: [C0116(missing-function-docstring), test_comment_factory] Missing function or method docstring
+************* Module boards.tests.test_api
+backend/boards/tests/test_api.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/tests/test_api.py:1: [E0401(import-error), ] Unable to import 'pytest'
+backend/boards/tests/test_api.py:11: [C0116(missing-function-docstring), board] Missing function or method docstring
+backend/boards/tests/test_api.py:13: [E1101(no-member), board] Class 'Board' has no 'objects' member
+backend/boards/tests/test_api.py:19: [W0621(redefined-outer-name), col_backlog] Redefining name 'board' from outer scope (line 11)
+backend/boards/tests/test_api.py:19: [C0116(missing-function-docstring), col_backlog] Missing function or method docstring
+backend/boards/tests/test_api.py:24: [W0621(redefined-outer-name), col_done] Redefining name 'board' from outer scope (line 11)
+backend/boards/tests/test_api.py:24: [C0116(missing-function-docstring), col_done] Missing function or method docstring
+backend/boards/tests/test_api.py:28: [W0621(redefined-outer-name), test_order_columns] Redefining name 'col_backlog' from outer scope (line 19)
+backend/boards/tests/test_api.py:28: [W0621(redefined-outer-name), test_order_columns] Redefining name 'col_done' from outer scope (line 24)
+backend/boards/tests/test_api.py:87: [W0621(redefined-outer-name), test_order_tasks_between_two_columns] Redefining name 'board' from outer scope (line 11)
+backend/boards/tests/test_api.py:125: [W0621(redefined-outer-name), test_invalid_move_atomic] Redefining name 'board' from outer scope (line 11)
+backend/boards/tests/test_api.py:122: [C0116(missing-function-docstring), test_invalid_move_atomic] Missing function or method docstring
+backend/boards/tests/test_api.py:150: [C1803(use-implicit-booleaness-not-comparison), test_invalid_move_atomic] 'list(...) == []' can be simplified to 'not list(...)' as an empty sequence is falsey
+backend/boards/tests/test_api.py:153: [C0116(missing-function-docstring), test_can_not_order_tasks_between_two_boards] Missing function or method docstring
+backend/boards/tests/test_api.py:177: [W0621(redefined-outer-name), test_order_duplicate] Redefining name 'col_done' from outer scope (line 24)
+backend/boards/tests/test_api.py:177: [C0116(missing-function-docstring), test_order_duplicate] Missing function or method docstring
+backend/boards/tests/test_api.py:197: [W0621(redefined-outer-name), test_order_column_status_code] Redefining name 'board' from outer scope (line 11)
+backend/boards/tests/test_api.py:196: [C0116(missing-function-docstring), test_order_column_status_code] Missing function or method docstring
+backend/boards/tests/test_api.py:206: [C0116(missing-function-docstring), test_board_list] Missing function or method docstring
+backend/boards/tests/test_api.py:207: [E1101(no-member), test_board_list] Class 'Board' has no 'objects' member
+backend/boards/tests/test_api.py:234: [C0116(missing-function-docstring), test_board_detail] Missing function or method docstring
+backend/boards/tests/test_api.py:235: [E1101(no-member), test_board_detail] Class 'Board' has no 'objects' member
+backend/boards/tests/test_api.py:263: [C0116(missing-function-docstring), test_board_delete] Missing function or method docstring
+backend/boards/tests/test_api.py:264: [E1101(no-member), test_board_delete] Class 'Board' has no 'objects' member
+backend/boards/tests/test_api.py:273: [E1101(no-member), test_board_delete] Class 'Board' has no 'objects' member
+backend/boards/tests/test_api.py:279: [E1101(no-member), test_board_delete] Class 'Board' has no 'objects' member
+backend/boards/tests/test_api.py:285: [E1101(no-member), test_board_delete] Class 'Board' has no 'objects' member
+backend/boards/tests/test_api.py:291: [E1101(no-member), test_board_delete] Class 'Board' has no 'objects' member
+backend/boards/tests/test_api.py:294: [C0116(missing-function-docstring), test_board_create] Missing function or method docstring
+backend/boards/tests/test_api.py:295: [E1101(no-member), test_board_create] Class 'Board' has no 'objects' member
+backend/boards/tests/test_api.py:301: [E1101(no-member), test_board_create] Class 'Board' has no 'objects' member
+backend/boards/tests/test_api.py:307: [E1101(no-member), test_board_create] Class 'Board' has no 'objects' member
+backend/boards/tests/test_api.py:308: [E1101(no-member), test_board_create] Class 'Board' has no 'objects' member
+backend/boards/tests/test_api.py:320: [W0621(redefined-outer-name), test_board_invite_member] Redefining name 'board' from outer scope (line 11)
+backend/boards/tests/test_api.py:319: [C0116(missing-function-docstring), test_board_invite_member] Missing function or method docstring
+backend/boards/tests/test_api.py:362: [W0621(redefined-outer-name), test_board_remove_member] Redefining name 'board' from outer scope (line 11)
+backend/boards/tests/test_api.py:359: [C0116(missing-function-docstring), test_board_remove_member] Missing function or method docstring
+backend/boards/tests/test_api.py:359: [R0913(too-many-arguments), test_board_remove_member] Too many arguments (8/5)
+backend/boards/tests/test_api.py:413: [W0621(redefined-outer-name), test_update_task_title] Redefining name 'board' from outer scope (line 11)
+backend/boards/tests/test_api.py:411: [C0116(missing-function-docstring), test_update_task_title] Missing function or method docstring
+backend/boards/tests/test_api.py:440: [W0621(redefined-outer-name), test_delete_task] Redefining name 'board' from outer scope (line 11)
+backend/boards/tests/test_api.py:438: [C0116(missing-function-docstring), test_delete_task] Missing function or method docstring
+backend/boards/tests/test_api.py:465: [W0621(redefined-outer-name), test_update_column_title] Redefining name 'board' from outer scope (line 11)
+backend/boards/tests/test_api.py:463: [C0116(missing-function-docstring), test_update_column_title] Missing function or method docstring
+backend/boards/tests/test_api.py:491: [W0621(redefined-outer-name), test_create_column] Redefining name 'board' from outer scope (line 11)
+backend/boards/tests/test_api.py:490: [C0116(missing-function-docstring), test_create_column] Missing function or method docstring
+backend/boards/tests/test_api.py:516: [W0621(redefined-outer-name), test_create_task] Redefining name 'board' from outer scope (line 11)
+backend/boards/tests/test_api.py:514: [C0116(missing-function-docstring), test_create_task] Missing function or method docstring
+backend/boards/tests/test_api.py:558: [W0621(redefined-outer-name), test_only_board_members_see_labels] Redefining name 'board' from outer scope (line 11)
+backend/boards/tests/test_api.py:555: [C0116(missing-function-docstring), test_only_board_members_see_labels] Missing function or method docstring
+backend/boards/tests/test_api.py:575: [C0116(missing-function-docstring), test_add_labels_to_task] Missing function or method docstring
+backend/boards/tests/test_api.py:575: [R0913(too-many-arguments), test_add_labels_to_task] Too many arguments (7/5)
+backend/boards/tests/test_api.py:616: [W0621(redefined-outer-name), test_label_names_unique_per_board] Redefining name 'board' from outer scope (line 11)
+backend/boards/tests/test_api.py:613: [C0116(missing-function-docstring), test_label_names_unique_per_board] Missing function or method docstring
+backend/boards/tests/test_api.py:614: [W0613(unused-argument), test_label_names_unique_per_board] Unused argument 'amy'
+************* Module boards.management.commands.load_benchmark
+backend/boards/management/commands/load_benchmark.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+backend/boards/management/commands/load_benchmark.py:9: [C0115(missing-class-docstring), Command] Missing class docstring
+backend/boards/management/commands/load_benchmark.py:22: [E1101(no-member), Command.handle] Class 'Board' has no 'objects' member
+backend/boards/management/commands/load_benchmark.py:23: [E1101(no-member), Command.handle] Class 'Board' has no 'objects' member
+backend/boards/management/commands/load_benchmark.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==boards.migrations.0001_initial:[16:27]
+==boards.migrations.0007_label:[15:26]
+            fields=[
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=255)),
+backend/boards/management/commands/load_benchmark.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==boards.migrations.0007_label:[15:25]
+==boards.migrations.0012_comment:[19:29]
+            fields=[
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+backend/boards/management/commands/load_benchmark.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==accounts.migrations.0001_initial:[19:29]
+==accounts.migrations.0002_auto_20200327_1817:[15:25]
+            fields=[
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+backend/boards/management/commands/load_benchmark.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==boards.migrations.0002_auto_20200321_0631:[2:11]
+==boards.migrations.0004_auto_20200329_0919:[2:11]
+import django.db.models.deletion
+from django.conf import settings
+from django.db import migrations, models
+
+
+class Migration(migrations.Migration):
+
+    dependencies = [
+        migrations.swappable_dependency(settings.AUTH_USER_MODEL),
+backend/boards/management/commands/load_benchmark.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==boards.migrations.0004_auto_20200329_0919:[3:11]
+==boards.migrations.0006_auto_20200410_1542:[2:10]
+from django.conf import settings
+from django.db import migrations, models
+
+
+class Migration(migrations.Migration):
+
+    dependencies = [
+        migrations.swappable_dependency(settings.AUTH_USER_MODEL),
+
+
+Report
+======
+1376 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |60     |60         |=          |18.33       |28.33    |
++---------+-------+-----------+-----------+------------+---------+
+|class    |96     |96         |=          |3.12        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |42     |42         |=          |69.05       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |67     |67         |=          |7.46        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    accounts 
+      \-api (config.urls)
+      \-models (boards.demo,boards.management.commands.load_benchmark)
+      \-serializers (boards.serializers)
+    boards 
+      \-api (config.urls)
+      \-apps (boards.tests.test_apps)
+      \-demo (accounts.api)
+      \-models (accounts.api,accounts.tests.test_api,boards.management.commands.load_benchmark,boards.tests.factories,boards.tests.test_api,boards.tests.test_comment_viewset)
+      \-tests 
+      | \-factories (boards.management.commands.load_benchmark,conftest)
+      \-utils (accounts.tests.test_api,boards.tests.test_utils)
+    config 
+      \-env_utils (config.settings.production)
+    django 
+      \-apps (accounts.apps,boards.apps,boards.tests.test_apps)
+      \-conf (accounts.api,accounts.management.commands.db,accounts.management.commands.load,accounts.tests.test_models,boards.management.commands.load_benchmark,boards.migrations.0002_auto_20200321_0631,boards.migrations.0004_auto_20200329_0919,boards.migrations.0006_auto_20200410_1542,boards.migrations.0012_comment,config.urls)
+      | \-urls 
+      |   \-static (config.urls)
+      \-contrib 
+      | \-admin (accounts.admin,boards.admin,config.urls)
+      | \-auth (accounts.api,accounts.serializers,accounts.tests.test_api,boards.api,boards.demo,boards.models,boards.serializers,boards.tests.factories,boards.tests.test_api)
+      |   \-admin (accounts.admin)
+      |   \-models (accounts.migrations.0001_initial,accounts.models)
+      |   \-validators (accounts.migrations.0001_initial,accounts.migrations.0003_auto_20200505_1756)
+      \-core 
+      | \-exceptions (config.env_utils)
+      | \-management (accounts.management.commands.db,accounts.management.commands.load,accounts.tests.test_api,manage)
+      | | \-base (accounts.management.commands.db,accounts.management.commands.load,boards.management.commands.load_benchmark)
+      | \-validators (accounts.migrations.0003_auto_20200505_1756,accounts.models)
+      | \-wsgi (config.wsgi)
+      \-db (boards.serializers)
+      | \-migrations (accounts.migrations.0001_initial,accounts.migrations.0002_auto_20200327_1817,accounts.migrations.0003_auto_20200505_1756,accounts.migrations.0004_user_is_guest,accounts.migrations.0005_auto_20201006_1436,boards.migrations.0001_initial,boards.migrations.0002_auto_20200321_0631,boards.migrations.0003_auto_20200322_1633,boards.migrations.0004_auto_20200329_0919,boards.migrations.0005_auto_20200406_1433,boards.migrations.0006_auto_20200410_1542,boards.migrations.0007_label,boards.migrations.0008_auto_20200510_1646,boards.migrations.0009_task_labels,boards.migrations.0010_auto_20200517_0826,boards.migrations.0011_auto_20200517_1011,boards.migrations.0012_comment)
+      | \-models (accounts.migrations.0001_initial,accounts.migrations.0002_auto_20200327_1817,accounts.migrations.0003_auto_20200505_1756,accounts.migrations.0004_user_is_guest,accounts.migrations.0005_auto_20201006_1436,accounts.models,boards.api,boards.migrations.0001_initial,boards.migrations.0002_auto_20200321_0631,boards.migrations.0004_auto_20200329_0919,boards.migrations.0005_auto_20200406_1433,boards.migrations.0006_auto_20200410_1542,boards.migrations.0007_label,boards.migrations.0008_auto_20200510_1646,boards.migrations.0009_task_labels,boards.migrations.0011_auto_20200517_1011,boards.migrations.0012_comment,boards.models)
+      | | \-deletion (accounts.migrations.0002_auto_20200327_1817,boards.migrations.0001_initial,boards.migrations.0002_auto_20200321_0631,boards.migrations.0004_auto_20200329_0919,boards.migrations.0007_label,boards.migrations.0012_comment)
+      | \-transaction (boards.api,boards.demo)
+      \-urls (boards.tests.test_comment_viewset,config.urls)
+      \-utils 
+        \-http (boards.utils)
+        \-timezone (accounts.migrations.0001_initial,boards.migrations.0010_auto_20200517_0826,boards.migrations.0012_comment)
+        \-translation (accounts.models)
+    django_filters 
+      \-rest_framework (boards.api)
+    rest_framework 
+      \-decorators (accounts.api,boards.api)
+      \-exceptions (accounts.api)
+      \-filters (accounts.api,boards.api)
+      \-generics (accounts.api)
+      \-mixins (accounts.api,boards.api,boards.viewsets)
+      \-permissions (accounts.api,accounts.permissions,boards.api,boards.permissions)
+      \-response (accounts.api,boards.api)
+      \-reverse (accounts.tests.test_api,boards.tests.test_api,boards.utils)
+      \-routers (config.urls)
+      \-serializers (accounts.serializers,boards.serializers)
+      \-status (accounts.api,boards.api)
+      \-test (conftest)
+      \-validators (accounts.serializers,boards.serializers)
+      \-views (accounts.api,boards.api)
+      \-viewsets (accounts.api,boards.api,boards.viewsets)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |2267   |69.18 |2267     |=          |
++----------+-------+------+---------+-----------+
+|docstring |282    |8.61  |282      |=          |
++----------+-------+------+---------+-----------+
+|comment   |119    |3.63  |119      |=          |
++----------+-------+------+---------+-----------+
+|empty     |609    |18.58 |609      |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |252    |275      |275        |
++-----------+-------+---------+-----------+
+|refactor   |61     |113      |113        |
++-----------+-------+---------+-----------+
+|warning    |45     |52       |52         |
++-----------+-------+---------+-----------+
+|error      |58     |128      |128        |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------------------+------------+
+|message id                             |occurrences |
++=======================================+============+
+|missing-class-docstring                |93          |
++---------------------------------------+------------+
+|missing-function-docstring             |75          |
++---------------------------------------+------------+
+|missing-module-docstring               |49          |
++---------------------------------------+------------+
+|no-member                              |39          |
++---------------------------------------+------------+
+|too-few-public-methods                 |35          |
++---------------------------------------+------------+
+|invalid-name                           |25          |
++---------------------------------------+------------+
+|redefined-outer-name                   |20          |
++---------------------------------------+------------+
+|import-error                           |17          |
++---------------------------------------+------------+
+|unused-argument                        |12          |
++---------------------------------------+------------+
+|too-many-ancestors                     |7           |
++---------------------------------------+------------+
+|no-self-use                            |6           |
++---------------------------------------+------------+
+|line-too-long                          |5           |
++---------------------------------------+------------+
+|duplicate-code                         |5           |
++---------------------------------------+------------+
+|too-many-arguments                     |4           |
++---------------------------------------+------------+
+|wildcard-import                        |2           |
++---------------------------------------+------------+
+|unused-wildcard-import                 |2           |
++---------------------------------------+------------+
+|unused-import                          |2           |
++---------------------------------------+------------+
+|raise-missing-from                     |2           |
++---------------------------------------+------------+
+|invalid-str-returned                   |2           |
++---------------------------------------+------------+
+|import-outside-toplevel                |2           |
++---------------------------------------+------------+
+|abstract-method                        |2           |
++---------------------------------------+------------+
+|wrong-import-order                     |1           |
++---------------------------------------+------------+
+|use-implicit-booleaness-not-comparison |1           |
++---------------------------------------+------------+
+|unnecessary-pass                       |1           |
++---------------------------------------+------------+
+|ungrouped-imports                      |1           |
++---------------------------------------+------------+
+|too-many-statements                    |1           |
++---------------------------------------+------------+
+|too-many-locals                        |1           |
++---------------------------------------+------------+
+|protected-access                       |1           |
++---------------------------------------+------------+
+|fixme                                  |1           |
++---------------------------------------+------------+
+|consider-using-in                      |1           |
++---------------------------------------+------------+
+|consider-using-dict-comprehension      |1           |
++---------------------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 5.29/10 (previous run: 2.15/10, +3.14)
+

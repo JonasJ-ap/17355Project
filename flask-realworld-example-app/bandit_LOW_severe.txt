@@ -1,0 +1,67 @@
+flask-realworld-example-app/conduit/commands.py:5:0: blacklist, severity: LOW, confidence: HIGH, Consider possible security implications associated with the subprocess module.
+flask-realworld-example-app/conduit/commands.py:41:13: subprocess_without_shell_equals_true, severity: LOW, confidence: HIGH, subprocess call - check for execution of untrusted input.
+flask-realworld-example-app/tests/conftest.py:57:20: hardcoded_password_funcarg, severity: LOW, confidence: MEDIUM, Possible hardcoded password: 'myprecious'
+flask-realworld-example-app/tests/test_articles.py:29:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_articles.py:56:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_articles.py:79:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_articles.py:99:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_articles.py:100:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_articles.py:136:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_authentication.py:21:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_authentication.py:22:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_authentication.py:23:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_authentication.py:33:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_authentication.py:34:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_authentication.py:35:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_authentication.py:43:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_authentication.py:44:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_authentication.py:49:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_authentication.py:50:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_authentication.py:64:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_authentication.py:65:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_config.py:10:4: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_config.py:11:4: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_config.py:17:4: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_config.py:18:4: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:25:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:31:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:32:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:38:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:42:15: hardcoded_password_funcarg, severity: LOW, confidence: MEDIUM, Possible hardcoded password: 'myprecious'
+flask-realworld-example-app/tests/test_models.py:44:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:45:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:46:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:47:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:51:15: hardcoded_password_funcarg, severity: LOW, confidence: MEDIUM, Possible hardcoded password: 'foobarbaz123'
+flask-realworld-example-app/tests/test_models.py:53:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:54:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:70:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:82:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:84:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:91:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:97:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:106:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:115:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:116:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:131:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:132:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:133:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:141:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:142:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:143:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:150:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:151:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:152:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:165:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:166:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:177:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:178:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:179:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:180:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_models.py:181:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_profile.py:21:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_profile.py:22:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_profile.py:26:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_profile.py:27:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_profile.py:36:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+flask-realworld-example-app/tests/test_profile.py:45:8: assert_used, severity: LOW, confidence: HIGH, Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.

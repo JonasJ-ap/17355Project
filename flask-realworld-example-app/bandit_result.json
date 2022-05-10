@@ -1,0 +1,1686 @@
+{
+  "errors": [],
+  "generated_at": "2022-05-03T23:12:22Z",
+  "metrics": {
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/autoapp.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/app.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 61,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/articles/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/articles/models.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 84,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/articles/serializers.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 61,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/articles/views.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 125,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/commands.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 101,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/compat.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 15,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/database.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 30,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/exceptions.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 34,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/extensions.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 38,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/profile/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/profile/models.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 48,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/profile/serializers.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 19,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/profile/views.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 35,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/settings.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 46,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/user/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/user/models.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 30,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/user/serializers.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 26,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/user/views.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 53,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/utils.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/conftest.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 41,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/factories.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 19,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_articles.py": {
+      "CONFIDENCE.HIGH": 6,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 6,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 116,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_authentication.py": {
+      "CONFIDENCE.HIGH": 12,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 12,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 52,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_config.py": {
+      "CONFIDENCE.HIGH": 4,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 4,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 13,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py": {
+      "CONFIDENCE.HIGH": 34,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 2,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 36,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 148,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_profile.py": {
+      "CONFIDENCE.HIGH": 6,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 6,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 35,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 64,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 3,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 67,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1248,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "4 from glob import glob\n5 from subprocess import call\n6 \n7 import click\n",
+      "col_offset": 0,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/commands.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 5,
+      "line_range": [
+        5,
+        6
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "40         click.echo('{}: {}'.format(description, ' '.join(command_line)))\n41         rv = call(command_line)\n42         if rv != 0:\n",
+      "col_offset": 13,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/conduit/commands.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 41,
+      "line_range": [
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "56         def get(self):\n57             muser = UserFactory(password='myprecious')\n58             UserProfile(muser).save()\n",
+      "col_offset": 20,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/conftest.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 259,
+        "link": "https://cwe.mitre.org/data/definitions/259.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Possible hardcoded password: 'myprecious'",
+      "line_number": 57,
+      "line_range": [
+        57
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b106_hardcoded_password_funcarg.html",
+      "test_id": "B106",
+      "test_name": "hardcoded_password_funcarg"
+    },
+    {
+      "code": "28         resp = testapp.get(url_for('articles.get_articles', author=user.username))\n29         assert len(resp.json['articles']) == 2\n30 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_articles.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 29,
+      "line_range": [
+        29
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "55                            )\n56         assert resp.json['article']['favorited']\n57 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_articles.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 56,
+      "line_range": [
+        56
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "78         resp = testapp.get(url_for('articles.get_articles', author=user.username))\n79         assert len(resp.json['articles']) == 2\n80 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_articles.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 79,
+      "line_range": [
+        79
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "98         })\n99         assert resp.json['article']['author']['email'] == user.email\n100         assert resp.json['article']['body'] == 'You have to believe'\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_articles.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 99,
+      "line_range": [
+        99
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "99         assert resp.json['article']['author']['email'] == user.email\n100         assert resp.json['article']['body'] == 'You have to believe'\n101 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_articles.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 100,
+      "line_range": [
+        100
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "135         # assert profile_schema.dump(user).data['profile'] == authorp\n136         assert profile_schema.dump(user)['profile'] == authorp\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_articles.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 136,
+      "line_range": [
+        136
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "20         resp = _register_user(testapp)\n21         assert resp.json['user']['email'] == 'mo@mo.mo'\n22         assert resp.json['user']['token'] != 'None'\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_authentication.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 21,
+      "line_range": [
+        21
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "21         assert resp.json['user']['email'] == 'mo@mo.mo'\n22         assert resp.json['user']['token'] != 'None'\n23         assert resp.json['user']['token'] != ''\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_authentication.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 22,
+      "line_range": [
+        22
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "22         assert resp.json['user']['token'] != 'None'\n23         assert resp.json['user']['token'] != ''\n24 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_authentication.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 23,
+      "line_range": [
+        23
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "32 \n33         assert resp.json['user']['email'] == 'mo@mo.mo'\n34         assert resp.json['user']['token'] != 'None'\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_authentication.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 33,
+      "line_range": [
+        33
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "33         assert resp.json['user']['email'] == 'mo@mo.mo'\n34         assert resp.json['user']['token'] != 'None'\n35         assert resp.json['user']['token'] != ''\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_authentication.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 34,
+      "line_range": [
+        34
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "34         assert resp.json['user']['token'] != 'None'\n35         assert resp.json['user']['token'] != ''\n36 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_authentication.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 35,
+      "line_range": [
+        35
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "42         })\n43         assert resp.json['user']['email'] == 'mo@mo.mo'\n44         assert resp.json['user']['token'] == token\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_authentication.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 43,
+      "line_range": [
+        43
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "43         assert resp.json['user']['email'] == 'mo@mo.mo'\n44         assert resp.json['user']['token'] == token\n45 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_authentication.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 44,
+      "line_range": [
+        44
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "48         resp = _register_user(testapp, expect_errors=True)\n49         assert resp.status_int == 422\n50         assert resp.json == USER_ALREADY_REGISTERED['message']\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_authentication.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 49,
+      "line_range": [
+        49
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "49         assert resp.status_int == 422\n50         assert resp.json == USER_ALREADY_REGISTERED['message']\n51 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_authentication.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 50,
+      "line_range": [
+        50
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "63         })\n64         assert resp.json['user']['bio'] == 'I\\'m a simple man'\n65         assert resp.json['user']['email'] == 'meh@mo.mo'\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_authentication.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 64,
+      "line_range": [
+        64
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "64         assert resp.json['user']['bio'] == 'I\\'m a simple man'\n65         assert resp.json['user']['email'] == 'meh@mo.mo'\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_authentication.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 65,
+      "line_range": [
+        65
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "9     app = create_app(ProdConfig)\n10     assert app.config['ENV'] == 'prod'\n11     assert not app.config['DEBUG']\n",
+      "col_offset": 4,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_config.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 10,
+      "line_range": [
+        10
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "10     assert app.config['ENV'] == 'prod'\n11     assert not app.config['DEBUG']\n12 \n",
+      "col_offset": 4,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_config.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 11,
+      "line_range": [
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "16     app = create_app(DevConfig)\n17     assert app.config['ENV'] == 'dev'\n18     assert app.config['DEBUG']\n",
+      "col_offset": 4,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_config.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 17,
+      "line_range": [
+        17
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "17     assert app.config['ENV'] == 'dev'\n18     assert app.config['DEBUG']\n",
+      "col_offset": 4,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_config.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 18,
+      "line_range": [
+        18
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "24         retrieved = User.get_by_id(user.id)\n25         assert retrieved == user\n26 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 25,
+      "line_range": [
+        25
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "30         user.save()\n31         assert bool(user.created_at)\n32         assert isinstance(user.created_at, dt.datetime)\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 31,
+      "line_range": [
+        31
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "31         assert bool(user.created_at)\n32         assert isinstance(user.created_at, dt.datetime)\n33 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 32,
+      "line_range": [
+        32
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "37         user.save()\n38         assert user.password is None\n39 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 38,
+      "line_range": [
+        38
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "41         \"\"\"Test user factory.\"\"\"\n42         user = UserFactory(password='myprecious')\n43         db.session.commit()\n",
+      "col_offset": 15,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 259,
+        "link": "https://cwe.mitre.org/data/definitions/259.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Possible hardcoded password: 'myprecious'",
+      "line_number": 42,
+      "line_range": [
+        42
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b106_hardcoded_password_funcarg.html",
+      "test_id": "B106",
+      "test_name": "hardcoded_password_funcarg"
+    },
+    {
+      "code": "43         db.session.commit()\n44         assert bool(user.username)\n45         assert bool(user.email)\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 44,
+      "line_range": [
+        44
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "44         assert bool(user.username)\n45         assert bool(user.email)\n46         assert bool(user.created_at)\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 45,
+      "line_range": [
+        45
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "45         assert bool(user.email)\n46         assert bool(user.created_at)\n47         assert user.check_password('myprecious')\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 46,
+      "line_range": [
+        46
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "46         assert bool(user.created_at)\n47         assert user.check_password('myprecious')\n48 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 47,
+      "line_range": [
+        47
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "50         \"\"\"Check password.\"\"\"\n51         user = User.create(username='foo', email='foo@bar.com',\n52                            password='foobarbaz123')\n53         assert user.check_password('foobarbaz123')\n",
+      "col_offset": 15,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 259,
+        "link": "https://cwe.mitre.org/data/definitions/259.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Possible hardcoded password: 'foobarbaz123'",
+      "line_number": 51,
+      "line_range": [
+        51,
+        52
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b106_hardcoded_password_funcarg.html",
+      "test_id": "B106",
+      "test_name": "hardcoded_password_funcarg"
+    },
+    {
+      "code": "52                            password='foobarbaz123')\n53         assert user.check_password('foobarbaz123')\n54         assert not user.check_password('barfoobaz')\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 53,
+      "line_range": [
+        53
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "53         assert user.check_password('foobarbaz123')\n54         assert not user.check_password('barfoobaz')\n55 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 54,
+      "line_range": [
+        54
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "69         p1.follow(p2)\n70         assert p1.is_following(p2)\n71 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 70,
+      "line_range": [
+        70
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "81         p1.follow(p2)\n82         assert p1.is_following(p2)\n83         p1.unfollow(p2)\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 82,
+      "line_range": [
+        82
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "83         p1.unfollow(p2)\n84         assert not p1.is_following(p2)\n85 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 84,
+      "line_range": [
+        84
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "90         p1.save()\n91         assert not p1.follow(p1)\n92 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 91,
+      "line_range": [
+        91
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "96         p1 = UserProfile(u1)\n97         assert not p1.unfollow(p1)\n98 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 97,
+      "line_range": [
+        97
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "105         article.save()\n106         assert article.author.user == u1\n107 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 106,
+      "line_range": [
+        106
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "114         article.save()\n115         assert article.favourite(u1.profile)\n116         assert article.is_favourite(u1.profile)\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 115,
+      "line_range": [
+        115
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "115         assert article.favourite(u1.profile)\n116         assert article.is_favourite(u1.profile)\n117 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 116,
+      "line_range": [
+        116
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "130         article.save()\n131         assert article.favourite(p1)\n132         assert article.unfavourite(p1)\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 131,
+      "line_range": [
+        131
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "131         assert article.favourite(p1)\n132         assert article.unfavourite(p1)\n133         assert not article.is_favourite(p1)\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 132,
+      "line_range": [
+        132
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "132         assert article.unfavourite(p1)\n133         assert not article.is_favourite(p1)\n134 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 133,
+      "line_range": [
+        133
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "140         t1 = Tags(tagname='flask')\n141         assert article.add_tag(t)\n142         assert article.add_tag(t1)\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 141,
+      "line_range": [
+        141
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "141         assert article.add_tag(t)\n142         assert article.add_tag(t1)\n143         assert len(article.tagList) == 2\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 142,
+      "line_range": [
+        142
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "142         assert article.add_tag(t1)\n143         assert len(article.tagList) == 2\n144 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 143,
+      "line_range": [
+        143
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "149         t1 = Tags(tagname='flask')\n150         assert article.add_tag(t1)\n151         assert article.remove_tag(t1)\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 150,
+      "line_range": [
+        150
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "150         assert article.add_tag(t1)\n151         assert article.remove_tag(t1)\n152         assert len(article.tagList) == 0\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 151,
+      "line_range": [
+        151
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "151         assert article.remove_tag(t1)\n152         assert len(article.tagList) == 0\n153 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 152,
+      "line_range": [
+        152
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "164 \n165         assert comment.article == article\n166         assert comment.author == user.profile\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 165,
+      "line_range": [
+        165
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "165         assert comment.article == article\n166         assert comment.author == user.profile\n167 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 166,
+      "line_range": [
+        166
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "176 \n177         assert comment.article == article\n178         assert comment.author == user.profile\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 177,
+      "line_range": [
+        177
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "177         assert comment.article == article\n178         assert comment.author == user.profile\n179         assert comment1.article == article\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 178,
+      "line_range": [
+        178
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "178         assert comment.author == user.profile\n179         assert comment1.article == article\n180         assert comment1.author == user.profile\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 179,
+      "line_range": [
+        179
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "179         assert comment1.article == article\n180         assert comment1.author == user.profile\n181         assert len(article.comments.all()) == 2\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 180,
+      "line_range": [
+        180
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "180         assert comment1.author == user.profile\n181         assert len(article.comments.all()) == 2\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_models.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 181,
+      "line_range": [
+        181
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "20         resp = testapp.get(url_for('profiles.get_profile', username='foobar'))\n21         assert resp.json['profile']['email'] == 'foo@bar.com'\n22         assert not resp.json['profile']['following']\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_profile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 21,
+      "line_range": [
+        21
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "21         assert resp.json['profile']['email'] == 'foo@bar.com'\n22         assert not resp.json['profile']['following']\n23 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_profile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 22,
+      "line_range": [
+        22
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "25         resp = testapp.get(url_for('profiles.get_profile', username='foobar'), expect_errors=True)\n26         assert resp.status_int == 404\n27         assert resp.json == USER_NOT_FOUND['message']\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_profile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 26,
+      "line_range": [
+        26
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "26         assert resp.status_int == 404\n27         assert resp.json == USER_NOT_FOUND['message']\n28 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_profile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 27,
+      "line_range": [
+        27
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "35         })\n36         assert resp.json['profile']['following']\n37 \n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_profile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 36,
+      "line_range": [
+        36
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "44         })\n45         assert not resp.json['profile']['following']\n",
+      "col_offset": 8,
+      "filename": "/Users/rushanjiang/workspace/17-355-Final/flask-realworld-example-app/tests/test_profile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 45,
+      "line_range": [
+        45
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    }
+  ]
+}

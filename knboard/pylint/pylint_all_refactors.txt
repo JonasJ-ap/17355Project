@@ -1,0 +1,119 @@
+backend/accounts/models.py:33:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/accounts/serializers.py:16:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/accounts/serializers.py:20:4: R0201: Method could be a function (no-self-use)
+backend/accounts/serializers.py:25:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/accounts/serializers.py:33:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/accounts/serializers.py:44:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/accounts/serializers.py:64:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/accounts/serializers.py:72:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/accounts/serializers.py:82:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/accounts/serializers.py:88:4: R0201: Method could be a function (no-self-use)
+backend/accounts/api.py:59:11: R1714: Consider merging these comparisons with "in" to "self.action in ('retrieve', 'update')" (consider-using-in)
+backend/accounts/api.py:98:0: R0901: Too many ancestors (8/7) (too-many-ancestors)
+backend/accounts/api.py:105:4: R0201: Method could be a function (no-self-use)
+backend/accounts/tests/test_api.py:26:0: R0913: Too many arguments (7/5) (too-many-arguments)
+backend/boards/models.py:17:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/models.py:37:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/models.py:32:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+backend/boards/models.py:52:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/models.py:78:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/models.py:64:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+backend/boards/models.py:87:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/models.py:82:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/viewsets.py:4:0: R0901: Too many ancestors (9/7) (too-many-ancestors)
+backend/boards/serializers.py:22:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/serializers.py:36:4: R0201: Method could be a function (no-self-use)
+backend/boards/serializers.py:69:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/serializers.py:86:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/serializers.py:95:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/serializers.py:109:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/serializers.py:120:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/api.py:34:0: R0901: Too many ancestors (10/7) (too-many-ancestors)
+backend/boards/api.py:113:0: R0901: Too many ancestors (10/7) (too-many-ancestors)
+backend/boards/api.py:123:0: R0901: Too many ancestors (9/7) (too-many-ancestors)
+backend/boards/api.py:165:0: R0901: Too many ancestors (10/7) (too-many-ancestors)
+backend/boards/api.py:175:0: R0901: Too many ancestors (10/7) (too-many-ancestors)
+backend/boards/api.py:189:4: R0201: Method could be a function (no-self-use)
+backend/boards/api.py:205:4: R0201: Method could be a function (no-self-use)
+backend/boards/api.py:247:19: R1717: Consider using a dictionary comprehension (consider-using-dict-comprehension)
+backend/boards/admin.py:12:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/utils.py:5:0: R0913: Too many arguments (6/5) (too-many-arguments)
+backend/boards/demo.py:20:0: R0914: Too many local variables (17/15) (too-many-locals)
+backend/boards/demo.py:20:0: R0915: Too many statements (51/50) (too-many-statements)
+backend/boards/tests/factories.py:10:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/tests/factories.py:9:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/tests/factories.py:19:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/tests/factories.py:18:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/tests/factories.py:27:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/tests/factories.py:26:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/tests/factories.py:35:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/tests/factories.py:34:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/tests/factories.py:44:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/tests/factories.py:43:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/tests/factories.py:53:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/tests/factories.py:52:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+backend/boards/tests/test_api.py:359:0: R0913: Too many arguments (8/5) (too-many-arguments)
+backend/boards/tests/test_api.py:575:0: R0913: Too many arguments (7/5) (too-many-arguments)
+backend/boards/management/commands/load_benchmark.py:1:0: R0801: Similar lines in 2 files
+==boards.migrations.0001_initial:[16:27]
+==boards.migrations.0007_label:[15:26]
+            fields=[
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=255)), (duplicate-code)
+backend/boards/management/commands/load_benchmark.py:1:0: R0801: Similar lines in 2 files
+==boards.migrations.0007_label:[15:25]
+==boards.migrations.0012_comment:[19:29]
+            fields=[
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ), (duplicate-code)
+backend/boards/management/commands/load_benchmark.py:1:0: R0801: Similar lines in 2 files
+==accounts.migrations.0001_initial:[19:29]
+==accounts.migrations.0002_auto_20200327_1817:[15:25]
+            fields=[
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ), (duplicate-code)
+backend/boards/management/commands/load_benchmark.py:1:0: R0801: Similar lines in 2 files
+==boards.migrations.0002_auto_20200321_0631:[2:11]
+==boards.migrations.0004_auto_20200329_0919:[2:11]
+import django.db.models.deletion
+from django.conf import settings
+from django.db import migrations, models
+
+
+class Migration(migrations.Migration):
+
+    dependencies = [
+        migrations.swappable_dependency(settings.AUTH_USER_MODEL), (duplicate-code)
+backend/boards/management/commands/load_benchmark.py:1:0: R0801: Similar lines in 2 files
+==boards.migrations.0004_auto_20200329_0919:[3:11]
+==boards.migrations.0006_auto_20200410_1542:[2:10]
+from django.conf import settings
+from django.db import migrations, models
+
+
+class Migration(migrations.Migration):
+
+    dependencies = [
+        migrations.swappable_dependency(settings.AUTH_USER_MODEL), (duplicate-code)

@@ -1,0 +1,2 @@
+flaskbb/cli/main.py:381:13: DUO104 use of "eval" is insecure
+flaskbb/cli/main.py:381:18: DUO110 use of "compile" is insecure

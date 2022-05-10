@@ -1,0 +1,486 @@
+inventory/models.py:20:2: R0903: Too few public methods (0/2) (too-few-public-methods)
+inventory/models.py:28:4: R1725: Consider using Python 3 style super() without arguments (super-with-arguments)
+inventory/models.py:40:2: R0903: Too few public methods (0/2) (too-few-public-methods)
+inventory/models.py:103:2: R0903: Too few public methods (0/2) (too-few-public-methods)
+inventory/models.py:139:2: R0903: Too few public methods (0/2) (too-few-public-methods)
+inventory/admin.py:38:4: R0201: Method could be a function (no-self-use)
+inventory/tables.py:10:5: R0201: Method could be a function (no-self-use)
+inventory/tables.py:8:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+inventory/tables.py:17:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+inventory/tables.py:16:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+inventory/tables.py:24:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+inventory/tables.py:23:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+inventory/tables.py:31:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+inventory/tables.py:30:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+inventory/tables.py:39:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+inventory/tables.py:37:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+inventory/tables.py:47:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+inventory/tables.py:45:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+inventory/filters.py:7:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+inventory/filters.py:15:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+inventory/views.py:86:7: R0916: Too many boolean expressions in if statement (6/5) (too-many-boolean-expressions)
+inventory/views.py:81:0: R0911: Too many return statements (8/6) (too-many-return-statements)
+inventory/views.py:81:0: R0912: Too many branches (17/12) (too-many-branches)
+inventory/views.py:225:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+inventory/views.py:221:0: R0912: Too many branches (17/12) (too-many-branches)
+inventory/views.py:274:0: R0914: Too many local variables (16/15) (too-many-locals)
+inventory/views.py:415:0: R0914: Too many local variables (21/15) (too-many-locals)
+inventory/views.py:415:0: R0915: Too many statements (58/50) (too-many-statements)
+inventory/views.py:586:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+inventory/views.py:646:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+inventory/views.py:646:11: R1714: Consider merging these comparisons with "in" to "location in ('in', 'out')" (consider-using-in)
+inventory/views.py:619:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+inventory/views.py:655:0: R0914: Too many local variables (17/15) (too-many-locals)
+inventory/views.py:655:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+inventory/views.py:655:0: R0912: Too many branches (16/12) (too-many-branches)
+inventory/views.py:655:0: R0915: Too many statements (53/50) (too-many-statements)
+inventory/views.py:752:0: R0914: Too many local variables (25/15) (too-many-locals)
+inventory/views.py:752:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+inventory/views.py:752:0: R0912: Too many branches (19/12) (too-many-branches)
+inventory/views.py:752:0: R0915: Too many statements (76/50) (too-many-statements)
+inventory/views.py:885:16: R1734: Consider using [] instead of list() (use-list-literal)
+inventory/views.py:882:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+inventory/views.py:894:16: R1734: Consider using [] instead of list() (use-list-literal)
+inventory/views.py:891:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+inventory/views.py:903:16: R1734: Consider using [] instead of list() (use-list-literal)
+inventory/views.py:900:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+inventory/views.py:923:0: R0901: Too many ancestors (10/7) (too-many-ancestors)
+inventory/views.py:936:0: R0901: Too many ancestors (10/7) (too-many-ancestors)
+inventory/test/test_generatereportdrive.py:26:4: R0914: Too many local variables (16/15) (too-many-locals)
+inventory/test/test_generatereportdrive.py:93:4: R0914: Too many local variables (16/15) (too-many-locals)
+inventory/test/test_generatereportdrive.py:159:4: R0914: Too many local variables (16/15) (too-many-locals)
+inventory/test/test_generatereportdrive.py:228:4: R0914: Too many local variables (16/15) (too-many-locals)
+inventory/test/test_generatereportdrive.py:296:4: R0914: Too many local variables (16/15) (too-many-locals)
+inventory/management/commands/db_backup.py:22:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/db_backup.py:27:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/db_backup.py:31:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/csv.py:25:18: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+inventory/management/commands/csv.py:20:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/csv.py:47:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/csv.py:53:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/trans.py:14:4: R0912: Too many branches (16/12) (too-many-branches)
+inventory/management/commands/trans.py:57:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/trans.py:75:40: R1714: Consider merging these comparisons with "in" to "size in ('baby', 'toddler')" (consider-using-in)
+inventory/management/commands/trans.py:64:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/trans.py:81:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/trans.py:94:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/quantity.py:8:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/populate.py:16:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/populate.py:31:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/populate.py:40:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/populate.py:55:4: R0914: Too many local variables (28/15) (too-many-locals)
+inventory/management/commands/populate.py:55:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/populate.py:55:4: R0915: Too many statements (88/50) (too-many-statements)
+inventory/management/commands/restore.py:15:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/restore.py:27:32: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+inventory/management/commands/restore.py:24:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/restore.py:39:32: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+inventory/management/commands/restore.py:36:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/restore.py:51:32: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+inventory/management/commands/restore.py:48:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/restore.py:73:32: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+inventory/management/commands/restore.py:70:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/restore.py:89:32: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+inventory/management/commands/restore.py:86:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/restore.py:108:32: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+inventory/management/commands/restore.py:105:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/restore.py:117:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/drop.py:10:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/drop.py:15:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/drop.py:20:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/drop.py:25:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/drop.py:30:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/drop.py:35:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/drop.py:40:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/drop.py:45:4: R0201: Method could be a function (no-self-use)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[296:323]
+==inventory.test.test_generatereportlocal:[333:360]
+        self.client.login(username='testuser', password='12345')
+        # Add item transaction
+        session = self.client.session
+        session['transactions-out'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkout/', data={"checkout": "", "family": "ValidFamily : (None)", "child": "Big Chungus", "age": "1"}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkout.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkout created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkout'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+            'itemizedOutput': ['itemized'],
+            'csrfmiddlewaretoken': ['gorIARWkwGHd78mWsRPmvQIGcaE6FGtCxmo0tWApqHWmxKN35j6zUeI5R8yysl5R'], (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[228:255]
+==inventory.test.test_generatereportlocal:[164:191]
+        self.client.login(username='testuser', password='12345')
+        # Add item transaction
+        session = self.client.session
+        session['transactions-out'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkout/', data={"checkout": "", "family": "ValidFamily : (None)", "child": "Big Chungus", "age": "1"}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkout.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkout created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkout'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+            'itemizedOutput': ['itemized'],
+            'csrfmiddlewaretoken': ['gorIARWkwGHd78mWsRPmvQIGcaE6FGtCxmo0tWApqHWmxKN35j6zUeI5R8yysl5R'], (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[93:119]
+==inventory.test.test_generatereportlocal:[83:109]
+        self.client.login(username='testuser', password='12345')
+        # Add item transaction
+        session = self.client.session
+        session['transactions-out'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkout/', data={"checkout": "", "family": "ValidFamily : (None)", "child": "Big Chungus", "age": "1"}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkout.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkout created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkout'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+            'csrfmiddlewaretoken': ['gorIARWkwGHd78mWsRPmvQIGcaE6FGtCxmo0tWApqHWmxKN35j6zUeI5R8yysl5R'], (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[296:321]
+==inventory.test.test_generatereportlocal:[248:273]
+        self.client.login(username='testuser', password='12345')
+        # Add item transaction
+        session = self.client.session
+        session['transactions-out'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkout/', data={"checkout": "", "family": "ValidFamily : (None)", "child": "Big Chungus", "age": "1"}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkout.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkout created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkout'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')], (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[228:253]
+==inventory.test.test_generatereportlocal:[83:108]
+        self.client.login(username='testuser', password='12345')
+        # Add item transaction
+        session = self.client.session
+        session['transactions-out'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkout/', data={"checkout": "", "family": "ValidFamily : (None)", "child": "Big Chungus", "age": "1"}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkout.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkout created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkout'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')], (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[93:118]
+==inventory.test.test_generatereportlocal:[164:189]
+        self.client.login(username='testuser', password='12345')
+        # Add item transaction
+        session = self.client.session
+        session['transactions-out'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkout/', data={"checkout": "", "family": "ValidFamily : (None)", "child": "Big Chungus", "age": "1"}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkout.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkout created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkout'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')], (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[159:187]
+==inventory.test.test_generatereportlocal:[122:150]
+        self.client.login(username='testuser', password='12345')
+
+        # Add item transaction
+        session = self.client.session
+        session['transactions-in'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkin/', data={"checkin": ""}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkin.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkin created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkin'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+            'itemizedOutput': ['itemized'],
+            'csrfmiddlewaretoken': ['gorIARWkwGHd78mWsRPmvQIGcaE6FGtCxmo0tWApqHWmxKN35j6zUeI5R8yysl5R'], (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[159:185]
+==inventory.test.test_generatereportlocal:[43:69]
+        self.client.login(username='testuser', password='12345')
+
+        # Add item transaction
+        session = self.client.session
+        session['transactions-in'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkin/', data={"checkin": ""}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkin.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkin created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkin'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')], (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[26:52]
+==inventory.test.test_generatereportlocal:[122:148]
+        self.client.login(username='testuser', password='12345')
+
+        # Add item transaction
+        session = self.client.session
+        session['transactions-in'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkin/', data={"checkin": ""}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkin.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkin created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkin'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')], (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[26:53]
+==inventory.test.test_generatereportlocal:[43:70]
+        self.client.login(username='testuser', password='12345')
+
+        # Add item transaction
+        session = self.client.session
+        session['transactions-in'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkin/', data={"checkin": ""}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkin.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkin created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkin'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+            'csrfmiddlewaretoken': ['gorIARWkwGHd78mWsRPmvQIGcaE6FGtCxmo0tWApqHWmxKN35j6zUeI5R8yysl5R'], (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_checkin:[49:68]
+==inventory.test.test_generatereportdrive:[26:46]
+        self.client.login(username='testuser', password='12345')
+
+        # Add item transaction
+        session = self.client.session
+        session['transactions-in'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkin/', data={"checkin": ""}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkin.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkin created.')
+ (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_checkoutview:[55:74]
+==inventory.test.test_generatereportdrive:[93:112]
+        self.client.login(username='testuser', password='12345')
+
+        # Add item transaction
+        session = self.client.session
+        session['transactions-out'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkout/', data={"checkout": "", "family": "ValidFamily : (None)", "child": "Big Chungus", "age": "1"}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkout.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkout created.') (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_checkoutview:[6:19]
+==inventory.test.test_generatereportdrive:[11:24]
+    def setUp(self):
+        user = User.objects.create_superuser(username='testuser', password='12345')
+        user.save()
+
+        family = Family.objects.create(lname="ValidFamily")
+        family.save()
+
+        item = Item.objects.create(name="ValidItem", quantity=5)
+        item.save()
+
+        ageRange = AgeRange.objects.create(low=3, high=5) # will have value 1
+        ageRange.save()
+ (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[46:53]
+==inventory.test.test_generatereportlocal:[24:31]
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkin'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+            'csrfmiddlewaretoken': ['gorIARWkwGHd78mWsRPmvQIGcaE6FGtCxmo0tWApqHWmxKN35j6zUeI5R8yysl5R'], (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[179:185]
+==inventory.test.test_generatereportlocal:[24:30]
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkin'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')], (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_checkin:[6:13]
+==inventory.test.test_editaction:[7:14]
+    def setUp(self):
+        user = User.objects.create_superuser(username='testuser', password='12345')
+        user.save()
+
+        item = Item.objects.create(name="ValidItem", quantity=5)
+        item.save()
+ (duplicate-code)
+inventory/management/commands/drop.py:1:0: R0801: Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[0:6]
+==inventory.test.test_generatereportlocal:[0:7]
+from django.test import TestCase
+from django.contrib.auth.models import User
+
+from inventory.models import Item, Checkout, Checkin, Family, AgeRange
+from django.http.request import QueryDict, MultiValueDict
+from datetime import date, timedelta (duplicate-code)

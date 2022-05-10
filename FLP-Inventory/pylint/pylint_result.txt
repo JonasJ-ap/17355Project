@@ -1,0 +1,1849 @@
+************* Module inventory.admin
+admin.py:25: [C0301(line-too-long), ] Line too long (114/100)
+admin.py:26: [C0303(trailing-whitespace), ] Trailing whitespace
+admin.py:37: [C0303(trailing-whitespace), ] Trailing whitespace
+admin.py:45: [C0303(trailing-whitespace), ] Trailing whitespace
+admin.py:53: [C0303(trailing-whitespace), ] Trailing whitespace
+admin.py:68: [W0311(bad-indentation), ] Bad indentation. Found 20 spaces, expected 16
+admin.py:75: [W0311(bad-indentation), ] Bad indentation. Found 20 spaces, expected 16
+admin.py:76: [W0311(bad-indentation), ] Bad indentation. Found 20 spaces, expected 16
+admin.py:89: [C0303(trailing-whitespace), ] Trailing whitespace
+admin.py:101: [C0301(line-too-long), ] Line too long (104/100)
+admin.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+admin.py:4: [E0611(no-name-in-module), ] No name 'url' in module 'django.conf.urls'
+admin.py:12: [C0115(missing-class-docstring), FamilyAdmin] Missing class docstring
+admin.py:16: [C0115(missing-class-docstring), AgeRangeAdmin] Missing class docstring
+admin.py:20: [C0115(missing-class-docstring), CategoryAdmin] Missing class docstring
+admin.py:24: [C0115(missing-class-docstring), ItemAdmin] Missing class docstring
+admin.py:38: [C0116(missing-function-docstring), ItemAdmin.item_actions] Missing function or method docstring
+admin.py:38: [R0201(no-self-use), ItemAdmin.item_actions] Method could be a function
+admin.py:46: [C0116(missing-function-docstring), ItemAdmin.process_outdate] Missing function or method docstring
+admin.py:46: [W0613(unused-argument), ItemAdmin.process_outdate] Unused argument 'args'
+admin.py:46: [W0613(unused-argument), ItemAdmin.process_outdate] Unused argument 'kwargs'
+admin.py:54: [C0116(missing-function-docstring), ItemAdmin.process_action] Missing function or method docstring
+admin.py:80: [W0212(protected-access), ItemAdmin.process_action] Access to a protected member _meta of a client class
+admin.py:92: [C0115(missing-class-docstring), ItemTransactionAdmin] Missing class docstring
+admin.py:96: [C0115(missing-class-docstring), CheckinAdmin] Missing class docstring
+admin.py:100: [C0115(missing-class-docstring), CheckoutAdmin] Missing class docstring
+admin.py:8: [C0411(wrong-import-order), ] third party import "from django.http import HttpResponseRedirect" should be placed before "from .models import Family, Category, Item, ItemTransaction, Checkin, Checkout, AgeRange"
+admin.py:9: [C0411(wrong-import-order), ] third party import "from django.template.response import TemplateResponse" should be placed before "from .models import Family, Category, Item, ItemTransaction, Checkin, Checkout, AgeRange"
+************* Module inventory.apps
+apps.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+apps.py:4: [C0115(missing-class-docstring), InventoryConfig] Missing class docstring
+************* Module inventory.filters
+filters.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+filters.py:4: [C0115(missing-class-docstring), CheckoutFilter] Missing class docstring
+filters.py:7: [C0115(missing-class-docstring), CheckoutFilter.Meta] Missing class docstring
+filters.py:7: [R0903(too-few-public-methods), CheckoutFilter.Meta] Too few public methods (0/2)
+filters.py:11: [C0115(missing-class-docstring), ItemFilter] Missing class docstring
+filters.py:15: [C0115(missing-class-docstring), ItemFilter.Meta] Missing class docstring
+filters.py:15: [R0903(too-few-public-methods), ItemFilter.Meta] Too few public methods (0/2)
+************* Module inventory.forms
+forms.py:33: [C0301(line-too-long), ] Line too long (129/100)
+forms.py:35: [C0301(line-too-long), ] Line too long (112/100)
+forms.py:58: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:59: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:80: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:104: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:119: [C0301(line-too-long), ] Line too long (110/100)
+forms.py:120: [C0301(line-too-long), ] Line too long (111/100)
+forms.py:150: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:168: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+forms.py:174: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:183: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:219: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:234: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:247: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:254: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:257: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:262: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:265: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:266: [C0303(trailing-whitespace), ] Trailing whitespace
+forms.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+forms.py:7: [E0401(import-error), ] Unable to import 'phonenumber_field.formfields'
+forms.py:9: [C0115(missing-class-docstring), LoginForm] Missing class docstring
+forms.py:31: [C0115(missing-class-docstring), CreateFamilyForm] Missing class docstring
+forms.py:50: [C0115(missing-class-docstring), CreateItemForm] Missing class docstring
+forms.py:51: [E1101(no-member), CreateItemForm] Class 'Category' has no 'objects' member
+forms.py:71: [C0116(missing-function-docstring), CreateItemForm.clean_name] Missing function or method docstring
+forms.py:75: [E1101(no-member), CreateItemForm.clean_name] Class 'Item' has no 'objects' member
+forms.py:83: [C0116(missing-function-docstring), CreateItemForm.clean_quantity] Missing function or method docstring
+forms.py:95: [C0116(missing-function-docstring), CreateItemForm.clean_new_price] Missing function or method docstring
+forms.py:106: [C0116(missing-function-docstring), CreateItemForm.clean_used_price] Missing function or method docstring
+forms.py:116: [C0115(missing-class-docstring), AddItemForm] Missing class docstring
+forms.py:134: [C0121(singleton-comparison), AddItemForm.clean] Comparison 'used_quant == None' should be 'used_quant is None'
+forms.py:134: [C0121(singleton-comparison), AddItemForm.clean] Comparison 'new_quant == None' should be 'new_quant is None'
+forms.py:141: [C0116(missing-function-docstring), AddItemForm.clean_item] Missing function or method docstring
+forms.py:145: [E1101(no-member), AddItemForm.clean_item] Class 'Item' has no 'objects' member
+forms.py:152: [C0116(missing-function-docstring), AddItemForm.clean_used_quantity] Missing function or method docstring
+forms.py:163: [C0116(missing-function-docstring), AddItemForm.clean_new_quantity] Missing function or method docstring
+forms.py:175: [C0115(missing-class-docstring), CheckOutForm] Missing class docstring
+forms.py:181: [E1101(no-member), CheckOutForm] Class 'AgeRange' has no 'objects' member
+forms.py:195: [C0116(missing-function-docstring), CheckOutForm.clean_family] Missing function or method docstring
+forms.py:199: [E1101(no-member), CheckOutForm.clean_family] Class 'Family' has no 'objects' member
+forms.py:206: [C0115(missing-class-docstring), AdminItemOutdateForm] Missing class docstring
+forms.py:224: [C0103(invalid-name), AdminItemOutdateForm.clean_Old_item] Method name "clean_Old_item" doesn't conform to snake_case naming style
+forms.py:224: [C0116(missing-function-docstring), AdminItemOutdateForm.clean_Old_item] Missing function or method docstring
+forms.py:228: [E1101(no-member), AdminItemOutdateForm.clean_Old_item] Class 'Item' has no 'objects' member
+forms.py:230: [E1101(no-member), AdminItemOutdateForm.clean_Old_item] Class 'Item' has no 'objects' member
+forms.py:236: [C0103(invalid-name), AdminItemOutdateForm.clean_New_item] Method name "clean_New_item" doesn't conform to snake_case naming style
+forms.py:236: [C0116(missing-function-docstring), AdminItemOutdateForm.clean_New_item] Missing function or method docstring
+forms.py:240: [E1101(no-member), AdminItemOutdateForm.clean_New_item] Class 'Item' has no 'objects' member
+forms.py:242: [E1101(no-member), AdminItemOutdateForm.clean_New_item] Class 'Item' has no 'objects' member
+forms.py:248: [C0116(missing-function-docstring), AdminItemOutdateForm.run] Missing function or method docstring
+forms.py:252: [E1101(no-member), AdminItemOutdateForm.run] Class 'Item' has no 'objects' member
+forms.py:253: [E1101(no-member), AdminItemOutdateForm.run] Class 'Item' has no 'objects' member
+forms.py:258: [E1101(no-member), AdminItemOutdateForm.run] Class 'ItemTransaction' has no 'objects' member
+forms.py:6: [C0411(wrong-import-order), ] third party import "from django.contrib.auth import authenticate" should be placed before "from inventory.models import Item, Family, Category, AgeRange, ItemTransaction"
+forms.py:7: [C0411(wrong-import-order), ] third party import "from phonenumber_field.formfields import PhoneNumberField" should be placed before "from inventory.models import Item, Family, Category, AgeRange, ItemTransaction"
+forms.py:6: [C0412(ungrouped-imports), ] Imports from package django are not grouped
+************* Module inventory.gdrive
+gdrive.py:17: [C0301(line-too-long), ] Line too long (132/100)
+gdrive.py:29: [C0303(trailing-whitespace), ] Trailing whitespace
+gdrive.py:46: [C0303(trailing-whitespace), ] Trailing whitespace
+gdrive.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+gdrive.py:3: [E0401(import-error), ] Unable to import 'google_auth_oauthlib.flow'
+gdrive.py:4: [E0401(import-error), ] Unable to import 'googleapiclient.discovery'
+gdrive.py:5: [E0401(import-error), ] Unable to import 'googleapiclient.http'
+gdrive.py:14: [C0116(missing-function-docstring), get_auth_url] Missing function or method docstring
+gdrive.py:17: [W0612(unused-variable), get_auth_url] Unused variable 'state'
+gdrive.py:21: [C0116(missing-function-docstring), create_service] Missing function or method docstring
+gdrive.py:30: [C0103(invalid-name), upload_to_gdrive] Argument name "fileTitle" doesn't conform to snake_case naming style
+gdrive.py:30: [C0103(invalid-name), upload_to_gdrive] Argument name "driveObj" doesn't conform to snake_case naming style
+gdrive.py:30: [C0103(invalid-name), upload_to_gdrive] Argument name "csvObj" doesn't conform to snake_case naming style
+gdrive.py:30: [C0116(missing-function-docstring), upload_to_gdrive] Missing function or method docstring
+gdrive.py:31: [C0103(invalid-name), upload_to_gdrive] Variable name "fileMetaData" doesn't conform to snake_case naming style
+gdrive.py:36: [C0103(invalid-name), upload_to_gdrive] Variable name "csvString" doesn't conform to snake_case naming style
+gdrive.py:38: [C0103(invalid-name), upload_to_gdrive] Variable name "csvUpload" doesn't conform to snake_case naming style
+gdrive.py:42: [C0116(missing-function-docstring), set_gdrive_message] Missing function or method docstring
+************* Module inventory.management.commands.import
+management/commands/import.py:11: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/import.py:49: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/import.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+management/commands/import.py:4: [E0401(import-error), ] Unable to import 'openpyxl'
+management/commands/import.py:6: [C0115(missing-class-docstring), Command] Missing class docstring
+management/commands/import.py:17: [C0103(invalid-name), Command.handle] Variable name "INVENTORY_FILE_PATH" doesn't conform to snake_case naming style
+management/commands/import.py:18: [C0103(invalid-name), Command.handle] Variable name "ITEMS_FILE_PATH" doesn't conform to snake_case naming style
+management/commands/import.py:26: [C0103(invalid-name), Command.handle] Variable name "r" doesn't conform to snake_case naming style
+management/commands/import.py:30: [C0103(invalid-name), Command.handle] Variable name "qs" doesn't conform to snake_case naming style
+management/commands/import.py:30: [E1101(no-member), Command.handle] Class 'Category' has no 'objects' member
+management/commands/import.py:33: [E1101(no-member), Command.handle] Class 'Category' has no 'objects' member
+management/commands/import.py:36: [E1101(no-member), Command.handle] Class 'Item' has no 'objects' member
+management/commands/import.py:39: [C0103(invalid-name), Command.handle] Variable name "r" doesn't conform to snake_case naming style
+management/commands/import.py:43: [C0103(invalid-name), Command.handle] Variable name "qs" doesn't conform to snake_case naming style
+management/commands/import.py:43: [E1101(no-member), Command.handle] Class 'Item' has no 'objects' member
+management/commands/import.py:4: [C0411(wrong-import-order), ] third party import "import openpyxl" should be placed before "from inventory.models import Item, Category"
+************* Module inventory.management.commands.db_backup
+management/commands/db_backup.py:26: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/db_backup.py:35: [C0301(line-too-long), ] Line too long (103/100)
+management/commands/db_backup.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+management/commands/db_backup.py:15: [C0115(missing-class-docstring), Command] Missing class docstring
+management/commands/db_backup.py:22: [C0116(missing-function-docstring), Command.copy_db] Missing function or method docstring
+management/commands/db_backup.py:22: [R0201(no-self-use), Command.copy_db] Method could be a function
+management/commands/db_backup.py:28: [W0622(redefined-builtin), Command.zip_files] Redefining built-in 'zip'
+management/commands/db_backup.py:27: [C0116(missing-function-docstring), Command.zip_files] Missing function or method docstring
+management/commands/db_backup.py:27: [R0201(no-self-use), Command.zip_files] Method could be a function
+management/commands/db_backup.py:31: [C0116(missing-function-docstring), Command.send_email] Missing function or method docstring
+management/commands/db_backup.py:31: [R0201(no-self-use), Command.send_email] Method could be a function
+management/commands/db_backup.py:4: [C0411(wrong-import-order), ] standard import "import os" should be placed before "from django.core.management.base import BaseCommand"
+management/commands/db_backup.py:5: [C0411(wrong-import-order), ] standard import "from datetime import datetime" should be placed before "from django.core.management.base import BaseCommand"
+management/commands/db_backup.py:6: [C0411(wrong-import-order), ] standard import "from zipfile import ZipFile" should be placed before "from django.core.management.base import BaseCommand"
+management/commands/db_backup.py:7: [C0411(wrong-import-order), ] standard import "from email.mime.application import MIMEApplication" should be placed before "from django.core.management.base import BaseCommand"
+management/commands/db_backup.py:8: [C0411(wrong-import-order), ] standard import "import shutil" should be placed before "from django.core.management.base import BaseCommand"
+************* Module inventory.management.commands.csv
+management/commands/csv.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+management/commands/csv.py:4: [C0410(multiple-imports), ] Multiple imports on one line (csv, os)
+management/commands/csv.py:13: [C0115(missing-class-docstring), Command] Missing class docstring
+management/commands/csv.py:20: [C0116(missing-function-docstring), Command.write_model_to_csv] Missing function or method docstring
+management/commands/csv.py:21: [C0103(invalid-name), Command.write_model_to_csv] Variable name "qs" doesn't conform to snake_case naming style
+management/commands/csv.py:25: [W1514(unspecified-encoding), Command.write_model_to_csv] Using open without explicitly specifying an encoding
+management/commands/csv.py:26: [W0212(protected-access), Command.write_model_to_csv] Access to a protected member _meta of a client class
+management/commands/csv.py:30: [C0103(invalid-name), Command.write_model_to_csv] Variable name "f" doesn't conform to snake_case naming style
+management/commands/csv.py:36: [C0103(invalid-name), Command.write_model_to_csv] Variable name "f" doesn't conform to snake_case naming style
+management/commands/csv.py:25: [R1732(consider-using-with), Command.write_model_to_csv] Consider using 'with' for resource-allocating operations
+management/commands/csv.py:20: [R0201(no-self-use), Command.write_model_to_csv] Method could be a function
+management/commands/csv.py:48: [W0622(redefined-builtin), Command.zip_files] Redefining built-in 'zip'
+management/commands/csv.py:47: [C0116(missing-function-docstring), Command.zip_files] Missing function or method docstring
+management/commands/csv.py:47: [R0201(no-self-use), Command.zip_files] Method could be a function
+management/commands/csv.py:53: [C0116(missing-function-docstring), Command.send_email] Missing function or method docstring
+management/commands/csv.py:53: [R0201(no-self-use), Command.send_email] Method could be a function
+management/commands/csv.py:4: [C0411(wrong-import-order), ] standard import "import csv, os" should be placed before "from django.core.management.base import BaseCommand"
+management/commands/csv.py:4: [C0411(wrong-import-order), ] standard import "import csv, os" should be placed before "from django.core.management.base import BaseCommand"
+management/commands/csv.py:5: [C0411(wrong-import-order), ] standard import "from datetime import datetime" should be placed before "from django.core.management.base import BaseCommand"
+management/commands/csv.py:6: [C0411(wrong-import-order), ] standard import "from zipfile import ZipFile" should be placed before "from django.core.management.base import BaseCommand"
+management/commands/csv.py:7: [C0411(wrong-import-order), ] standard import "from email.mime.application import MIMEApplication" should be placed before "from django.core.management.base import BaseCommand"
+************* Module inventory.management.commands.trans
+management/commands/trans.py:78: [W0511(fixme), ] TODO: add default category Category.objects.get(name__exact="Clothing")
+management/commands/trans.py:10: [C0301(line-too-long), ] Line too long (186/100)
+management/commands/trans.py:15: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/trans.py:24: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/trans.py:32: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/trans.py:35: [C0301(line-too-long), ] Line too long (110/100)
+management/commands/trans.py:35: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+management/commands/trans.py:38: [W0311(bad-indentation), ] Bad indentation. Found 20 spaces, expected 16
+management/commands/trans.py:40: [W0311(bad-indentation), ] Bad indentation. Found 20 spaces, expected 16
+management/commands/trans.py:44: [C0301(line-too-long), ] Line too long (134/100)
+management/commands/trans.py:69: [C0325(superfluous-parens), ] Unnecessary parens after 'not' keyword
+management/commands/trans.py:80: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/trans.py:92: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/trans.py:104: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/trans.py:109: [C0304(missing-final-newline), ] Final newline missing
+management/commands/trans.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+management/commands/trans.py:6: [C0115(missing-class-docstring), Command] Missing class docstring
+management/commands/trans.py:14: [C0103(invalid-name), Command.itemMap] Method name "itemMap" doesn't conform to snake_case naming style
+management/commands/trans.py:14: [C0103(invalid-name), Command.itemMap] Argument name "itemName" doesn't conform to snake_case naming style
+management/commands/trans.py:14: [C0116(missing-function-docstring), Command.itemMap] Missing function or method docstring
+management/commands/trans.py:14: [E0213(no-self-argument), Command.itemMap] Method should have "self" as first argument
+management/commands/trans.py:17: [E1135(unsupported-membership-test), Command.itemMap] Value 'itemName' doesn't support membership test
+management/commands/trans.py:17: [E1135(unsupported-membership-test), Command.itemMap] Value 'itemName' doesn't support membership test
+management/commands/trans.py:18: [E1101(no-member), Command.itemMap] Instance of 'Command' has no 'startswith' member
+management/commands/trans.py:19: [E1136(unsubscriptable-object), Command.itemMap] Value 'itemName' is unsubscriptable
+management/commands/trans.py:21: [E1101(no-member), Command.itemMap] Instance of 'Command' has no 'startswith' member
+management/commands/trans.py:22: [E1136(unsubscriptable-object), Command.itemMap] Value 'itemName' is unsubscriptable
+management/commands/trans.py:24: [E1101(no-member), Command.itemMap] Instance of 'Command' has no 'endswith' member
+management/commands/trans.py:26: [E1101(no-member), Command.itemMap] Instance of 'Command' has no 'split' member
+management/commands/trans.py:27: [E1101(no-member), Command.itemMap] Instance of 'Command' has no 'endswith' member
+management/commands/trans.py:29: [E1101(no-member), Command.itemMap] Instance of 'Command' has no 'split' member
+management/commands/trans.py:14: [R0912(too-many-branches), Command.itemMap] Too many branches (16/12)
+management/commands/trans.py:58: [C0103(invalid-name), Command._add_outdated] Variable name "t" doesn't conform to snake_case naming style
+management/commands/trans.py:58: [E1101(no-member), Command._add_outdated] Class 'Item' has no 'objects' member
+management/commands/trans.py:57: [R0201(no-self-use), Command._add_outdated] Method could be a function
+management/commands/trans.py:65: [C0103(invalid-name), Command._add_newitems] Variable name "t" doesn't conform to snake_case naming style
+management/commands/trans.py:65: [E1101(no-member), Command._add_newitems] Class 'Item' has no 'objects' member
+management/commands/trans.py:75: [R1714(consider-using-in), Command._add_newitems] Consider merging these comparisons with "in" to "size in ('baby', 'toddler')"
+management/commands/trans.py:77: [E1101(no-member), Command._add_newitems] Class 'Item' has no 'objects' member
+management/commands/trans.py:68: [W0612(unused-variable), Command._add_newitems] Unused variable 'size_mapped'
+management/commands/trans.py:64: [R0201(no-self-use), Command._add_newitems] Method could be a function
+management/commands/trans.py:82: [C0103(invalid-name), Command._update_newitems] Variable name "t" doesn't conform to snake_case naming style
+management/commands/trans.py:82: [E1101(no-member), Command._update_newitems] Class 'Item' has no 'objects' member
+management/commands/trans.py:87: [E1101(no-member), Command._update_newitems] Class 'Item' has no 'objects' member
+management/commands/trans.py:90: [C0103(invalid-name), Command._update_newitems] Variable name "newQuantity" doesn't conform to snake_case naming style
+management/commands/trans.py:81: [R0201(no-self-use), Command._update_newitems] Method could be a function
+management/commands/trans.py:95: [E1101(no-member), Command._update_item_transaction] Class 'ItemTransaction' has no 'objects' member
+management/commands/trans.py:96: [C0103(invalid-name), Command._update_item_transaction] Variable name "itemOld" doesn't conform to snake_case naming style
+management/commands/trans.py:96: [E1101(no-member), Command._update_item_transaction] Class 'Item' has no 'objects' member
+management/commands/trans.py:99: [E1101(no-member), Command._update_item_transaction] Class 'Item' has no 'objects' member
+management/commands/trans.py:94: [R0201(no-self-use), Command._update_item_transaction] Method could be a function
+************* Module inventory.management.commands.quantity
+management/commands/quantity.py:17: [C0305(trailing-newlines), ] Trailing newlines
+management/commands/quantity.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+management/commands/quantity.py:4: [C0115(missing-class-docstring), Command] Missing class docstring
+management/commands/quantity.py:9: [E1101(no-member), Command._sanitize] Class 'Item' has no 'objects' member
+management/commands/quantity.py:8: [R0201(no-self-use), Command._sanitize] Method could be a function
+************* Module inventory.management.commands.populate
+management/commands/populate.py:2: [C0301(line-too-long), ] Line too long (103/100)
+management/commands/populate.py:10: [C0301(line-too-long), ] Line too long (137/100)
+management/commands/populate.py:14: [C0301(line-too-long), ] Line too long (168/100)
+management/commands/populate.py:15: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/populate.py:17: [C0301(line-too-long), ] Line too long (166/100)
+management/commands/populate.py:18: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/populate.py:21: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/populate.py:24: [C0301(line-too-long), ] Line too long (151/100)
+management/commands/populate.py:25: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/populate.py:39: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/populate.py:54: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/populate.py:67: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/populate.py:81: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/populate.py:90: [C0301(line-too-long), ] Line too long (122/100)
+management/commands/populate.py:92: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/populate.py:94: [C0301(line-too-long), ] Line too long (101/100)
+management/commands/populate.py:96: [C0301(line-too-long), ] Line too long (101/100)
+management/commands/populate.py:98: [C0301(line-too-long), ] Line too long (119/100)
+management/commands/populate.py:114: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/populate.py:132: [C0301(line-too-long), ] Line too long (113/100)
+management/commands/populate.py:137: [C0301(line-too-long), ] Line too long (165/100)
+management/commands/populate.py:143: [C0301(line-too-long), ] Line too long (131/100)
+management/commands/populate.py:147: [C0301(line-too-long), ] Line too long (129/100)
+management/commands/populate.py:150: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/populate.py:151: [C0301(line-too-long), ] Line too long (122/100)
+management/commands/populate.py:155: [C0301(line-too-long), ] Line too long (157/100)
+management/commands/populate.py:159: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/populate.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+management/commands/populate.py:8: [C0115(missing-class-docstring), Command] Missing class docstring
+management/commands/populate.py:16: [R0201(no-self-use), Command._create_users] Method could be a function
+management/commands/populate.py:32: [E1101(no-member), Command._create_sample_family] Class 'Family' has no 'objects' member
+management/commands/populate.py:34: [E1101(no-member), Command._create_sample_family] Class 'Family' has no 'objects' member
+management/commands/populate.py:36: [E1101(no-member), Command._create_sample_family] Class 'Family' has no 'objects' member
+management/commands/populate.py:31: [R0201(no-self-use), Command._create_sample_family] Method could be a function
+management/commands/populate.py:41: [E1101(no-member), Command._create_sample_agerange] Class 'AgeRange' has no 'objects' member
+management/commands/populate.py:42: [E1101(no-member), Command._create_sample_agerange] Class 'AgeRange' has no 'objects' member
+management/commands/populate.py:43: [E1101(no-member), Command._create_sample_agerange] Class 'AgeRange' has no 'objects' member
+management/commands/populate.py:44: [E1101(no-member), Command._create_sample_agerange] Class 'AgeRange' has no 'objects' member
+management/commands/populate.py:45: [E1101(no-member), Command._create_sample_agerange] Class 'AgeRange' has no 'objects' member
+management/commands/populate.py:46: [E1101(no-member), Command._create_sample_agerange] Class 'AgeRange' has no 'objects' member
+management/commands/populate.py:40: [R0201(no-self-use), Command._create_sample_agerange] Method could be a function
+management/commands/populate.py:55: [R0914(too-many-locals), Command._create_sample_objects] Too many local variables (28/15)
+management/commands/populate.py:60: [E1101(no-member), Command._create_sample_objects] Class 'Family' has no 'objects' member
+management/commands/populate.py:62: [E1101(no-member), Command._create_sample_objects] Class 'Family' has no 'objects' member
+management/commands/populate.py:64: [E1101(no-member), Command._create_sample_objects] Class 'Family' has no 'objects' member
+management/commands/populate.py:68: [E1101(no-member), Command._create_sample_objects] Class 'AgeRange' has no 'objects' member
+management/commands/populate.py:69: [E1101(no-member), Command._create_sample_objects] Class 'AgeRange' has no 'objects' member
+management/commands/populate.py:70: [E1101(no-member), Command._create_sample_objects] Class 'AgeRange' has no 'objects' member
+management/commands/populate.py:71: [E1101(no-member), Command._create_sample_objects] Class 'AgeRange' has no 'objects' member
+management/commands/populate.py:72: [E1101(no-member), Command._create_sample_objects] Class 'AgeRange' has no 'objects' member
+management/commands/populate.py:73: [E1101(no-member), Command._create_sample_objects] Class 'AgeRange' has no 'objects' member
+management/commands/populate.py:82: [E1101(no-member), Command._create_sample_objects] Class 'Category' has no 'objects' member
+management/commands/populate.py:84: [E1101(no-member), Command._create_sample_objects] Class 'Category' has no 'objects' member
+management/commands/populate.py:86: [E1101(no-member), Command._create_sample_objects] Class 'Category' has no 'objects' member
+management/commands/populate.py:90: [E1101(no-member), Command._create_sample_objects] Class 'Item' has no 'objects' member
+management/commands/populate.py:92: [E1101(no-member), Command._create_sample_objects] Class 'Item' has no 'objects' member
+management/commands/populate.py:94: [E1101(no-member), Command._create_sample_objects] Class 'Item' has no 'objects' member
+management/commands/populate.py:96: [E1101(no-member), Command._create_sample_objects] Class 'Item' has no 'objects' member
+management/commands/populate.py:98: [E1101(no-member), Command._create_sample_objects] Class 'Item' has no 'objects' member
+management/commands/populate.py:102: [E1101(no-member), Command._create_sample_objects] Class 'ItemTransaction' has no 'objects' member
+management/commands/populate.py:104: [E1101(no-member), Command._create_sample_objects] Class 'ItemTransaction' has no 'objects' member
+management/commands/populate.py:106: [E1101(no-member), Command._create_sample_objects] Class 'ItemTransaction' has no 'objects' member
+management/commands/populate.py:108: [E1101(no-member), Command._create_sample_objects] Class 'ItemTransaction' has no 'objects' member
+management/commands/populate.py:110: [E1101(no-member), Command._create_sample_objects] Class 'ItemTransaction' has no 'objects' member
+management/commands/populate.py:112: [E1101(no-member), Command._create_sample_objects] Class 'ItemTransaction' has no 'objects' member
+management/commands/populate.py:117: [C0103(invalid-name), Command._create_sample_objects] Variable name "staffUsr" doesn't conform to snake_case naming style
+management/commands/populate.py:119: [E1101(no-member), Command._create_sample_objects] Class 'Checkin' has no 'objects' member
+management/commands/populate.py:123: [E1101(no-member), Command._create_sample_objects] Class 'Checkin' has no 'objects' member
+management/commands/populate.py:127: [E1101(no-member), Command._create_sample_objects] Class 'Checkin' has no 'objects' member
+management/commands/populate.py:132: [E1101(no-member), Command._create_sample_objects] Class 'Checkout' has no 'objects' member
+management/commands/populate.py:137: [E1101(no-member), Command._create_sample_objects] Class 'Checkout' has no 'objects' member
+management/commands/populate.py:143: [E1101(no-member), Command._create_sample_objects] Class 'Checkout' has no 'objects' member
+management/commands/populate.py:147: [E1101(no-member), Command._create_sample_objects] Class 'Checkout' has no 'objects' member
+management/commands/populate.py:151: [E1101(no-member), Command._create_sample_objects] Class 'Checkout' has no 'objects' member
+management/commands/populate.py:155: [E1101(no-member), Command._create_sample_objects] Class 'Checkout' has no 'objects' member
+management/commands/populate.py:55: [R0201(no-self-use), Command._create_sample_objects] Method could be a function
+management/commands/populate.py:55: [R0915(too-many-statements), Command._create_sample_objects] Too many statements (88/50)
+management/commands/populate.py:161: [C0103(invalid-name), Command.handle] Variable name "c" doesn't conform to snake_case naming style
+management/commands/populate.py:162: [C0121(singleton-comparison), Command.handle] Comparison 'c != None' should be 'c is not None'
+management/commands/populate.py:3: [C0411(wrong-import-order), ] standard import "from datetime import date, timedelta" should be placed before "from django.core.management.base import BaseCommand"
+management/commands/populate.py:4: [C0411(wrong-import-order), ] standard import "import os" should be placed before "from django.core.management.base import BaseCommand"
+************* Module inventory.management.commands.restore
+management/commands/restore.py:10: [C0301(line-too-long), ] Line too long (126/100)
+management/commands/restore.py:14: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/restore.py:18: [C0301(line-too-long), ] Line too long (177/100)
+management/commands/restore.py:19: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/restore.py:23: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/restore.py:35: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/restore.py:45: [C0301(line-too-long), ] Line too long (116/100)
+management/commands/restore.py:63: [C0301(line-too-long), ] Line too long (168/100)
+management/commands/restore.py:65: [C0301(line-too-long), ] Line too long (120/100)
+management/commands/restore.py:66: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/restore.py:67: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/restore.py:69: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/restore.py:73: [C0301(line-too-long), ] Line too long (105/100)
+management/commands/restore.py:83: [C0301(line-too-long), ] Line too long (108/100)
+management/commands/restore.py:85: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/restore.py:102: [C0301(line-too-long), ] Line too long (122/100)
+management/commands/restore.py:104: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/restore.py:114: [C0301(line-too-long), ] Line too long (159/100)
+management/commands/restore.py:116: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/restore.py:130: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/restore.py:142: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/restore.py:153: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/restore.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+management/commands/restore.py:4: [C0410(multiple-imports), ] Multiple imports on one line (csv, os)
+management/commands/restore.py:8: [C0115(missing-class-docstring), Command] Missing class docstring
+management/commands/restore.py:15: [R0201(no-self-use), Command._restore_users] Method could be a function
+management/commands/restore.py:24: [C0103(invalid-name), Command._restore_Category] Method name "_restore_Category" doesn't conform to snake_case naming style
+management/commands/restore.py:25: [E1101(no-member), Command._restore_Category] Class 'Category' has no 'objects' member
+management/commands/restore.py:27: [C0103(invalid-name), Command._restore_Category] Variable name "dataReader" doesn't conform to snake_case naming style
+management/commands/restore.py:27: [R1732(consider-using-with), Command._restore_Category] Consider using 'with' for resource-allocating operations
+management/commands/restore.py:27: [W1514(unspecified-encoding), Command._restore_Category] Using open without explicitly specifying an encoding
+management/commands/restore.py:33: [E1101(no-member), Command._restore_Category] Class 'Category' has no 'objects' member
+management/commands/restore.py:34: [C0209(consider-using-f-string), Command._restore_Category] Formatting a regular string which could be a f-string
+management/commands/restore.py:24: [R0201(no-self-use), Command._restore_Category] Method could be a function
+management/commands/restore.py:36: [C0103(invalid-name), Command._restore_Family] Method name "_restore_Family" doesn't conform to snake_case naming style
+management/commands/restore.py:37: [E1101(no-member), Command._restore_Family] Class 'Family' has no 'objects' member
+management/commands/restore.py:39: [C0103(invalid-name), Command._restore_Family] Variable name "dataReader" doesn't conform to snake_case naming style
+management/commands/restore.py:39: [R1732(consider-using-with), Command._restore_Family] Consider using 'with' for resource-allocating operations
+management/commands/restore.py:39: [W1514(unspecified-encoding), Command._restore_Family] Using open without explicitly specifying an encoding
+management/commands/restore.py:45: [E1101(no-member), Command._restore_Family] Class 'Family' has no 'objects' member
+management/commands/restore.py:46: [C0209(consider-using-f-string), Command._restore_Family] Formatting a regular string which could be a f-string
+management/commands/restore.py:36: [R0201(no-self-use), Command._restore_Family] Method could be a function
+management/commands/restore.py:48: [C0103(invalid-name), Command._restore_Item] Method name "_restore_Item" doesn't conform to snake_case naming style
+management/commands/restore.py:49: [E1101(no-member), Command._restore_Item] Class 'Item' has no 'objects' member
+management/commands/restore.py:51: [C0103(invalid-name), Command._restore_Item] Variable name "dataReader" doesn't conform to snake_case naming style
+management/commands/restore.py:51: [R1732(consider-using-with), Command._restore_Item] Consider using 'with' for resource-allocating operations
+management/commands/restore.py:51: [W1514(unspecified-encoding), Command._restore_Item] Using open without explicitly specifying an encoding
+management/commands/restore.py:57: [C0103(invalid-name), Command._restore_Item] Variable name "r3" doesn't conform to snake_case naming style
+management/commands/restore.py:57: [C0103(invalid-name), Command._restore_Item] Variable name "r4" doesn't conform to snake_case naming style
+management/commands/restore.py:59: [C0103(invalid-name), Command._restore_Item] Variable name "r3" doesn't conform to snake_case naming style
+management/commands/restore.py:61: [C0103(invalid-name), Command._restore_Item] Variable name "r4" doesn't conform to snake_case naming style
+management/commands/restore.py:62: [E1101(no-member), Command._restore_Item] Class 'Category' has no 'objects' member
+management/commands/restore.py:63: [E1101(no-member), Command._restore_Item] Class 'Item' has no 'objects' member
+management/commands/restore.py:63: [E1101(no-member), Command._restore_Item] Class 'Category' has no 'objects' member
+management/commands/restore.py:65: [E1101(no-member), Command._restore_Item] Class 'Item' has no 'objects' member
+management/commands/restore.py:68: [C0209(consider-using-f-string), Command._restore_Item] Formatting a regular string which could be a f-string
+management/commands/restore.py:48: [R0201(no-self-use), Command._restore_Item] Method could be a function
+management/commands/restore.py:70: [C0103(invalid-name), Command._restore_ItemTransaction] Method name "_restore_ItemTransaction" doesn't conform to snake_case naming style
+management/commands/restore.py:71: [E1101(no-member), Command._restore_ItemTransaction] Class 'ItemTransaction' has no 'objects' member
+management/commands/restore.py:73: [C0103(invalid-name), Command._restore_ItemTransaction] Variable name "dataReader" doesn't conform to snake_case naming style
+management/commands/restore.py:73: [R1732(consider-using-with), Command._restore_ItemTransaction] Consider using 'with' for resource-allocating operations
+management/commands/restore.py:73: [W1514(unspecified-encoding), Command._restore_ItemTransaction] Using open without explicitly specifying an encoding
+management/commands/restore.py:79: [E1101(no-member), Command._restore_ItemTransaction] Class 'Item' has no 'objects' member
+management/commands/restore.py:82: [E1101(no-member), Command._restore_ItemTransaction] Class 'Item' has no 'objects' member
+management/commands/restore.py:83: [E1101(no-member), Command._restore_ItemTransaction] Class 'ItemTransaction' has no 'objects' member
+management/commands/restore.py:84: [C0209(consider-using-f-string), Command._restore_ItemTransaction] Formatting a regular string which could be a f-string
+management/commands/restore.py:70: [R0201(no-self-use), Command._restore_ItemTransaction] Method could be a function
+management/commands/restore.py:86: [C0103(invalid-name), Command._restore_Checkin] Method name "_restore_Checkin" doesn't conform to snake_case naming style
+management/commands/restore.py:87: [E1101(no-member), Command._restore_Checkin] Class 'Checkin' has no 'objects' member
+management/commands/restore.py:89: [C0103(invalid-name), Command._restore_Checkin] Variable name "dataReader" doesn't conform to snake_case naming style
+management/commands/restore.py:89: [R1732(consider-using-with), Command._restore_Checkin] Consider using 'with' for resource-allocating operations
+management/commands/restore.py:89: [W1514(unspecified-encoding), Command._restore_Checkin] Using open without explicitly specifying an encoding
+management/commands/restore.py:99: [C0103(invalid-name), Command._restore_Checkin] Variable name "r4" doesn't conform to snake_case naming style
+management/commands/restore.py:101: [C0103(invalid-name), Command._restore_Checkin] Variable name "r4" doesn't conform to snake_case naming style
+management/commands/restore.py:102: [E1101(no-member), Command._restore_Checkin] Class 'Checkin' has no 'objects' member
+management/commands/restore.py:103: [C0209(consider-using-f-string), Command._restore_Checkin] Formatting a regular string which could be a f-string
+management/commands/restore.py:86: [R0201(no-self-use), Command._restore_Checkin] Method could be a function
+management/commands/restore.py:105: [C0103(invalid-name), Command._restore_Checkout] Method name "_restore_Checkout" doesn't conform to snake_case naming style
+management/commands/restore.py:106: [E1101(no-member), Command._restore_Checkout] Class 'Checkout' has no 'objects' member
+management/commands/restore.py:108: [C0103(invalid-name), Command._restore_Checkout] Variable name "dataReader" doesn't conform to snake_case naming style
+management/commands/restore.py:108: [R1732(consider-using-with), Command._restore_Checkout] Consider using 'with' for resource-allocating operations
+management/commands/restore.py:108: [W1514(unspecified-encoding), Command._restore_Checkout] Using open without explicitly specifying an encoding
+management/commands/restore.py:114: [E1101(no-member), Command._restore_Checkout] Class 'Checkout' has no 'objects' member
+management/commands/restore.py:115: [C0209(consider-using-f-string), Command._restore_Checkout] Formatting a regular string which could be a f-string
+management/commands/restore.py:105: [R0201(no-self-use), Command._restore_Checkout] Method could be a function
+management/commands/restore.py:123: [C0103(invalid-name), Command._overwrite] Variable name "e" doesn't conform to snake_case naming style
+management/commands/restore.py:128: [C0103(invalid-name), Command._overwrite] Variable name "e" doesn't conform to snake_case naming style
+management/commands/restore.py:138: [C0103(invalid-name), Command._overwrite] Variable name "r" doesn't conform to snake_case naming style
+management/commands/restore.py:117: [R0201(no-self-use), Command._overwrite] Method could be a function
+management/commands/restore.py:3: [C0411(wrong-import-order), ] third party import "from django.utils.dateparse import parse_datetime" should be placed before "from inventory.models import User, Family, Checkin, Checkout, Category, Item, ItemTransaction"
+management/commands/restore.py:4: [C0411(wrong-import-order), ] standard import "import csv, os" should be placed before "from django.core.management.base import BaseCommand"
+management/commands/restore.py:4: [C0411(wrong-import-order), ] standard import "import csv, os" should be placed before "from django.core.management.base import BaseCommand"
+management/commands/restore.py:5: [C0411(wrong-import-order), ] standard import "import sqlite3" should be placed before "from django.core.management.base import BaseCommand"
+management/commands/restore.py:3: [C0412(ungrouped-imports), ] Imports from package django are not grouped
+************* Module inventory.management.commands.drop
+management/commands/drop.py:2: [C0301(line-too-long), ] Line too long (103/100)
+management/commands/drop.py:11: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/drop.py:16: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/drop.py:21: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/drop.py:26: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/drop.py:31: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/drop.py:36: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/drop.py:41: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/drop.py:46: [C0303(trailing-whitespace), ] Trailing whitespace
+management/commands/drop.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+management/commands/drop.py:6: [C0115(missing-class-docstring), Command] Missing class docstring
+management/commands/drop.py:10: [R0201(no-self-use), Command._destroy_users] Method could be a function
+management/commands/drop.py:16: [E1101(no-member), Command._destroy_families] Class 'Family' has no 'objects' member
+management/commands/drop.py:15: [R0201(no-self-use), Command._destroy_families] Method could be a function
+management/commands/drop.py:21: [E1101(no-member), Command._destroy_age_ranges] Class 'AgeRange' has no 'objects' member
+management/commands/drop.py:20: [R0201(no-self-use), Command._destroy_age_ranges] Method could be a function
+management/commands/drop.py:26: [E1101(no-member), Command._destroy_categories] Class 'Category' has no 'objects' member
+management/commands/drop.py:25: [R0201(no-self-use), Command._destroy_categories] Method could be a function
+management/commands/drop.py:31: [E1101(no-member), Command._destroy_items] Class 'Item' has no 'objects' member
+management/commands/drop.py:30: [R0201(no-self-use), Command._destroy_items] Method could be a function
+management/commands/drop.py:36: [E1101(no-member), Command._destroy_item_transactions] Class 'ItemTransaction' has no 'objects' member
+management/commands/drop.py:35: [R0201(no-self-use), Command._destroy_item_transactions] Method could be a function
+management/commands/drop.py:41: [E1101(no-member), Command._destroy_checkins] Class 'Checkin' has no 'objects' member
+management/commands/drop.py:40: [R0201(no-self-use), Command._destroy_checkins] Method could be a function
+management/commands/drop.py:46: [E1101(no-member), Command._destroy_checkouts] Class 'Checkout' has no 'objects' member
+management/commands/drop.py:45: [R0201(no-self-use), Command._destroy_checkouts] Method could be a function
+************* Module inventory.models
+models.py:7: [C0303(trailing-whitespace), ] Trailing whitespace
+models.py:10: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:11: [C0301(line-too-long), ] Line too long (124/100)
+models.py:11: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:12: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:13: [C0301(line-too-long), ] Line too long (109/100)
+models.py:13: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:14: [C0303(trailing-whitespace), ] Trailing whitespace
+models.py:15: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:16: [C0303(trailing-whitespace), ] Trailing whitespace
+models.py:16: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:17: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 12
+models.py:18: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:19: [C0303(trailing-whitespace), ] Trailing whitespace
+models.py:20: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:21: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:23: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:24: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:25: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 12
+models.py:26: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:27: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 12
+models.py:28: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:31: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:34: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:35: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:36: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:37: [C0303(trailing-whitespace), ] Trailing whitespace
+models.py:38: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:39: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:40: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:41: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:44: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:45: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:46: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:47: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:48: [C0303(trailing-whitespace), ] Trailing whitespace
+models.py:51: [C0301(line-too-long), ] Line too long (144/100)
+models.py:51: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:52: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:53: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:54: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:55: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:56: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:57: [C0303(trailing-whitespace), ] Trailing whitespace
+models.py:58: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:59: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:62: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:63: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:64: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:66: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:67: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:68: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:69: [C0303(trailing-whitespace), ] Trailing whitespace
+models.py:70: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:71: [C0301(line-too-long), ] Line too long (113/100)
+models.py:71: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:74: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:75: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:76: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:77: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:79: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:80: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:81: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:82: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 12
+models.py:83: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 16
+models.py:84: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 12
+models.py:85: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 16
+models.py:86: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:88: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:89: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:91: [C0303(trailing-whitespace), ] Trailing whitespace
+models.py:91: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:92: [C0301(line-too-long), ] Line too long (121/100)
+models.py:92: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:94: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:95: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:96: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:97: [C0303(trailing-whitespace), ] Trailing whitespace
+models.py:98: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:99: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:100: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 12
+models.py:101: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:102: [C0303(trailing-whitespace), ] Trailing whitespace
+models.py:103: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:104: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:107: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:108: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:109: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:110: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:111: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:112: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:113: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:115: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:116: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:117: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:118: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 12
+models.py:119: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 16
+models.py:120: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 12
+models.py:121: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 16
+models.py:122: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:124: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:125: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:126: [C0303(trailing-whitespace), ] Trailing whitespace
+models.py:127: [C0303(trailing-whitespace), ] Trailing whitespace
+models.py:127: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:128: [C0301(line-too-long), ] Line too long (123/100)
+models.py:128: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:130: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:131: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:132: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:134: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:135: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:136: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 12
+models.py:137: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:138: [C0303(trailing-whitespace), ] Trailing whitespace
+models.py:139: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+models.py:140: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+models.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+models.py:3: [E0401(import-error), ] Unable to import 'phonenumber_field.modelfields'
+models.py:25: [C0103(invalid-name), Family.save] Attribute name "displayName" doesn't conform to snake_case naming style
+models.py:9: [C0115(missing-class-docstring), Family] Missing class docstring
+models.py:17: [C0209(consider-using-f-string), Family.__str__] Formatting a regular string which could be a f-string
+models.py:18: [C0209(consider-using-f-string), Family.__str__] Formatting a regular string which could be a f-string
+models.py:20: [C0115(missing-class-docstring), Family.Meta] Missing class docstring
+models.py:20: [R0903(too-few-public-methods), Family.Meta] Too few public methods (0/2)
+models.py:28: [R1725(super-with-arguments), Family.save] Consider using Python 3 style super() without arguments
+models.py:30: [C0115(missing-class-docstring), Category] Missing class docstring
+models.py:35: [C0116(missing-function-docstring), Category.quantity] Missing function or method docstring
+models.py:36: [E1101(no-member), Category.quantity] Class 'Item' has no 'objects' member
+models.py:39: [C0209(consider-using-f-string), Category.__str__] Formatting a regular string which could be a f-string
+models.py:40: [C0115(missing-class-docstring), Category.Meta] Missing class docstring
+models.py:40: [R0903(too-few-public-methods), Category.Meta] Too few public methods (0/2)
+models.py:43: [C0115(missing-class-docstring), AgeRange] Missing class docstring
+models.py:47: [C0209(consider-using-f-string), AgeRange.__str__] Formatting a regular string which could be a f-string
+models.py:50: [C0115(missing-class-docstring), Item] Missing class docstring
+models.py:59: [C0209(consider-using-f-string), Item.__str__] Formatting a regular string which could be a f-string
+models.py:61: [C0115(missing-class-docstring), ItemTransaction] Missing class docstring
+models.py:68: [C0209(consider-using-f-string), ItemTransaction.__str__] Formatting a regular string which could be a f-string
+models.py:70: [C0116(missing-function-docstring), ItemTransaction.has_price] Missing function or method docstring
+models.py:71: [C0121(singleton-comparison), ItemTransaction.has_price] Comparison 'self.item.new_price != None' should be 'self.item.new_price is not None'
+models.py:71: [E1101(no-member), ItemTransaction.has_price] Instance of 'ForeignKey' has no 'new_price' member
+models.py:71: [C0121(singleton-comparison), ItemTransaction.has_price] Comparison 'self.item.used_price != None' should be 'self.item.used_price is not None'
+models.py:71: [E1101(no-member), ItemTransaction.has_price] Instance of 'ForeignKey' has no 'used_price' member
+models.py:73: [C0115(missing-class-docstring), Checkin] Missing class docstring
+models.py:79: [C0103(invalid-name), Checkin.getValue] Method name "getValue" doesn't conform to snake_case naming style
+models.py:79: [C0116(missing-function-docstring), Checkin.getValue] Missing function or method docstring
+models.py:81: [C0103(invalid-name), Checkin.getValue] Variable name "tx" doesn't conform to snake_case naming style
+models.py:81: [E1101(no-member), Checkin.getValue] Instance of 'ManyToManyField' has no 'all' member
+models.py:89: [C0209(consider-using-f-string), Checkin.__str__] Formatting a regular string which could be a f-string
+models.py:91: [C0116(missing-function-docstring), Checkin.notes_description] Missing function or method docstring
+models.py:92: [E1101(no-member), Checkin.notes_description] Instance of 'Checkin' has no 'id' member
+models.py:95: [C0116(missing-function-docstring), Checkin.in_items] Missing function or method docstring
+models.py:96: [E1101(no-member), Checkin.in_items] Instance of 'ManyToManyField' has no 'all' member
+models.py:98: [C0116(missing-function-docstring), Checkin.has_all_prices] Missing function or method docstring
+models.py:99: [C0103(invalid-name), Checkin.has_all_prices] Variable name "tx" doesn't conform to snake_case naming style
+models.py:99: [E1101(no-member), Checkin.has_all_prices] Instance of 'ManyToManyField' has no 'all' member
+models.py:100: [C0321(multiple-statements), Checkin.has_all_prices] More than one statement on a single line
+models.py:103: [C0115(missing-class-docstring), Checkin.Meta] Missing class docstring
+models.py:103: [R0903(too-few-public-methods), Checkin.Meta] Too few public methods (0/2)
+models.py:106: [C0115(missing-class-docstring), Checkout] Missing class docstring
+models.py:115: [C0103(invalid-name), Checkout.getValue] Method name "getValue" doesn't conform to snake_case naming style
+models.py:115: [C0116(missing-function-docstring), Checkout.getValue] Missing function or method docstring
+models.py:117: [C0103(invalid-name), Checkout.getValue] Variable name "tx" doesn't conform to snake_case naming style
+models.py:117: [E1101(no-member), Checkout.getValue] Instance of 'ManyToManyField' has no 'all' member
+models.py:125: [C0209(consider-using-f-string), Checkout.__str__] Formatting a regular string which could be a f-string
+models.py:127: [C0116(missing-function-docstring), Checkout.notes_description] Missing function or method docstring
+models.py:128: [E1101(no-member), Checkout.notes_description] Instance of 'Checkout' has no 'id' member
+models.py:131: [C0116(missing-function-docstring), Checkout.out_items] Missing function or method docstring
+models.py:132: [E1101(no-member), Checkout.out_items] Instance of 'ManyToManyField' has no 'all' member
+models.py:134: [C0116(missing-function-docstring), Checkout.has_all_prices] Missing function or method docstring
+models.py:135: [C0103(invalid-name), Checkout.has_all_prices] Variable name "tx" doesn't conform to snake_case naming style
+models.py:135: [E1101(no-member), Checkout.has_all_prices] Instance of 'ManyToManyField' has no 'all' member
+models.py:136: [C0321(multiple-statements), Checkout.has_all_prices] More than one statement on a single line
+models.py:139: [C0115(missing-class-docstring), Checkout.Meta] Missing class docstring
+models.py:139: [R0903(too-few-public-methods), Checkout.Meta] Too few public methods (0/2)
+models.py:5: [C0412(ungrouped-imports), ] Imports from package django are not grouped
+************* Module inventory.tables
+tables.py:10: [W0311(bad-indentation), ] Bad indentation. Found 5 spaces, expected 4
+tables.py:30: [C0303(trailing-whitespace), ] Trailing whitespace
+tables.py:37: [C0303(trailing-whitespace), ] Trailing whitespace
+tables.py:50: [C0301(line-too-long), ] Line too long (113/100)
+tables.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+tables.py:1: [E0401(import-error), ] Unable to import 'django_tables2'
+tables.py:8: [C0115(missing-class-docstring), NameTable] Missing class docstring
+tables.py:10: [C0116(missing-function-docstring), NameTable.order_name] Missing function or method docstring
+tables.py:10: [R0201(no-self-use), NameTable.order_name] Method could be a function
+tables.py:8: [R0903(too-few-public-methods), NameTable] Too few public methods (1/2)
+tables.py:16: [C0115(missing-class-docstring), FamilyTable] Missing class docstring
+tables.py:17: [C0115(missing-class-docstring), FamilyTable.Meta] Missing class docstring
+tables.py:17: [R0903(too-few-public-methods), FamilyTable.Meta] Too few public methods (0/2)
+tables.py:16: [R0903(too-few-public-methods), FamilyTable] Too few public methods (0/2)
+tables.py:23: [C0115(missing-class-docstring), CategoryTable] Missing class docstring
+tables.py:24: [C0115(missing-class-docstring), CategoryTable.Meta] Missing class docstring
+tables.py:24: [R0903(too-few-public-methods), CategoryTable.Meta] Too few public methods (0/2)
+tables.py:23: [R0903(too-few-public-methods), CategoryTable] Too few public methods (1/2)
+tables.py:30: [C0115(missing-class-docstring), ItemTable] Missing class docstring
+tables.py:31: [C0115(missing-class-docstring), ItemTable.Meta] Missing class docstring
+tables.py:31: [R0903(too-few-public-methods), ItemTable.Meta] Too few public methods (0/2)
+tables.py:30: [R0903(too-few-public-methods), ItemTable] Too few public methods (1/2)
+tables.py:37: [C0115(missing-class-docstring), CheckinTable] Missing class docstring
+tables.py:39: [C0115(missing-class-docstring), CheckinTable.Meta] Missing class docstring
+tables.py:39: [R0903(too-few-public-methods), CheckinTable.Meta] Too few public methods (0/2)
+tables.py:37: [R0903(too-few-public-methods), CheckinTable] Too few public methods (0/2)
+tables.py:45: [C0115(missing-class-docstring), CheckoutTable] Missing class docstring
+tables.py:47: [C0115(missing-class-docstring), CheckoutTable.Meta] Missing class docstring
+tables.py:47: [R0903(too-few-public-methods), CheckoutTable.Meta] Too few public methods (0/2)
+tables.py:45: [R0903(too-few-public-methods), CheckoutTable] Too few public methods (0/2)
+tables.py:4: [C0411(wrong-import-order), ] third party import "from django.db.models import F" should be placed before "from .models import Family, Category, Item, Checkin, Checkout"
+tables.py:5: [C0411(wrong-import-order), ] third party import "from django.db.models import Func" should be placed before "from .models import Family, Category, Item, Checkin, Checkout"
+************* Module inventory.test.test_generatereportdrive
+test/test_generatereportdrive.py:24: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:31: [C0301(line-too-long), ] Line too long (131/100)
+test/test_generatereportdrive.py:51: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:52: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:53: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:53: [C0301(line-too-long), ] Line too long (104/100)
+test/test_generatereportdrive.py:63: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:67: [C0301(line-too-long), ] Line too long (142/100)
+test/test_generatereportdrive.py:75: [C0301(line-too-long), ] Line too long (103/100)
+test/test_generatereportdrive.py:82: [C0301(line-too-long), ] Line too long (109/100)
+test/test_generatereportdrive.py:91: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:97: [C0301(line-too-long), ] Line too long (132/100)
+test/test_generatereportdrive.py:100: [C0301(line-too-long), ] Line too long (155/100)
+test/test_generatereportdrive.py:117: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:118: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:119: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:119: [C0301(line-too-long), ] Line too long (104/100)
+test/test_generatereportdrive.py:133: [C0301(line-too-long), ] Line too long (142/100)
+test/test_generatereportdrive.py:141: [C0301(line-too-long), ] Line too long (103/100)
+test/test_generatereportdrive.py:148: [C0301(line-too-long), ] Line too long (109/100)
+test/test_generatereportdrive.py:157: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:164: [C0301(line-too-long), ] Line too long (131/100)
+test/test_generatereportdrive.py:184: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:185: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:187: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:187: [C0301(line-too-long), ] Line too long (104/100)
+test/test_generatereportdrive.py:197: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:201: [C0301(line-too-long), ] Line too long (142/100)
+test/test_generatereportdrive.py:209: [C0301(line-too-long), ] Line too long (103/100)
+test/test_generatereportdrive.py:216: [C0301(line-too-long), ] Line too long (109/100)
+test/test_generatereportdrive.py:232: [C0301(line-too-long), ] Line too long (132/100)
+test/test_generatereportdrive.py:235: [C0301(line-too-long), ] Line too long (155/100)
+test/test_generatereportdrive.py:252: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:253: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:255: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:255: [C0301(line-too-long), ] Line too long (104/100)
+test/test_generatereportdrive.py:265: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:269: [C0301(line-too-long), ] Line too long (142/100)
+test/test_generatereportdrive.py:277: [C0301(line-too-long), ] Line too long (103/100)
+test/test_generatereportdrive.py:284: [C0301(line-too-long), ] Line too long (109/100)
+test/test_generatereportdrive.py:294: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:300: [C0301(line-too-long), ] Line too long (132/100)
+test/test_generatereportdrive.py:303: [C0301(line-too-long), ] Line too long (155/100)
+test/test_generatereportdrive.py:320: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:321: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:323: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:323: [C0301(line-too-long), ] Line too long (104/100)
+test/test_generatereportdrive.py:333: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportdrive.py:337: [C0301(line-too-long), ] Line too long (142/100)
+test/test_generatereportdrive.py:345: [C0301(line-too-long), ] Line too long (103/100)
+test/test_generatereportdrive.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+test/test_generatereportdrive.py:9: [E0401(import-error), ] Unable to import 'google_auth_oauthlib.flow'
+test/test_generatereportdrive.py:11: [C0115(missing-class-docstring), GenerateReportDriveTestCase] Missing class docstring
+test/test_generatereportdrive.py:16: [E1101(no-member), GenerateReportDriveTestCase.setUp] Class 'Family' has no 'objects' member
+test/test_generatereportdrive.py:19: [E1101(no-member), GenerateReportDriveTestCase.setUp] Class 'Item' has no 'objects' member
+test/test_generatereportdrive.py:22: [C0103(invalid-name), GenerateReportDriveTestCase.setUp] Variable name "ageRange" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:22: [E1101(no-member), GenerateReportDriveTestCase.setUp] Class 'AgeRange' has no 'objects' member
+test/test_generatereportdrive.py:26: [C0116(missing-function-docstring), GenerateReportDriveTestCase.test_export_drive_checkin_report] Missing function or method docstring
+test/test_generatereportdrive.py:26: [R0914(too-many-locals), GenerateReportDriveTestCase.test_export_drive_checkin_report] Too many local variables (16/15)
+test/test_generatereportdrive.py:40: [E1101(no-member), GenerateReportDriveTestCase.test_export_drive_checkin_report] Class 'Checkin' has no 'objects' member
+test/test_generatereportdrive.py:48: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkin_report] Variable name "weekAgo" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:60: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkin_report] Variable name "fakeLink" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:60: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkin_report] Variable name "fakeState" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:61: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkin_report] Variable name "fakeURI" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:62: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkin_report] Variable name "fakeCode" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:93: [C0116(missing-function-docstring), GenerateReportDriveTestCase.test_export_drive_checkout_report] Missing function or method docstring
+test/test_generatereportdrive.py:93: [R0914(too-many-locals), GenerateReportDriveTestCase.test_export_drive_checkout_report] Too many local variables (16/15)
+test/test_generatereportdrive.py:106: [E1101(no-member), GenerateReportDriveTestCase.test_export_drive_checkout_report] Class 'Checkout' has no 'objects' member
+test/test_generatereportdrive.py:114: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkout_report] Variable name "weekAgo" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:126: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkout_report] Variable name "fakeLink" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:126: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkout_report] Variable name "fakeState" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:127: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkout_report] Variable name "fakeURI" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:128: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkout_report] Variable name "fakeCode" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:159: [C0116(missing-function-docstring), GenerateReportDriveTestCase.test_export_drive_checkingbi_report] Missing function or method docstring
+test/test_generatereportdrive.py:159: [R0914(too-many-locals), GenerateReportDriveTestCase.test_export_drive_checkingbi_report] Too many local variables (16/15)
+test/test_generatereportdrive.py:173: [E1101(no-member), GenerateReportDriveTestCase.test_export_drive_checkingbi_report] Class 'Checkin' has no 'objects' member
+test/test_generatereportdrive.py:181: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkingbi_report] Variable name "weekAgo" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:194: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkingbi_report] Variable name "fakeLink" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:194: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkingbi_report] Variable name "fakeState" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:195: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkingbi_report] Variable name "fakeURI" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:196: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkingbi_report] Variable name "fakeCode" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:228: [C0116(missing-function-docstring), GenerateReportDriveTestCase.test_export_drive_checkoutgbi_report] Missing function or method docstring
+test/test_generatereportdrive.py:228: [R0914(too-many-locals), GenerateReportDriveTestCase.test_export_drive_checkoutgbi_report] Too many local variables (16/15)
+test/test_generatereportdrive.py:241: [E1101(no-member), GenerateReportDriveTestCase.test_export_drive_checkoutgbi_report] Class 'Checkout' has no 'objects' member
+test/test_generatereportdrive.py:249: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkoutgbi_report] Variable name "weekAgo" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:262: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkoutgbi_report] Variable name "fakeLink" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:262: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkoutgbi_report] Variable name "fakeState" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:263: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkoutgbi_report] Variable name "fakeURI" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:264: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_checkoutgbi_report] Variable name "fakeCode" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:296: [C0116(missing-function-docstring), GenerateReportDriveTestCase.test_export_drive_error] Missing function or method docstring
+test/test_generatereportdrive.py:296: [R0914(too-many-locals), GenerateReportDriveTestCase.test_export_drive_error] Too many local variables (16/15)
+test/test_generatereportdrive.py:309: [E1101(no-member), GenerateReportDriveTestCase.test_export_drive_error] Class 'Checkout' has no 'objects' member
+test/test_generatereportdrive.py:317: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_error] Variable name "weekAgo" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:330: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_error] Variable name "fakeLink" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:330: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_error] Variable name "fakeState" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:331: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_error] Variable name "fakeURI" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:332: [C0103(invalid-name), GenerateReportDriveTestCase.test_export_drive_error] Variable name "fakeError" doesn't conform to snake_case naming style
+test/test_generatereportdrive.py:5: [C0411(wrong-import-order), ] third party import "from django.http.request import QueryDict, MultiValueDict" should be placed before "from inventory.models import Item, Checkout, Checkin, Family, AgeRange"
+test/test_generatereportdrive.py:6: [C0411(wrong-import-order), ] standard import "from datetime import date, timedelta" should be placed before "from django.test import TestCase"
+test/test_generatereportdrive.py:7: [C0411(wrong-import-order), ] standard import "from unittest.mock import patch" should be placed before "from django.test import TestCase"
+test/test_generatereportdrive.py:9: [C0411(wrong-import-order), ] third party import "from google_auth_oauthlib.flow import Flow" should be placed before "from inventory.models import Item, Checkout, Checkin, Family, AgeRange"
+test/test_generatereportdrive.py:5: [C0412(ungrouped-imports), ] Imports from package django are not grouped
+************* Module inventory.test.test_checkoutform
+test/test_checkoutform.py:19: [C0301(line-too-long), ] Line too long (102/100)
+test/test_checkoutform.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+test/test_checkoutform.py:6: [C0115(missing-class-docstring), CheckoutFormTestCase] Missing class docstring
+test/test_checkoutform.py:8: [E1101(no-member), CheckoutFormTestCase.setUp] Class 'Family' has no 'objects' member
+test/test_checkoutform.py:11: [C0116(missing-function-docstring), CheckoutFormTestCase.test_invalid_required_fields] Missing function or method docstring
+test/test_checkoutform.py:18: [C0116(missing-function-docstring), CheckoutFormTestCase.test_invalid_family_length] Missing function or method docstring
+test/test_checkoutform.py:25: [C0116(missing-function-docstring), CheckoutFormTestCase.test_invalid_family_exists] Missing function or method docstring
+************* Module inventory.test.test_checkoutview
+test/test_checkoutview.py:42: [C0301(line-too-long), ] Line too long (141/100)
+test/test_checkoutview.py:60: [C0301(line-too-long), ] Line too long (132/100)
+test/test_checkoutview.py:63: [C0301(line-too-long), ] Line too long (155/100)
+test/test_checkoutview.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+test/test_checkoutview.py:6: [C0115(missing-class-docstring), CheckoutTestCase] Missing class docstring
+test/test_checkoutview.py:11: [E1101(no-member), CheckoutTestCase.setUp] Class 'Family' has no 'objects' member
+test/test_checkoutview.py:14: [E1101(no-member), CheckoutTestCase.setUp] Class 'Item' has no 'objects' member
+test/test_checkoutview.py:17: [C0103(invalid-name), CheckoutTestCase.setUp] Variable name "ageRange" doesn't conform to snake_case naming style
+test/test_checkoutview.py:17: [E1101(no-member), CheckoutTestCase.setUp] Class 'AgeRange' has no 'objects' member
+test/test_checkoutview.py:20: [C0116(missing-function-docstring), CheckoutTestCase.test_invalid_not_logged_in] Missing function or method docstring
+test/test_checkoutview.py:31: [C0116(missing-function-docstring), CheckoutTestCase.test_get] Missing function or method docstring
+test/test_checkoutview.py:39: [C0116(missing-function-docstring), CheckoutTestCase.test_invalid_no_items] Missing function or method docstring
+test/test_checkoutview.py:48: [E1101(no-member), CheckoutTestCase.test_invalid_no_items] Class 'Checkout' has no 'objects' member
+test/test_checkoutview.py:55: [C0116(missing-function-docstring), CheckoutTestCase.test_post_success] Missing function or method docstring
+test/test_checkoutview.py:69: [E1101(no-member), CheckoutTestCase.test_post_success] Class 'Checkout' has no 'objects' member
+************* Module inventory.test.test_checkin
+test/test_checkin.py:54: [C0301(line-too-long), ] Line too long (131/100)
+test/test_checkin.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+test/test_checkin.py:6: [C0115(missing-class-docstring), CheckinTestCase] Missing class docstring
+test/test_checkin.py:11: [E1101(no-member), CheckinTestCase.setUp] Class 'Item' has no 'objects' member
+test/test_checkin.py:14: [C0116(missing-function-docstring), CheckinTestCase.test_invalid_not_logged_in] Missing function or method docstring
+test/test_checkin.py:25: [C0116(missing-function-docstring), CheckinTestCase.test_get] Missing function or method docstring
+test/test_checkin.py:33: [C0116(missing-function-docstring), CheckinTestCase.test_invalid_no_items] Missing function or method docstring
+test/test_checkin.py:42: [E1101(no-member), CheckinTestCase.test_invalid_no_items] Class 'Checkin' has no 'objects' member
+test/test_checkin.py:49: [C0116(missing-function-docstring), CheckinTestCase.test_post_success] Missing function or method docstring
+test/test_checkin.py:63: [E1101(no-member), CheckinTestCase.test_post_success] Class 'Checkin' has no 'objects' member
+************* Module inventory.test.test_adminitemoutdateform
+test/test_adminitemoutdateform.py:32: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_adminitemoutdateform.py:39: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_adminitemoutdateform.py:60: [C0305(trailing-newlines), ] Trailing newlines
+test/test_adminitemoutdateform.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+test/test_adminitemoutdateform.py:6: [C0115(missing-class-docstring), AddItemFormTestCase] Missing class docstring
+test/test_adminitemoutdateform.py:8: [E1101(no-member), AddItemFormTestCase.setUp] Class 'Item' has no 'objects' member
+test/test_adminitemoutdateform.py:9: [E1101(no-member), AddItemFormTestCase.setUp] Class 'Item' has no 'objects' member
+test/test_adminitemoutdateform.py:10: [E1101(no-member), AddItemFormTestCase.setUp] Class 'Item' has no 'objects' member
+test/test_adminitemoutdateform.py:15: [C0116(missing-function-docstring), AddItemFormTestCase.test_invalid_required_fields] Missing function or method docstring
+test/test_adminitemoutdateform.py:24: [C0116(missing-function-docstring), AddItemFormTestCase.test_invalid_does_not_exist] Missing function or method docstring
+test/test_adminitemoutdateform.py:33: [C0116(missing-function-docstring), AddItemFormTestCase.test_invalid_outdated_old_item] Missing function or method docstring
+test/test_adminitemoutdateform.py:40: [C0116(missing-function-docstring), AddItemFormTestCase.test_invalid_outdated_new_item] Missing function or method docstring
+test/test_adminitemoutdateform.py:47: [C0116(missing-function-docstring), AddItemFormTestCase.test_valid] Missing function or method docstring
+test/test_adminitemoutdateform.py:52: [C0116(missing-function-docstring), AddItemFormTestCase.test_run] Missing function or method docstring
+test/test_adminitemoutdateform.py:57: [E1101(no-member), AddItemFormTestCase.test_run] Class 'Item' has no 'objects' member
+test/test_adminitemoutdateform.py:58: [E1101(no-member), AddItemFormTestCase.test_run] Class 'Item' has no 'objects' member
+test/test_adminitemoutdateform.py:59: [E1101(no-member), AddItemFormTestCase.test_run] Class 'Item' has no 'objects' member
+************* Module inventory.test.test_additemform
+test/test_additemform.py:37: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_additemform.py:89: [C0305(trailing-newlines), ] Trailing newlines
+test/test_additemform.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+test/test_additemform.py:6: [C0115(missing-class-docstring), AddItemFormTestCase] Missing class docstring
+test/test_additemform.py:8: [E1101(no-member), AddItemFormTestCase.setUp] Class 'Item' has no 'objects' member
+test/test_additemform.py:11: [C0116(missing-function-docstring), AddItemFormTestCase.test_invalid_required_fields] Missing function or method docstring
+test/test_additemform.py:20: [C0116(missing-function-docstring), AddItemFormTestCase.test_invalid_long_name] Missing function or method docstring
+test/test_additemform.py:29: [C0116(missing-function-docstring), AddItemFormTestCase.test_invalid_does_not_exist] Missing function or method docstring
+test/test_additemform.py:38: [C0116(missing-function-docstring), AddItemFormTestCase.test_invalid_used_quantity] Missing function or method docstring
+test/test_additemform.py:46: [C0116(missing-function-docstring), AddItemFormTestCase.test_invalid_new_quantity] Missing function or method docstring
+test/test_additemform.py:54: [C0116(missing-function-docstring), AddItemFormTestCase.test_success_used_quantity] Missing function or method docstring
+test/test_additemform.py:60: [C0116(missing-function-docstring), AddItemFormTestCase.test_success_new_quantity] Missing function or method docstring
+test/test_additemform.py:66: [C0116(missing-function-docstring), AddItemFormTestCase.test_success_used_and_new_quantity] Missing function or method docstring
+test/test_additemform.py:73: [C0116(missing-function-docstring), AddItemFormTestCase.test_invalid_used_and_new_quantity] Missing function or method docstring
+************* Module inventory.test.test_additemview
+test/test_additemview.py:36: [C0301(line-too-long), ] Line too long (136/100)
+test/test_additemview.py:38: [C0301(line-too-long), ] Line too long (137/100)
+test/test_additemview.py:74: [C0301(line-too-long), ] Line too long (136/100)
+test/test_additemview.py:75: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_additemview.py:77: [C0301(line-too-long), ] Line too long (136/100)
+test/test_additemview.py:101: [C0301(line-too-long), ] Line too long (137/100)
+test/test_additemview.py:104: [C0301(line-too-long), ] Line too long (137/100)
+test/test_additemview.py:130: [C0301(line-too-long), ] Line too long (247/100)
+test/test_additemview.py:133: [C0301(line-too-long), ] Line too long (247/100)
+test/test_additemview.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+test/test_additemview.py:6: [C0115(missing-class-docstring), AddItemTestCase] Missing class docstring
+test/test_additemview.py:8: [E1101(no-member), AddItemTestCase.setUp] Class 'Item' has no 'objects' member
+test/test_additemview.py:14: [C0116(missing-function-docstring), AddItemTestCase.test_post_success] Missing function or method docstring
+test/test_additemview.py:40: [C0116(missing-function-docstring), AddItemTestCase.test_post_error] Missing function or method docstring
+test/test_additemview.py:52: [C0116(missing-function-docstring), AddItemTestCase.test_post_new_item_only_success] Missing function or method docstring
+test/test_additemview.py:79: [C0116(missing-function-docstring), AddItemTestCase.test_post_used_item_only_success] Missing function or method docstring
+test/test_additemview.py:106: [C0116(missing-function-docstring), AddItemTestCase.test_post_used_and_new_item_success] Missing function or method docstring
+************* Module inventory.test.test_editaction
+test/test_editaction.py:20: [C0301(line-too-long), ] Line too long (132/100)
+test/test_editaction.py:24: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:27: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:41: [C0301(line-too-long), ] Line too long (132/100)
+test/test_editaction.py:45: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:48: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:61: [C0301(line-too-long), ] Line too long (132/100)
+test/test_editaction.py:65: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:68: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:74: [C0301(line-too-long), ] Line too long (132/100)
+test/test_editaction.py:78: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:79: [C0301(line-too-long), ] Line too long (104/100)
+test/test_editaction.py:88: [C0301(line-too-long), ] Line too long (145/100)
+test/test_editaction.py:94: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:101: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:107: [C0301(line-too-long), ] Line too long (145/100)
+test/test_editaction.py:113: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:120: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:126: [C0301(line-too-long), ] Line too long (145/100)
+test/test_editaction.py:132: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:145: [C0301(line-too-long), ] Line too long (145/100)
+test/test_editaction.py:148: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:152: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:158: [C0301(line-too-long), ] Line too long (145/100)
+test/test_editaction.py:161: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_editaction.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+test/test_editaction.py:7: [C0115(missing-class-docstring), EditActionTestCase] Missing class docstring
+test/test_editaction.py:12: [E1101(no-member), EditActionTestCase.setUp] Class 'Item' has no 'objects' member
+test/test_editaction.py:15: [C0116(missing-function-docstring), EditActionTestCase.test_edit_quantity_positive] Missing function or method docstring
+test/test_editaction.py:36: [C0116(missing-function-docstring), EditActionTestCase.test_edit_quantity_zero] Missing function or method docstring
+test/test_editaction.py:56: [C0116(missing-function-docstring), EditActionTestCase.test_edit_quantity_negative] Missing function or method docstring
+test/test_editaction.py:69: [C0116(missing-function-docstring), EditActionTestCase.test_edit_quantity_decimal] Missing function or method docstring
+test/test_editaction.py:83: [C0116(missing-function-docstring), EditActionTestCase.test_edit_isnew_used] Missing function or method docstring
+test/test_editaction.py:102: [C0116(missing-function-docstring), EditActionTestCase.test_edit_isnew_new] Missing function or method docstring
+test/test_editaction.py:121: [C0116(missing-function-docstring), EditActionTestCase.test_edit_isnew_not0or1] Missing function or method docstring
+test/test_editaction.py:140: [C0116(missing-function-docstring), EditActionTestCase.test_edit_isnew_negative] Missing function or method docstring
+test/test_editaction.py:153: [C0116(missing-function-docstring), EditActionTestCase.test_edit_isnew_decimal] Missing function or method docstring
+test/test_editaction.py:5: [C0411(wrong-import-order), ] standard import "import json" should be placed before "from django.test import TestCase"
+************* Module inventory.test.test_generatereportlocal
+test/test_generatereportlocal.py:29: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:30: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:31: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:31: [C0301(line-too-long), ] Line too long (104/100)
+test/test_generatereportlocal.py:38: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:42: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:48: [C0301(line-too-long), ] Line too long (131/100)
+test/test_generatereportlocal.py:68: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:69: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:70: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:70: [C0301(line-too-long), ] Line too long (104/100)
+test/test_generatereportlocal.py:77: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:87: [C0301(line-too-long), ] Line too long (132/100)
+test/test_generatereportlocal.py:90: [C0301(line-too-long), ] Line too long (155/100)
+test/test_generatereportlocal.py:107: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:108: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:109: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:109: [C0301(line-too-long), ] Line too long (104/100)
+test/test_generatereportlocal.py:116: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:127: [C0301(line-too-long), ] Line too long (131/100)
+test/test_generatereportlocal.py:147: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:149: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:150: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:150: [C0301(line-too-long), ] Line too long (104/100)
+test/test_generatereportlocal.py:157: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:168: [C0301(line-too-long), ] Line too long (132/100)
+test/test_generatereportlocal.py:171: [C0301(line-too-long), ] Line too long (155/100)
+test/test_generatereportlocal.py:188: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:190: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:191: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:191: [C0301(line-too-long), ] Line too long (104/100)
+test/test_generatereportlocal.py:198: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:210: [C0301(line-too-long), ] Line too long (131/100)
+test/test_generatereportlocal.py:230: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:231: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:232: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:232: [C0301(line-too-long), ] Line too long (104/100)
+test/test_generatereportlocal.py:243: [C0301(line-too-long), ] Line too long (176/100)
+test/test_generatereportlocal.py:252: [C0301(line-too-long), ] Line too long (132/100)
+test/test_generatereportlocal.py:255: [C0301(line-too-long), ] Line too long (155/100)
+test/test_generatereportlocal.py:272: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:273: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:274: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:274: [C0301(line-too-long), ] Line too long (104/100)
+test/test_generatereportlocal.py:282: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:285: [C0301(line-too-long), ] Line too long (177/100)
+test/test_generatereportlocal.py:286: [C0301(line-too-long), ] Line too long (101/100)
+test/test_generatereportlocal.py:295: [C0301(line-too-long), ] Line too long (131/100)
+test/test_generatereportlocal.py:315: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:316: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:318: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:318: [C0301(line-too-long), ] Line too long (104/100)
+test/test_generatereportlocal.py:329: [C0301(line-too-long), ] Line too long (184/100)
+test/test_generatereportlocal.py:337: [C0301(line-too-long), ] Line too long (132/100)
+test/test_generatereportlocal.py:340: [C0301(line-too-long), ] Line too long (155/100)
+test/test_generatereportlocal.py:357: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:358: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:360: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:360: [C0301(line-too-long), ] Line too long (104/100)
+test/test_generatereportlocal.py:368: [C0303(trailing-whitespace), ] Trailing whitespace
+test/test_generatereportlocal.py:371: [C0301(line-too-long), ] Line too long (185/100)
+test/test_generatereportlocal.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+test/test_generatereportlocal.py:8: [C0115(missing-class-docstring), GenerateReportLocalTestCase] Missing class docstring
+test/test_generatereportlocal.py:13: [E1101(no-member), GenerateReportLocalTestCase.setUp] Class 'Family' has no 'objects' member
+test/test_generatereportlocal.py:16: [E1101(no-member), GenerateReportLocalTestCase.setUp] Class 'Item' has no 'objects' member
+test/test_generatereportlocal.py:19: [C0103(invalid-name), GenerateReportLocalTestCase.setUp] Variable name "ageRange" doesn't conform to snake_case naming style
+test/test_generatereportlocal.py:19: [E1101(no-member), GenerateReportLocalTestCase.setUp] Class 'AgeRange' has no 'objects' member
+test/test_generatereportlocal.py:22: [C0116(missing-function-docstring), GenerateReportLocalTestCase.test_generate_noitems] Missing function or method docstring
+test/test_generatereportlocal.py:26: [C0103(invalid-name), GenerateReportLocalTestCase.test_generate_noitems] Variable name "weekAgo" doesn't conform to snake_case naming style
+test/test_generatereportlocal.py:43: [C0116(missing-function-docstring), GenerateReportLocalTestCase.test_generate_checkin_report] Missing function or method docstring
+test/test_generatereportlocal.py:57: [E1101(no-member), GenerateReportLocalTestCase.test_generate_checkin_report] Class 'Checkin' has no 'objects' member
+test/test_generatereportlocal.py:65: [C0103(invalid-name), GenerateReportLocalTestCase.test_generate_checkin_report] Variable name "weekAgo" doesn't conform to snake_case naming style
+test/test_generatereportlocal.py:83: [C0116(missing-function-docstring), GenerateReportLocalTestCase.test_generate_checkout_report] Missing function or method docstring
+test/test_generatereportlocal.py:96: [E1101(no-member), GenerateReportLocalTestCase.test_generate_checkout_report] Class 'Checkout' has no 'objects' member
+test/test_generatereportlocal.py:104: [C0103(invalid-name), GenerateReportLocalTestCase.test_generate_checkout_report] Variable name "weekAgo" doesn't conform to snake_case naming style
+test/test_generatereportlocal.py:122: [C0116(missing-function-docstring), GenerateReportLocalTestCase.test_generate_checkingbi_report] Missing function or method docstring
+test/test_generatereportlocal.py:136: [E1101(no-member), GenerateReportLocalTestCase.test_generate_checkingbi_report] Class 'Checkin' has no 'objects' member
+test/test_generatereportlocal.py:144: [C0103(invalid-name), GenerateReportLocalTestCase.test_generate_checkingbi_report] Variable name "weekAgo" doesn't conform to snake_case naming style
+test/test_generatereportlocal.py:164: [C0116(missing-function-docstring), GenerateReportLocalTestCase.test_generate_checkoutgbi_report] Missing function or method docstring
+test/test_generatereportlocal.py:177: [E1101(no-member), GenerateReportLocalTestCase.test_generate_checkoutgbi_report] Class 'Checkout' has no 'objects' member
+test/test_generatereportlocal.py:185: [C0103(invalid-name), GenerateReportLocalTestCase.test_generate_checkoutgbi_report] Variable name "weekAgo" doesn't conform to snake_case naming style
+test/test_generatereportlocal.py:205: [C0116(missing-function-docstring), GenerateReportLocalTestCase.test_export_checkin_report] Missing function or method docstring
+test/test_generatereportlocal.py:219: [E1101(no-member), GenerateReportLocalTestCase.test_export_checkin_report] Class 'Checkin' has no 'objects' member
+test/test_generatereportlocal.py:227: [C0103(invalid-name), GenerateReportLocalTestCase.test_export_checkin_report] Variable name "weekAgo" doesn't conform to snake_case naming style
+test/test_generatereportlocal.py:248: [C0116(missing-function-docstring), GenerateReportLocalTestCase.test_export_checkout_report] Missing function or method docstring
+test/test_generatereportlocal.py:261: [E1101(no-member), GenerateReportLocalTestCase.test_export_checkout_report] Class 'Checkout' has no 'objects' member
+test/test_generatereportlocal.py:269: [C0103(invalid-name), GenerateReportLocalTestCase.test_export_checkout_report] Variable name "weekAgo" doesn't conform to snake_case naming style
+test/test_generatereportlocal.py:290: [C0116(missing-function-docstring), GenerateReportLocalTestCase.test_export_checkingbi_report] Missing function or method docstring
+test/test_generatereportlocal.py:304: [E1101(no-member), GenerateReportLocalTestCase.test_export_checkingbi_report] Class 'Checkin' has no 'objects' member
+test/test_generatereportlocal.py:312: [C0103(invalid-name), GenerateReportLocalTestCase.test_export_checkingbi_report] Variable name "weekAgo" doesn't conform to snake_case naming style
+test/test_generatereportlocal.py:333: [C0116(missing-function-docstring), GenerateReportLocalTestCase.test_export_checkoutgbi_report] Missing function or method docstring
+test/test_generatereportlocal.py:346: [E1101(no-member), GenerateReportLocalTestCase.test_export_checkoutgbi_report] Class 'Checkout' has no 'objects' member
+test/test_generatereportlocal.py:354: [C0103(invalid-name), GenerateReportLocalTestCase.test_export_checkoutgbi_report] Variable name "weekAgo" doesn't conform to snake_case naming style
+test/test_generatereportlocal.py:5: [C0411(wrong-import-order), ] third party import "from django.http.request import QueryDict, MultiValueDict" should be placed before "from inventory.models import Item, Checkout, Checkin, Family, AgeRange"
+test/test_generatereportlocal.py:6: [C0411(wrong-import-order), ] standard import "from datetime import date, timedelta" should be placed before "from django.test import TestCase"
+test/test_generatereportlocal.py:5: [C0412(ungrouped-imports), ] Imports from package django are not grouped
+************* Module inventory.test.test_map
+test/test_map.py:21: [C0304(missing-final-newline), ] Final newline missing
+test/test_map.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+test/test_map.py:6: [C0115(missing-class-docstring), CheckoutMapTestCase] Missing class docstring
+test/test_map.py:7: [C0116(missing-function-docstring), CheckoutMapTestCase.test_invalid_input] Missing function or method docstring
+test/test_map.py:8: [C0103(invalid-name), CheckoutMapTestCase.test_invalid_input] Variable name "invalidName1" doesn't conform to snake_case naming style
+test/test_map.py:9: [C0103(invalid-name), CheckoutMapTestCase.test_invalid_input] Variable name "invalidName2" doesn't conform to snake_case naming style
+test/test_map.py:13: [C0116(missing-function-docstring), CheckoutMapTestCase.test_valid_input] Missing function or method docstring
+test/test_map.py:14: [C0103(invalid-name), CheckoutMapTestCase.test_valid_input] Variable name "validName1" doesn't conform to snake_case naming style
+test/test_map.py:15: [C0103(invalid-name), CheckoutMapTestCase.test_valid_input] Variable name "validName2" doesn't conform to snake_case naming style
+************* Module inventory.urls
+urls.py:7: [C0305(trailing-newlines), ] Trailing newlines
+************* Module inventory.views
+views.py:39: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:40: [W0311(bad-indentation), ] Bad indentation. Found 1 spaces, expected 4
+views.py:44: [W0311(bad-indentation), ] Bad indentation. Found 1 spaces, expected 4
+views.py:96: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:98: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:100: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:101: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:104: [C0301(line-too-long), ] Line too long (167/100)
+views.py:107: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:122: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:123: [C0301(line-too-long), ] Line too long (129/100)
+views.py:133: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:136: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:145: [C0301(line-too-long), ] Line too long (189/100)
+views.py:147: [C0301(line-too-long), ] Line too long (181/100)
+views.py:166: [C0301(line-too-long), ] Line too long (133/100)
+views.py:168: [C0301(line-too-long), ] Line too long (125/100)
+views.py:184: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:185: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:196: [C0301(line-too-long), ] Line too long (101/100)
+views.py:204: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:206: [C0301(line-too-long), ] Line too long (104/100)
+views.py:209: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:214: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:217: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:218: [C0301(line-too-long), ] Line too long (123/100)
+views.py:276: [C0301(line-too-long), ] Line too long (108/100)
+views.py:280: [C0301(line-too-long), ] Line too long (102/100)
+views.py:282: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:287: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:289: [C0301(line-too-long), ] Line too long (130/100)
+views.py:293: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:302: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:305: [C0301(line-too-long), ] Line too long (105/100)
+views.py:326: [C0301(line-too-long), ] Line too long (127/100)
+views.py:328: [C0301(line-too-long), ] Line too long (128/100)
+views.py:329: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:332: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:335: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:349: [C0301(line-too-long), ] Line too long (127/100)
+views.py:351: [C0301(line-too-long), ] Line too long (128/100)
+views.py:357: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:399: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:431: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:450: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:467: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:475: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:519: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:519: [C0301(line-too-long), ] Line too long (113/100)
+views.py:520: [C0301(line-too-long), ] Line too long (111/100)
+views.py:523: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:525: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:530: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:537: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:560: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+views.py:568: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:574: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+views.py:582: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:584: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:593: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:626: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:643: [C0301(line-too-long), ] Line too long (112/100)
+views.py:657: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:665: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:673: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:676: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:678: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+views.py:702: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:709: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:712: [C0301(line-too-long), ] Line too long (124/100)
+views.py:716: [C0301(line-too-long), ] Line too long (121/100)
+views.py:729: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:731: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:762: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:778: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+views.py:785: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+views.py:816: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:819: [C0301(line-too-long), ] Line too long (124/100)
+views.py:823: [C0301(line-too-long), ] Line too long (121/100)
+views.py:852: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:854: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:855: [C0301(line-too-long), ] Line too long (124/100)
+views.py:862: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:863: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:865: [C0301(line-too-long), ] Line too long (124/100)
+views.py:874: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:881: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:893: [C0301(line-too-long), ] Line too long (101/100)
+views.py:899: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:904: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:907: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:949: [C0303(trailing-whitespace), ] Trailing whitespace
+views.py:961: [C0305(trailing-newlines), ] Trailing newlines
+views.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+views.py:9: [E0401(import-error), ] Unable to import 'django_tables2'
+views.py:39: [C0116(missing-function-docstring), home] Missing function or method docstring
+views.py:43: [C0116(missing-function-docstring), about] Missing function or method docstring
+views.py:47: [C0116(missing-function-docstring), privacy_policy] Missing function or method docstring
+views.py:53: [C0116(missing-function-docstring), login_action] Missing function or method docstring
+views.py:73: [C0116(missing-function-docstring), logout_action] Missing function or method docstring
+views.py:81: [C0116(missing-function-docstring), generate_report] Missing function or method docstring
+views.py:86: [R0916(too-many-boolean-expressions), generate_report] Too many boolean expressions in if statement (6/5)
+views.py:111: [C0103(invalid-name), generate_report] Variable name "si" doesn't conform to snake_case naming style
+views.py:123: [C0103(invalid-name), generate_report] Variable name "fileTitle" doesn't conform to snake_case naming style
+views.py:155: [C0103(invalid-name), generate_report] Variable name "si" doesn't conform to snake_case naming style
+views.py:166: [C0103(invalid-name), generate_report] Variable name "fileTitle" doesn't conform to snake_case naming style
+views.py:168: [C0103(invalid-name), generate_report] Variable name "fileTitle" doesn't conform to snake_case naming style
+views.py:176: [C0103(invalid-name), generate_report] Variable name "weekAgo" doesn't conform to snake_case naming style
+views.py:81: [R0911(too-many-return-statements), generate_report] Too many return statements (8/6)
+views.py:81: [R0912(too-many-branches), generate_report] Too many branches (17/12)
+views.py:182: [C0116(missing-function-docstring), collect_itemized_data] Missing function or method docstring
+views.py:183: [C0103(invalid-name), collect_itemized_data] Variable name "newUniqueItems" doesn't conform to snake_case naming style
+views.py:185: [C0103(invalid-name), collect_itemized_data] Variable name "tx" doesn't conform to snake_case naming style
+views.py:188: [C0121(singleton-comparison), collect_itemized_data] Comparison 'tx.item.new_price != None' should be 'tx.item.new_price is not None'
+views.py:190: [C0121(singleton-comparison), collect_itemized_data] Comparison 'tx.item.used_price != None' should be 'tx.item.used_price is not None'
+views.py:208: [C0103(invalid-name), collect_itemized_data] Variable name "currNotes" doesn't conform to snake_case naming style
+views.py:210: [C0103(invalid-name), collect_itemized_data] Variable name "currNotes" doesn't conform to snake_case naming style
+views.py:213: [C0103(invalid-name), collect_itemized_data] Variable name "currNotes" doesn't conform to snake_case naming style
+views.py:215: [C0103(invalid-name), collect_itemized_data] Variable name "currNotes" doesn't conform to snake_case naming style
+views.py:221: [C0103(invalid-name), write_export_table_data] Argument name "csvObj" doesn't conform to snake_case naming style
+views.py:221: [C0116(missing-function-docstring), write_export_table_data] Missing function or method docstring
+views.py:222: [C0103(invalid-name), write_export_table_data] Variable name "qs" doesn't conform to snake_case naming style
+views.py:227: [C0103(invalid-name), write_export_table_data] Variable name "totalPrice" doesn't conform to snake_case naming style
+views.py:234: [C0103(invalid-name), write_export_table_data] Variable name "h" doesn't conform to snake_case naming style
+views.py:243: [C0103(invalid-name), write_export_table_data] Variable name "totalPrice" doesn't conform to snake_case naming style
+views.py:225: [R1702(too-many-nested-blocks), write_export_table_data] Too many nested blocks (6/5)
+views.py:250: [W0212(protected-access), write_export_table_data] Access to a protected member _meta of a client class
+views.py:251: [C0103(invalid-name), write_export_table_data] Variable name "totalPrice" doesn't conform to snake_case naming style
+views.py:255: [C0103(invalid-name), write_export_table_data] Variable name "f" doesn't conform to snake_case naming style
+views.py:261: [C0103(invalid-name), write_export_table_data] Variable name "totalPrice" doesn't conform to snake_case naming style
+views.py:221: [R0912(too-many-branches), write_export_table_data] Too many branches (17/12)
+views.py:274: [C0103(invalid-name), write_export_data] Argument name "csvObj" doesn't conform to snake_case naming style
+views.py:274: [C0116(missing-function-docstring), write_export_data] Missing function or method docstring
+views.py:274: [R0914(too-many-locals), write_export_data] Too many local variables (16/15)
+views.py:275: [C0103(invalid-name), write_export_data] Variable name "endDatetime" doesn't conform to snake_case naming style
+views.py:275: [C0209(consider-using-f-string), write_export_data] Formatting a regular string which could be a f-string
+views.py:276: [C0103(invalid-name), write_export_data] Variable name "qs" doesn't conform to snake_case naming style
+views.py:276: [E1101(no-member), write_export_data] Class 'Checkout' has no 'objects' member
+views.py:282: [C0103(invalid-name), write_export_data] Variable name "uniqueItems" doesn't conform to snake_case naming style
+views.py:284: [C0103(invalid-name), write_export_data] Variable name "c" doesn't conform to snake_case naming style
+views.py:285: [C0103(invalid-name), write_export_data] Variable name "tx" doesn't conform to snake_case naming style
+views.py:288: [C0103(invalid-name), write_export_data] Variable name "originalPrice" doesn't conform to snake_case naming style
+views.py:289: [C0103(invalid-name), write_export_data] Variable name "adjustedPrice" doesn't conform to snake_case naming style
+views.py:291: [C0103(invalid-name), write_export_data] Variable name "adjustedPrice" doesn't conform to snake_case naming style
+views.py:307: [C0103(invalid-name), write_export_data] Variable name "totalPrice" doesn't conform to snake_case naming style
+views.py:309: [C0103(invalid-name), write_export_data] Variable name "totalPrice" doesn't conform to snake_case naming style
+views.py:319: [C0116(missing-function-docstring), set_context_vars_get] Missing function or method docstring
+views.py:324: [C0103(invalid-name), set_context_vars_get] Variable name "endDatetime" doesn't conform to snake_case naming style
+views.py:324: [C0209(consider-using-f-string), set_context_vars_get] Formatting a regular string which could be a f-string
+views.py:326: [E1101(no-member), set_context_vars_get] Class 'Checkin' has no 'objects' member
+views.py:328: [E1101(no-member), set_context_vars_get] Class 'Checkout' has no 'objects' member
+views.py:341: [C0116(missing-function-docstring), set_context_vars_post] Missing function or method docstring
+views.py:346: [C0103(invalid-name), set_context_vars_post] Variable name "endDatetime" doesn't conform to snake_case naming style
+views.py:346: [C0209(consider-using-f-string), set_context_vars_post] Formatting a regular string which could be a f-string
+views.py:349: [E1101(no-member), set_context_vars_post] Class 'Checkin' has no 'objects' member
+views.py:351: [E1101(no-member), set_context_vars_post] Class 'Checkout' has no 'objects' member
+views.py:362: [C0116(missing-function-docstring), save_session_keys] Missing function or method docstring
+views.py:377: [C0116(missing-function-docstring), delete_session_keys] Missing function or method docstring
+views.py:394: [C0116(missing-function-docstring), refresh_session_keys] Missing function or method docstring
+views.py:405: [W0105(pointless-string-statement), refresh_session_keys] String statement has no effect
+views.py:415: [C0116(missing-function-docstring), analytics] Missing function or method docstring
+views.py:415: [R0914(too-many-locals), analytics] Too many local variables (21/15)
+views.py:418: [E1101(no-member), analytics] Class 'Checkout' has no 'objects' member
+views.py:442: [C0103(invalid-name), analytics.item_checkout_quantities] Variable name "itemTransaction" doesn't conform to snake_case naming style
+views.py:415: [R0915(too-many-statements), analytics] Too many statements (58/50)
+views.py:548: [C0116(missing-function-docstring), removeitem_action] Missing function or method docstring
+views.py:557: [C0116(missing-function-docstring), editquantity_action] Missing function or method docstring
+views.py:571: [C0116(missing-function-docstring), editisnew_action] Missing function or method docstring
+views.py:586: [C0103(invalid-name), createFamily_action] Function name "createFamily_action" doesn't conform to snake_case naming style
+views.py:586: [C0116(missing-function-docstring), createFamily_action] Missing function or method docstring
+views.py:586: [R1710(inconsistent-return-statements), createFamily_action] Either all return statements in a function should return an expression, or none of them should.
+views.py:619: [C0103(invalid-name), createItem_action] Function name "createItem_action" doesn't conform to snake_case naming style
+views.py:619: [C0116(missing-function-docstring), createItem_action] Missing function or method docstring
+views.py:646: [R1705(no-else-return), createItem_action] Unnecessary "else" after "return", remove the "else" and de-indent the code inside it
+views.py:646: [R1714(consider-using-in), createItem_action] Consider merging these comparisons with "in" to "location in ('in', 'out')"
+views.py:619: [R1710(inconsistent-return-statements), createItem_action] Either all return statements in a function should return an expression, or none of them should.
+views.py:655: [C0116(missing-function-docstring), checkin_action] Missing function or method docstring
+views.py:655: [R0914(too-many-locals), checkin_action] Too many local variables (17/15)
+views.py:658: [E1101(no-member), checkin_action] Class 'Item' has no 'objects' member
+views.py:659: [E1101(no-member), checkin_action] Class 'Category' has no 'objects' member
+views.py:668: [C0103(invalid-name), checkin_action] Variable name "tx" doesn't conform to snake_case naming style
+views.py:675: [C0103(invalid-name), checkin_action] Variable name "addItemForm" doesn't conform to snake_case naming style
+views.py:679: [C0103(invalid-name), checkin_action] Variable name "itemInfo" doesn't conform to snake_case naming style
+views.py:701: [E1101(no-member), checkin_action] Class 'Item' has no 'objects' member
+views.py:736: [C0103(invalid-name), checkin_action] Variable name "tx" doesn't conform to snake_case naming style
+views.py:739: [E1101(no-member), checkin_action] Instance of 'ManyToManyField' has no 'add' member
+views.py:655: [R1710(inconsistent-return-statements), checkin_action] Either all return statements in a function should return an expression, or none of them should.
+views.py:655: [R0912(too-many-branches), checkin_action] Too many branches (16/12)
+views.py:655: [R0915(too-many-statements), checkin_action] Too many statements (53/50)
+views.py:752: [C0116(missing-function-docstring), checkout_action] Missing function or method docstring
+views.py:752: [R0914(too-many-locals), checkout_action] Too many local variables (25/15)
+views.py:754: [E1101(no-member), checkout_action] Class 'Item' has no 'objects' member
+views.py:755: [E1101(no-member), checkout_action] Class 'Category' has no 'objects' member
+views.py:765: [C0103(invalid-name), checkout_action] Variable name "tx" doesn't conform to snake_case naming style
+views.py:772: [C0103(invalid-name), checkout_action] Variable name "addItemForm" doesn't conform to snake_case naming style
+views.py:779: [C0103(invalid-name), checkout_action] Variable name "famName" doesn't conform to snake_case naming style
+views.py:786: [C0103(invalid-name), checkout_action] Variable name "itemInfo" doesn't conform to snake_case naming style
+views.py:808: [E1101(no-member), checkout_action] Class 'Item' has no 'objects' member
+views.py:840: [C0103(invalid-name), checkout_action] Variable name "childName" doesn't conform to snake_case naming style
+views.py:841: [C0103(invalid-name), checkout_action] Variable name "ageRange" doesn't conform to snake_case naming style
+views.py:843: [E1101(no-member), checkout_action] Class 'Family' has no 'objects' member
+views.py:858: [C0103(invalid-name), checkout_action] Variable name "tx" doesn't conform to snake_case naming style
+views.py:861: [E1101(no-member), checkout_action] Instance of 'ManyToManyField' has no 'add' member
+views.py:863: [W0105(pointless-string-statement), checkout_action] String statement has no effect
+views.py:752: [R1710(inconsistent-return-statements), checkout_action] Either all return statements in a function should return an expression, or none of them should.
+views.py:752: [R0912(too-many-branches), checkout_action] Too many branches (19/12)
+views.py:752: [R0915(too-many-statements), checkout_action] Too many statements (76/50)
+views.py:882: [C0116(missing-function-docstring), autocomplete_item] Missing function or method docstring
+views.py:884: [C0103(invalid-name), autocomplete_item] Variable name "qs" doesn't conform to snake_case naming style
+views.py:884: [E1101(no-member), autocomplete_item] Class 'Item' has no 'objects' member
+views.py:885: [R1734(use-list-literal), autocomplete_item] Consider using [] instead of list()
+views.py:882: [R1710(inconsistent-return-statements), autocomplete_item] Either all return statements in a function should return an expression, or none of them should.
+views.py:891: [C0116(missing-function-docstring), autocomplete_item_category] Missing function or method docstring
+views.py:893: [C0103(invalid-name), autocomplete_item_category] Variable name "qs" doesn't conform to snake_case naming style
+views.py:893: [E1101(no-member), autocomplete_item_category] Class 'Item' has no 'objects' member
+views.py:894: [R1734(use-list-literal), autocomplete_item_category] Consider using [] instead of list()
+views.py:891: [R1710(inconsistent-return-statements), autocomplete_item_category] Either all return statements in a function should return an expression, or none of them should.
+views.py:900: [C0116(missing-function-docstring), autocomplete_family] Missing function or method docstring
+views.py:902: [C0103(invalid-name), autocomplete_family] Variable name "qs" doesn't conform to snake_case naming style
+views.py:902: [E1101(no-member), autocomplete_family] Class 'Family' has no 'objects' member
+views.py:903: [R1734(use-list-literal), autocomplete_family] Consider using [] instead of list()
+views.py:900: [R1710(inconsistent-return-statements), autocomplete_family] Either all return statements in a function should return an expression, or none of them should.
+views.py:911: [C0115(missing-class-docstring), FamilyIndexView] Missing class docstring
+views.py:917: [C0115(missing-class-docstring), CategoryIndexView] Missing class docstring
+views.py:923: [C0115(missing-class-docstring), ItemIndexView] Missing class docstring
+views.py:923: [R0901(too-many-ancestors), ItemIndexView] Too many ancestors (10/7)
+views.py:930: [C0115(missing-class-docstring), CheckinIndexView] Missing class docstring
+views.py:936: [C0115(missing-class-docstring), CheckoutIndexView] Missing class docstring
+views.py:936: [R0901(too-many-ancestors), CheckoutIndexView] Too many ancestors (10/7)
+views.py:946: [C0103(invalid-name), getPagination] Function name "getPagination" doesn't conform to snake_case naming style
+views.py:946: [C0116(missing-function-docstring), getPagination] Missing function or method docstring
+views.py:951: [C0103(invalid-name), getPagination] Variable name "paginationOut" doesn't conform to snake_case naming style
+views.py:953: [C0103(invalid-name), getPagination] Variable name "paginationOut" doesn't conform to snake_case naming style
+views.py:955: [C0103(invalid-name), getPagination] Variable name "paginationOut" doesn't conform to snake_case naming style
+views.py:14: [C0411(wrong-import-order), ] third party import "from django.contrib import messages" should be placed before "from .filters import CheckoutFilter, ItemFilter"
+views.py:15: [C0411(wrong-import-order), ] third party import "from django.http import HttpResponse" should be placed before "from .filters import CheckoutFilter, ItemFilter"
+views.py:17: [C0411(wrong-import-order), ] first party import "from inventory.gdrive import get_auth_url, create_service, upload_to_gdrive, set_gdrive_message" should be placed before "from .filters import CheckoutFilter, ItemFilter"
+views.py:19: [C0411(wrong-import-order), ] third party import "from django.contrib.auth import authenticate, login, logout" should be placed before "from inventory.gdrive import get_auth_url, create_service, upload_to_gdrive, set_gdrive_message"
+views.py:20: [C0411(wrong-import-order), ] third party import "from django.contrib.auth.mixins import LoginRequiredMixin" should be placed before "from inventory.gdrive import get_auth_url, create_service, upload_to_gdrive, set_gdrive_message"
+views.py:21: [C0411(wrong-import-order), ] third party import "from django.contrib.auth.decorators import login_required, user_passes_test" should be placed before "from inventory.gdrive import get_auth_url, create_service, upload_to_gdrive, set_gdrive_message"
+views.py:22: [C0411(wrong-import-order), ] third party import "from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger" should be placed before "from inventory.gdrive import get_auth_url, create_service, upload_to_gdrive, set_gdrive_message"
+views.py:23: [C0411(wrong-import-order), ] third party import "from django.db.models.functions import ExtractYear, ExtractMonth" should be placed before "from inventory.gdrive import get_auth_url, create_service, upload_to_gdrive, set_gdrive_message"
+views.py:24: [C0411(wrong-import-order), ] third party import "from django.db.models import Count, Q" should be placed before "from inventory.gdrive import get_auth_url, create_service, upload_to_gdrive, set_gdrive_message"
+views.py:26: [C0411(wrong-import-order), ] first party import "from inventory.models import Family, Category, Item, Checkin, Checkout, ItemTransaction" should be placed before "from .filters import CheckoutFilter, ItemFilter"
+views.py:27: [C0411(wrong-import-order), ] first party import "from inventory.forms import LoginForm, AddItemForm, CheckOutForm, CreateFamilyForm, CreateItemForm" should be placed before "from .filters import CheckoutFilter, ItemFilter"
+views.py:29: [C0411(wrong-import-order), ] standard import "from datetime import date, datetime, timedelta" should be placed before "from django.shortcuts import render, redirect"
+views.py:30: [C0411(wrong-import-order), ] third party import "from dateutil.relativedelta import relativedelta" should be placed before "from inventory.gdrive import get_auth_url, create_service, upload_to_gdrive, set_gdrive_message"
+views.py:31: [C0411(wrong-import-order), ] standard import "from collections import defaultdict" should be placed before "from django.shortcuts import render, redirect"
+views.py:14: [C0412(ungrouped-imports), ] Imports from package django are not grouped
+views.py:19: [C0412(ungrouped-imports), ] Imports from package django are not grouped
+views.py:26: [C0412(ungrouped-imports), ] Imports from package inventory are not grouped
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[296:323]
+==inventory.test.test_generatereportlocal:[333:360]
+        self.client.login(username='testuser', password='12345')
+        # Add item transaction
+        session = self.client.session
+        session['transactions-out'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkout/', data={"checkout": "", "family": "ValidFamily : (None)", "child": "Big Chungus", "age": "1"}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkout.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkout created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkout'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+            'itemizedOutput': ['itemized'],
+            'csrfmiddlewaretoken': ['gorIARWkwGHd78mWsRPmvQIGcaE6FGtCxmo0tWApqHWmxKN35j6zUeI5R8yysl5R'],
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[228:255]
+==inventory.test.test_generatereportlocal:[164:191]
+        self.client.login(username='testuser', password='12345')
+        # Add item transaction
+        session = self.client.session
+        session['transactions-out'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkout/', data={"checkout": "", "family": "ValidFamily : (None)", "child": "Big Chungus", "age": "1"}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkout.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkout created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkout'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+            'itemizedOutput': ['itemized'],
+            'csrfmiddlewaretoken': ['gorIARWkwGHd78mWsRPmvQIGcaE6FGtCxmo0tWApqHWmxKN35j6zUeI5R8yysl5R'],
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[93:119]
+==inventory.test.test_generatereportlocal:[83:109]
+        self.client.login(username='testuser', password='12345')
+        # Add item transaction
+        session = self.client.session
+        session['transactions-out'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkout/', data={"checkout": "", "family": "ValidFamily : (None)", "child": "Big Chungus", "age": "1"}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkout.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkout created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkout'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+            'csrfmiddlewaretoken': ['gorIARWkwGHd78mWsRPmvQIGcaE6FGtCxmo0tWApqHWmxKN35j6zUeI5R8yysl5R'],
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[296:321]
+==inventory.test.test_generatereportlocal:[248:273]
+        self.client.login(username='testuser', password='12345')
+        # Add item transaction
+        session = self.client.session
+        session['transactions-out'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkout/', data={"checkout": "", "family": "ValidFamily : (None)", "child": "Big Chungus", "age": "1"}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkout.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkout created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkout'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[228:253]
+==inventory.test.test_generatereportlocal:[83:108]
+        self.client.login(username='testuser', password='12345')
+        # Add item transaction
+        session = self.client.session
+        session['transactions-out'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkout/', data={"checkout": "", "family": "ValidFamily : (None)", "child": "Big Chungus", "age": "1"}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkout.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkout created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkout'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[93:118]
+==inventory.test.test_generatereportlocal:[164:189]
+        self.client.login(username='testuser', password='12345')
+        # Add item transaction
+        session = self.client.session
+        session['transactions-out'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkout/', data={"checkout": "", "family": "ValidFamily : (None)", "child": "Big Chungus", "age": "1"}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkout.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkout created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkout'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[159:187]
+==inventory.test.test_generatereportlocal:[122:150]
+        self.client.login(username='testuser', password='12345')
+
+        # Add item transaction
+        session = self.client.session
+        session['transactions-in'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkin/', data={"checkin": ""}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkin.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkin created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkin'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+            'itemizedOutput': ['itemized'],
+            'csrfmiddlewaretoken': ['gorIARWkwGHd78mWsRPmvQIGcaE6FGtCxmo0tWApqHWmxKN35j6zUeI5R8yysl5R'],
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[159:185]
+==inventory.test.test_generatereportlocal:[43:69]
+        self.client.login(username='testuser', password='12345')
+
+        # Add item transaction
+        session = self.client.session
+        session['transactions-in'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkin/', data={"checkin": ""}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkin.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkin created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkin'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[26:52]
+==inventory.test.test_generatereportlocal:[122:148]
+        self.client.login(username='testuser', password='12345')
+
+        # Add item transaction
+        session = self.client.session
+        session['transactions-in'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkin/', data={"checkin": ""}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkin.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkin created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkin'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[26:53]
+==inventory.test.test_generatereportlocal:[43:70]
+        self.client.login(username='testuser', password='12345')
+
+        # Add item transaction
+        session = self.client.session
+        session['transactions-in'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkin/', data={"checkin": ""}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkin.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkin created.')
+
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkin'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+            'csrfmiddlewaretoken': ['gorIARWkwGHd78mWsRPmvQIGcaE6FGtCxmo0tWApqHWmxKN35j6zUeI5R8yysl5R'],
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_checkin:[49:68]
+==inventory.test.test_generatereportdrive:[26:46]
+        self.client.login(username='testuser', password='12345')
+
+        # Add item transaction
+        session = self.client.session
+        session['transactions-in'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkin/', data={"checkin": ""}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkin.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkin created.')
+
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_checkoutview:[55:74]
+==inventory.test.test_generatereportdrive:[93:112]
+        self.client.login(username='testuser', password='12345')
+
+        # Add item transaction
+        session = self.client.session
+        session['transactions-out'] = ['[{"model": "inventory.itemtransaction", "pk": null, "fields": {"item": 1, "quantity": 2}}]']
+        session.save()
+
+        response = self.client.post('/checkout/', data={"checkout": "", "family": "ValidFamily : (None)", "child": "Big Chungus", "age": "1"}, follow=True)
+
+        # Check if valid
+        self.assertEqual(response.status_code, 200)
+
+        # Check if created
+        self.assertEqual(Checkout.objects.filter().count(), 1)
+
+        # Check for message
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Checkout created.')
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_checkoutview:[6:19]
+==inventory.test.test_generatereportdrive:[11:24]
+    def setUp(self):
+        user = User.objects.create_superuser(username='testuser', password='12345')
+        user.save()
+
+        family = Family.objects.create(lname="ValidFamily")
+        family.save()
+
+        item = Item.objects.create(name="ValidItem", quantity=5)
+        item.save()
+
+        ageRange = AgeRange.objects.create(low=3, high=5) # will have value 1
+        ageRange.save()
+
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[46:53]
+==inventory.test.test_generatereportlocal:[24:31]
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkin'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+            'csrfmiddlewaretoken': ['gorIARWkwGHd78mWsRPmvQIGcaE6FGtCxmo0tWApqHWmxKN35j6zUeI5R8yysl5R'],
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[179:185]
+==inventory.test.test_generatereportlocal:[24:30]
+        today = date.today()
+        weekAgo = today - timedelta(days=7)
+        dictionary = {
+            'tx-type': ['Checkin'],
+            'start-date': [weekAgo.strftime('%Y-%m-%d')],
+            'end-date': [today.strftime('%Y-%m-%d')],
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_checkin:[6:13]
+==inventory.test.test_editaction:[7:14]
+    def setUp(self):
+        user = User.objects.create_superuser(username='testuser', password='12345')
+        user.save()
+
+        item = Item.objects.create(name="ValidItem", quantity=5)
+        item.save()
+
+views.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==inventory.test.test_generatereportdrive:[0:6]
+==inventory.test.test_generatereportlocal:[0:7]
+from django.test import TestCase
+from django.contrib.auth.models import User
+
+from inventory.models import Item, Checkout, Checkin, Family, AgeRange
+from django.http.request import QueryDict, MultiValueDict
+from datetime import date, timedelta
+
+
+
+Report
+======
+2268 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |31     |NC         |NC         |16.13       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |63     |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |149    |NC         |NC         |40.94       |7.38     |
++---------+-------+-----------+-----------+------------+---------+
+|function |35     |NC         |NC         |14.29       |8.57     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    dateutil 
+      \-relativedelta (inventory.views)
+    django 
+      \-apps (inventory.apps)
+      \-conf 
+      | \-urls (inventory.admin)
+      \-contrib 
+      | \-admin (inventory.admin)
+      | \-auth (inventory.forms,inventory.views)
+      | | \-decorators (inventory.views)
+      | | \-mixins (inventory.views)
+      | | \-models (inventory.models,inventory.test.test_additemview,inventory.test.test_checkin,inventory.test.test_checkoutview,inventory.test.test_editaction,inventory.test.test_generatereportdrive,inventory.test.test_generatereportlocal)
+      | \-messages (inventory.views)
+      \-core 
+      | \-mail (inventory.management.commands.csv,inventory.management.commands.db_backup)
+      | \-management 
+      | | \-base (inventory.management.commands.csv,inventory.management.commands.db_backup,inventory.management.commands.drop,inventory.management.commands.import,inventory.management.commands.populate,inventory.management.commands.quantity,inventory.management.commands.restore,inventory.management.commands.trans)
+      | \-paginator (inventory.views)
+      | \-serializers (inventory.views)
+      \-db 
+      | \-models (inventory.forms,inventory.models,inventory.tables,inventory.views)
+      |   \-functions (inventory.views)
+      \-forms (inventory.forms)
+      \-http (inventory.admin,inventory.views)
+      | \-request (inventory.test.test_generatereportdrive,inventory.test.test_generatereportlocal)
+      \-shortcuts (inventory.views)
+      \-template 
+      | \-response (inventory.admin)
+      \-test (inventory.test.test_additemform,inventory.test.test_additemview,inventory.test.test_adminitemoutdateform,inventory.test.test_checkin,inventory.test.test_checkoutform,inventory.test.test_checkoutview,inventory.test.test_editaction,inventory.test.test_generatereportdrive,inventory.test.test_generatereportlocal,inventory.test.test_map)
+      \-urls (inventory.admin,inventory.views)
+      \-utils 
+        \-dateparse (inventory.management.commands.restore)
+        \-html (inventory.admin)
+        \-timezone (inventory.models)
+    django_filters (inventory.filters)
+      \-views (inventory.views)
+    inventory 
+      \-forms (inventory.test.test_additemform,inventory.test.test_adminitemoutdateform,inventory.test.test_checkoutform)
+      \-management 
+      | \-commands 
+      |   \-trans (inventory.test.test_map)
+      \-models (inventory.management.commands.csv,inventory.management.commands.db_backup,inventory.management.commands.drop,inventory.management.commands.import,inventory.management.commands.populate,inventory.management.commands.quantity,inventory.management.commands.restore,inventory.management.commands.trans,inventory.test.test_additemform,inventory.test.test_additemview,inventory.test.test_adminitemoutdateform,inventory.test.test_checkin,inventory.test.test_checkoutform,inventory.test.test_checkoutview,inventory.test.test_editaction,inventory.test.test_generatereportdrive,inventory.test.test_generatereportlocal)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |2507   |67.45 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |165    |4.44  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |287    |7.72  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |758    |20.39 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |811    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |112    |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |125    |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |177    |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|trailing-whitespace            |215         |
++-------------------------------+------------+
+|no-member                      |162         |
++-------------------------------+------------+
+|invalid-name                   |149         |
++-------------------------------+------------+
+|line-too-long                  |146         |
++-------------------------------+------------+
+|missing-function-docstring     |118         |
++-------------------------------+------------+
+|bad-indentation                |106         |
++-------------------------------+------------+
+|missing-class-docstring        |63          |
++-------------------------------+------------+
+|wrong-import-order             |44          |
++-------------------------------+------------+
+|no-self-use                    |33          |
++-------------------------------+------------+
+|missing-module-docstring       |26          |
++-------------------------------+------------+
+|too-few-public-methods         |17          |
++-------------------------------+------------+
+|duplicate-code                 |17          |
++-------------------------------+------------+
+|consider-using-f-string        |17          |
++-------------------------------+------------+
+|too-many-locals                |10          |
++-------------------------------+------------+
+|import-error                   |9           |
++-------------------------------+------------+
+|ungrouped-imports              |8           |
++-------------------------------+------------+
+|unspecified-encoding           |7           |
++-------------------------------+------------+
+|superfluous-parens             |7           |
++-------------------------------+------------+
+|singleton-comparison           |7           |
++-------------------------------+------------+
+|inconsistent-return-statements |7           |
++-------------------------------+------------+
+|consider-using-with            |7           |
++-------------------------------+------------+
+|trailing-newlines              |5           |
++-------------------------------+------------+
+|too-many-branches              |5           |
++-------------------------------+------------+
+|too-many-statements            |4           |
++-------------------------------+------------+
+|use-list-literal               |3           |
++-------------------------------+------------+
+|protected-access               |3           |
++-------------------------------+------------+
+|unused-variable                |2           |
++-------------------------------+------------+
+|unused-argument                |2           |
++-------------------------------+------------+
+|unsupported-membership-test    |2           |
++-------------------------------+------------+
+|unsubscriptable-object         |2           |
++-------------------------------+------------+
+|too-many-ancestors             |2           |
++-------------------------------+------------+
+|redefined-builtin              |2           |
++-------------------------------+------------+
+|pointless-string-statement     |2           |
++-------------------------------+------------+
+|multiple-statements            |2           |
++-------------------------------+------------+
+|multiple-imports               |2           |
++-------------------------------+------------+
+|missing-final-newline          |2           |
++-------------------------------+------------+
+|consider-using-in              |2           |
++-------------------------------+------------+
+|too-many-return-statements     |1           |
++-------------------------------+------------+
+|too-many-nested-blocks         |1           |
++-------------------------------+------------+
+|too-many-boolean-expressions   |1           |
++-------------------------------+------------+
+|super-with-arguments           |1           |
++-------------------------------+------------+
+|no-self-argument               |1           |
++-------------------------------+------------+
+|no-name-in-module              |1           |
++-------------------------------+------------+
+|no-else-return                 |1           |
++-------------------------------+------------+
+|fixme                          |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 1.48/10
+

@@ -1,0 +1,1 @@
+flask-realworld-example-app/conduit/commands.py:5:0: blacklist, severity: LOW, confidence: HIGH, Consider possible security implications associated with the subprocess module.

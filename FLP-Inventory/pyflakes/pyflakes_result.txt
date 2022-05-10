@@ -1,0 +1,1 @@
+FLP-Inventory/inventory/views.py:290:17 local variable '_' is assigned to but never used

@@ -1,0 +1,1 @@
+flaskbb/flaskbb/cli/main.py:466:17: jinja2_autoescape_false, severity: HIGH, confidence: HIGH, By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities.

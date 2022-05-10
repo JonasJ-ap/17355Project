@@ -1,0 +1,3 @@
+virtualenv flaskbb-env
+python -m venv flaskbb-env
+source flaskbb-env/bin/activate
